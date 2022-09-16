@@ -1,0 +1,20 @@
+pra ter uma aplicação híbrida, temos que ter FormPRincipal Mobile E Desktop e tela de login mobile e Desktop também.
+
+Para estilizar o botão com CSS, va no botao, va em ClientEvents e em ExtEvents e clique para abrir. No menu lateral, vai ter uma propriedade added. Clica nela e na tela lateral que abrir, insira o código que receba a classe do CSS que criou.
+sender.addCls('nomedaClasse'); 
+Depois, só clicar em gravar e seguir.
+
+
+Componetes legais para menu:
+COntainerPanel
+URLFrame
+MenuTree
+MenuItem com ImageList
+Liga o TreeMenu com o MenuItem
+
+Site pra icones: Fontawesome, copiando o link via HTML
+Copia o conteúdo da CLass e coloca no campo do 
+IconCls do NativeImageList
+
+No caption do UniLabel, você pode colar a tah HTML do icone da internet e na propriedade TextConversion, selecionar HTML
+

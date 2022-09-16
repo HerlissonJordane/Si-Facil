@@ -1,0 +1,113 @@
+object UniLoginForm1: TUniLoginForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 431
+  ClientWidth = 514
+  Caption = 'UniLoginForm1'
+  BorderStyle = bsSingle
+  OldCreateOrder = False
+  MonitoredKeys.Keys = <>
+  ScreenMask.Color = clBlack
+  PixelsPerInch = 96
+  TextHeight = 13
+  object UniPanel2: TUniPanel
+    Left = 0
+    Top = 0
+    Width = 514
+    Height = 431
+    Hint = ''
+    Align = alClient
+    TabOrder = 0
+    Caption = ''
+    Color = 16755455
+    ExplicitWidth = 587
+    object TUnimPanel
+      AlignWithMargins = True
+      Left = 26
+      Top = 26
+      Width = 462
+      Height = 379
+      Hint = ''
+      Margins.Left = 25
+      Margins.Top = 25
+      Margins.Right = 25
+      Margins.Bottom = 25
+      Align = alClient
+      LayoutConfig.Padding = '50'
+      BorderStyle = ubsNone
+      ExplicitWidth = 383
+      ExplicitHeight = 377
+      object TUnimPanel
+        AlignWithMargins = True
+        Left = 15
+        Top = 25
+        Width = 432
+        Height = 162
+        Hint = ''
+        Margins.Left = 15
+        Margins.Top = 0
+        Margins.Right = 15
+        Margins.Bottom = 15
+        Align = alTop
+        Color = 10014471
+        LayoutAttribs.Align = 'center'
+        LayoutAttribs.Pack = 'center'
+        LayoutConfig.Padding = '25'
+        TitleAlign = taCenter
+        ExplicitTop = 15
+        ExplicitWidth = 353
+        object UnimLabel1: TUnimLabel
+          AlignWithMargins = True
+          Left = 11
+          Top = 21
+          Width = 410
+          Height = 23
+          Hint = ''
+          Margins.Left = 10
+          Margins.Top = 20
+          Margins.Right = 10
+          AutoSize = False
+          Caption = 'Usu'#225'rio'
+          Align = alTop
+          LayoutConfig.Padding = '50'
+          ParentFont = False
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Name = 'Comic Sans MS'
+          Font.Style = [fsBold]
+          ExplicitWidth = 331
+        end
+        object UnimEdit1: TUnimEdit
+          Left = 1
+          Top = 47
+          Width = 430
+          Height = 35
+          Hint = ''
+          BodyRTL = False
+          InputRTL = False
+          Align = alTop
+          Text = ''
+          CharCase = ecUpperCase
+          Color = 10014471
+          ParentFont = False
+          ScreenMask.Color = 16761220
+          TabOrder = 2
+          InputType = 'text'
+          ExplicitWidth = 351
+        end
+      end
+      object UnimLabel2: TUnimLabel
+        Left = 0
+        Top = 0
+        Width = 462
+        Height = 25
+        Hint = ''
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'SiF'#225'cil'
+        Align = alTop
+        ParentFont = False
+      end
+    end
+  end
+end
