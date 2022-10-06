@@ -1,0 +1,33 @@
+unit U_ticket_medio;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniLabel;
+
+type
+  TFrm_ticket_medio = class(TUniForm)
+    UniLabel1: TUniLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function Frm_ticket_medio: TFrm_ticket_medio;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, ServerModule;
+
+function Frm_ticket_medio: TFrm_ticket_medio;
+begin
+  Result := TFrm_ticket_medio(Frm_MainModule.GetFormInstance(TFrm_ticket_medio));
+end;
+
+end.

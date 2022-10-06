@@ -1,0 +1,66 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes, Data.DB, Data.Win.ADODB,
+  uniGUIBaseClasses, uniGUIClasses, uniImageList, Vcl.Menus, uniMainMenu;
+
+type
+  TFrm_MainModule = class(TUniGUIMainModule)
+    ADOQuery_dados: TADOQuery;
+    UniNativeImageList1: TUniNativeImageList;
+    UniMainMenu1: TUniMainMenu;
+    UniMenuItems1: TUniMenuItems;
+    Help1: TUniMenuItem;
+    Contents1: TUniMenuItem;
+    SearchforHelpOn1: TUniMenuItem;
+    HowtoUseHelp1: TUniMenuItem;
+    About1: TUniMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure carrega_dados_conexao();
+    var usuario_conectado, id_usuario_conectado, loja_logada: String;
+  end;
+
+function Frm_MainModule: TFrm_MainModule;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication;
+
+function Frm_MainModule: TFrm_MainModule;
+begin
+  Result := TFrm_MainModule(UniApplication.UniMainModule)
+end;
+
+{ TFrm_MainModule }
+
+procedure TFrm_MainModule.carrega_dados_conexao;
+begin
+  if UniServerModule.ADOConnection1.Connected then begin
+    ADOQuery_dados.Close;
+    ADOQuery_dados.SQL.Clear;
+    ADOQuery_dados.SQL.Add('SELECT LJ_RAZAO FROM CAD_LJ');
+
+    ADOQuery_dados.Open;
+
+    loja_logada:= ADOQuery_dados.FieldByName('lj_razao').AsString;
+    
+  end else begin
+    UniServerModule.ADOConnection1.Connected:= True;
+    carrega_dados_conexao;
+  end;
+
+end;
+
+initialization
+  RegisterMainModuleClass(TFrm_MainModule);
+end.

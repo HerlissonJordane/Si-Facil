@@ -1,0 +1,86 @@
+SiFacil.exe: 000035A8: 22:43:47 []:>--------------------------------------------------------------<
+SiFacil.exe: 000035A8: 22:43:47 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000035A8: 22:43:47 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000035A8: 22:43:47 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000035A8: 22:43:47 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003288: 22:58:36 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003288: 22:58:36 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003288: 22:58:36 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003288: 22:58:36 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+SiFacil.exe: 00003288: 22:58:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003288: 22:58:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001C6C: 22:58:38 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00000EE4: 22:58:46 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00003554: 22:58:46 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00001C08: 22:58:47 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000029E0: 22:58:47 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00002BF8: 22:58:48 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000036A4: 22:58:48 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00003798: 22:58:49 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00003058: 22:58:49 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 0000321C: 22:58:49 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000033A0: 22:58:49 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00002A08: 22:58:50 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00001F08: 22:58:50 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000013FC: 22:58:50 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000022A8: 22:58:50 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000021E4: 22:58:50 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 0000203C: 22:58:50 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00002BBC: 22:59:22 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 000033B0: 22:59:23 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00001A20: 22:59:43 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001A20: 22:59:43 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001A20: 22:59:43 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001A20: 22:59:43 [TUniServerModule]:Global Cache Folder Erased. <20> Files deleted.
+SiFacil.exe: 00001A20: 22:59:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001A20: 22:59:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002FE0: 23:00:09 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002FE0: 23:00:09 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002FE0: 23:00:09 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002FE0: 23:00:09 [TUniServerModule]:Global Cache Folder Erased. <2> Files deleted.
+SiFacil.exe: 00002FE0: 23:00:09 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002FE0: 23:00:10 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000032C8: 23:00:41 []:>--------------------------------------------------------------<
+SiFacil.exe: 000032C8: 23:00:41 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000032C8: 23:00:41 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000032C8: 23:00:41 [TUniServerModule]:Global Cache Folder Erased. <2> Files deleted.
+SiFacil.exe: 000032C8: 23:00:41 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000032C8: 23:00:42 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003108: 23:00:48 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00003474: 23:00:54 [192.168.100.60]:EClassNotFound : Class TUnimPanel not found : Addr: $004B2D52
+SiFacil.exe: 00002890: 23:02:29 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002890: 23:02:29 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002890: 23:02:29 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002890: 23:02:29 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00002890: 23:02:29 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002890: 23:02:29 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000DD8: 23:02:52 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000DD8: 23:02:52 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000DD8: 23:02:52 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000DD8: 23:02:52 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 00000DD8: 23:02:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000DD8: 23:02:52 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002B24: 23:26:02 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002B24: 23:26:02 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002B24: 23:26:02 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002B24: 23:26:02 [TUniServerModule]:Global Cache Folder Erased. <2> Files deleted.
+SiFacil.exe: 00002B24: 23:26:02 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002B24: 23:26:03 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001BD0: 23:33:57 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001BD0: 23:33:57 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001BD0: 23:33:57 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001BD0: 23:33:57 [TUniServerModule]:Global Cache Folder Erased. <2> Files deleted.
+SiFacil.exe: 00001BD0: 23:33:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001BD0: 23:33:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002AF8: 23:34:52 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002AF8: 23:34:52 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002AF8: 23:34:52 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002AF8: 23:34:52 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00002AF8: 23:34:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002AF8: 23:34:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002E84: 23:48:22 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002E84: 23:48:22 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002E84: 23:48:22 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002E84: 23:48:22 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00002E84: 23:48:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002E84: 23:48:23 [TUniServerModule]:HTTP Server Started on Port: 8077

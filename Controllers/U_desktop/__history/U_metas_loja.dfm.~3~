@@ -1,0 +1,168 @@
+object Frm_metas_loja: TFrm_metas_loja
+  Left = 0
+  Top = 0
+  ClientHeight = 497
+  ClientWidth = 558
+  Caption = 'unipa'
+  BorderStyle = bsSingle
+  OldCreateOrder = False
+  BorderIcons = []
+  MonitoredKeys.Keys = <>
+  Font.Height = -15
+  PixelsPerInch = 96
+  TextHeight = 18
+  object UniPanel1: TUniPanel
+    Left = 0
+    Top = 0
+    Width = 558
+    Height = 97
+    Hint = ''
+    Align = alTop
+    TabOrder = 0
+    Caption = 'UniPanel1'
+    object UniLabel1: TUniLabel
+      Left = 1
+      Top = 1
+      Width = 556
+      Height = 20
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Escolha o m'#234's e ano para visualizar a meta'
+      Align = alTop
+      TabOrder = 1
+      ExplicitLeft = 3
+      ExplicitTop = 3
+    end
+    object UniDateTimePicker1: TUniDateTimePicker
+      Left = 8
+      Top = 11
+      Width = 120
+      Hint = ''
+      DateTime = 44834.000000000000000000
+      DateFormat = 'dd/MM/yyyy'
+      TimeFormat = 'HH:mm:ss'
+      TabOrder = 2
+    end
+    object UniCalendar1: TUniCalendar
+      Left = 158
+      Top = 27
+      Width = 191
+      Height = 154
+      Hint = ''
+      Date = 44834.000000000000000000
+      FirstDayOfWeek = dowMonday
+      TabStop = False
+      TabOrder = 3
+    end
+    object UniEdit1: TUniEdit
+      Left = 8
+      Top = 51
+      Width = 121
+      Hint = ''
+      Text = 'UniEdit1'
+      TabOrder = 4
+      InputType = 'month'
+    end
+    object UniButton1: TUniButton
+      Left = 440
+      Top = 24
+      Width = 66
+      Height = 57
+      Hint = ''
+      Caption = 'Buscar'
+      TabOrder = 5
+    end
+  end
+  object UniPanel2: TUniPanel
+    Left = 0
+    Top = 97
+    Width = 558
+    Height = 400
+    Hint = ''
+    Align = alClient
+    TabOrder = 1
+    Caption = 'UniPanel2'
+    ExplicitLeft = 232
+    ExplicitTop = 121
+    object UniProgressBar1: TUniProgressBar
+      Left = 25
+      Top = 160
+      Width = 465
+      Hint = ''
+      Text = 'Percentual atingido da meta'
+      TabOrder = 1
+    end
+    object UniLabel2: TUniLabel
+      Left = 6
+      Top = 25
+      Width = 473
+      Height = 20
+      Hint = ''
+      AutoSize = False
+      Caption = 'Meta atual do m'#234's de "m'#234's escolhido"'
+      TabOrder = 2
+    end
+    object UniLabel3: TUniLabel
+      Left = 6
+      Top = 105
+      Width = 473
+      Height = 20
+      Hint = ''
+      AutoSize = False
+      Caption = 'Valor de venda atual para atingir a meta at'#233' a data de hoje'
+      TabOrder = 3
+    end
+    object UniEdit2: TUniEdit
+      Left = 8
+      Top = 56
+      Width = 300
+      Height = 33
+      Hint = ''
+      Text = 'Meta prevista para o m'#202's atual'
+      TabOrder = 4
+    end
+    object UniLabel4: TUniLabel
+      Left = 11
+      Top = 209
+      Width = 1884
+      Height = 50
+      Hint = ''
+      AutoSize = False
+      Caption = 
+        'Se for um m'#234's que j'#225' passou, n'#227'o ser'#225' poss'#237'vel alterar a meta.  ' +
+        'Se for uma meta batida, colocar algo que mostre isso e o valor a' +
+        ' mais de venda al'#233'm da meta. Se for uima meta n'#227'o alcan'#231'ada, exi' +
+        'bir informa'#231#245'es sobre esse valor. Se for um m'#234's atual ou futuro,' +
+        ' permitir alterar a meta.'
+      TabOrder = 5
+    end
+    object UniButton2: TUniButton
+      Left = 25
+      Top = 272
+      Width = 136
+      Height = 57
+      Hint = ''
+      Caption = 'Alterar Meta'
+      TabOrder = 6
+    end
+    object UniButton3: TUniButton
+      Left = 193
+      Top = 272
+      Width = 136
+      Height = 57
+      Hint = ''
+      Caption = 'Gravar nova Meta'
+      TabOrder = 7
+    end
+    object UniButton4: TUniButton
+      Left = 377
+      Top = 272
+      Width = 136
+      Height = 57
+      Hint = ''
+      Caption = 'Sair'
+      TabOrder = 8
+    end
+  end
+end

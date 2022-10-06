@@ -1,0 +1,156 @@
+SiFacil.exe: 000019A0: 00:01:27 []:>--------------------------------------------------------------<
+SiFacil.exe: 000019A0: 00:01:27 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000019A0: 00:01:27 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000019A0: 00:01:27 [TUniServerModule]:Global Cache Folder Erased. <7> Files deleted.
+SiFacil.exe: 000019A0: 00:01:27 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000019A0: 00:01:27 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003340: 00:02:20 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003340: 00:02:20 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003340: 00:02:20 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003340: 00:02:20 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00003340: 00:02:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003340: 00:02:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001064: 00:02:49 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001064: 00:02:49 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001064: 00:02:49 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001064: 00:02:49 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00001064: 00:02:49 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001064: 00:02:49 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000DE8: 00:03:25 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000DE8: 00:03:25 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000DE8: 00:03:25 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000DE8: 00:03:25 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00000DE8: 00:03:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000DE8: 00:03:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000FA8: 00:04:28 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000FA8: 00:04:28 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000FA8: 00:04:28 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000FA8: 00:04:28 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00000FA8: 00:04:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000FA8: 00:04:28 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003614: 00:17:31 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003614: 00:17:31 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003614: 00:17:31 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003614: 00:17:31 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00003614: 00:17:31 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003614: 00:17:32 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000031C8: 00:20:00 []:>--------------------------------------------------------------<
+SiFacil.exe: 000031C8: 00:20:00 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000031C8: 00:20:00 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000031C8: 00:20:00 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 000031C8: 00:20:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000031C8: 00:20:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003E4C: 00:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00002954: 00:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00002558: 00:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00002AAC: 00:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00001804: 00:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 000023FC: 00:20:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 000014C4: 00:20:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00003E8C: 00:20:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 0000345C: 00:20:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00000A44: 00:20:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00001DE8: 00:20:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00000C44: 00:20:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00000FE4: 00:20:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00001318: 00:20:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007901A3
+SiFacil.exe: 00001CF0: 00:20:43 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001CF0: 00:20:43 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001CF0: 00:20:43 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001CF0: 00:20:43 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 00001CF0: 00:20:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001CF0: 00:20:44 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000289C: 00:21:33 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000289C: 00:21:33 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000289C: 00:21:33 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000289C: 00:21:33 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 0000289C: 00:21:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000289C: 00:21:34 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002104: 00:22:15 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002104: 00:22:15 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002104: 00:22:15 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002104: 00:22:15 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00002104: 00:22:15 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002104: 00:22:15 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000031D0: 00:22:42 []:>--------------------------------------------------------------<
+SiFacil.exe: 000031D0: 00:22:42 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000031D0: 00:22:42 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000031D0: 00:22:42 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 000031D0: 00:22:42 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000031D0: 00:22:42 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001578: 00:24:55 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001578: 00:24:55 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001578: 00:24:55 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001578: 00:24:55 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00001578: 00:24:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001578: 00:24:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003358: 00:26:12 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003358: 00:26:12 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003358: 00:26:12 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003358: 00:26:12 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 00003358: 00:26:12 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003358: 00:26:12 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003AD8: 00:26:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0078FFCB
+SiFacil.exe: 00000F50: 00:30:32 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000F50: 00:30:32 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000F50: 00:30:32 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000F50: 00:30:32 [TUniServerModule]:Global Cache Folder Erased. <8> Files deleted.
+SiFacil.exe: 00000F50: 00:30:32 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000F50: 00:30:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000428: 00:51:20 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000428: 00:51:20 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000428: 00:51:20 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000428: 00:51:20 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00000428: 00:51:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000428: 00:51:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001DCC: 00:53:53 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001DCC: 00:53:53 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001DCC: 00:53:53 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001DCC: 00:53:53 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00001DCC: 00:53:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001DCC: 00:53:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000570: 00:54:15 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000570: 00:54:15 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000570: 00:54:15 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000570: 00:54:15 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00000570: 00:54:15 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000570: 00:54:15 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003FFC: 00:57:10 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003FFC: 00:57:10 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003FFC: 00:57:10 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003FFC: 00:57:10 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00003FFC: 00:57:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003FFC: 00:57:10 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000022F4: 00:58:16 []:>--------------------------------------------------------------<
+SiFacil.exe: 000022F4: 00:58:16 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000022F4: 00:58:16 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000022F4: 00:58:16 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 000022F4: 00:58:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000022F4: 00:58:16 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003EA8: 01:02:57 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003EA8: 01:02:57 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003EA8: 01:02:57 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003EA8: 01:02:57 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00003EA8: 01:02:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003EA8: 01:02:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000518: 01:04:38 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000518: 01:04:38 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000518: 01:04:38 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000518: 01:04:38 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00000518: 01:04:38 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000518: 01:04:38 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003A1C: 01:05:59 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003A1C: 01:05:59 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003A1C: 01:05:59 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003A1C: 01:05:59 [TUniServerModule]:Global Cache Folder Erased. <8> Files deleted.
+SiFacil.exe: 00003A1C: 01:05:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003A1C: 01:05:59 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000010F8: 01:11:31 []:>--------------------------------------------------------------<
+SiFacil.exe: 000010F8: 01:11:31 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000010F8: 01:11:31 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000010F8: 01:11:31 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 000010F8: 01:11:31 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000010F8: 01:11:31 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003100: 01:11:39 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-6.7.0\build\packages\charts\modern\modern-triton\resources\fonts\OpenSans-Regular.ttf
+SiFacil.exe: 000018AC: 01:11:39 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-6.7.0\build\packages\charts\modern\modern-triton\resources\fonts\OpenSans-Light.ttf
+SiFacil.exe: 00002A1C: 01:11:43 [HandleFileRequest[127.0.0.1]]:File not found: C:\Program Files (x86)\FMSoft\Framework\unigui\ext-6.7.0\build\packages\charts\modern\modern-triton\resources\fonts\OpenSans-Bold.ttf

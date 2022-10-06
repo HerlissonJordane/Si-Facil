@@ -1,0 +1,13 @@
+object Frm_MainModule: TFrm_MainModule
+  OldCreateOrder = False
+  Theme = 'uni_win10'
+  MonitoredKeys.Keys = <>
+  Height = 277
+  Width = 425
+  object ADOQuery_dados: TADOQuery
+    Connection = UniServerModule.ADOConnection1
+    Parameters = <>
+    Left = 312
+    Top = 32
+  end
+end

@@ -1,0 +1,58 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes, Data.DB, Data.Win.ADODB;
+
+type
+  TFrm_MainModule = class(TUniGUIMainModule)
+    ADOQuery_dados: TADOQuery;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure carrega_dados_conexao();
+    var usuario_conectado, id_usuario_conectado, loja_logada: String;
+  end;
+
+function Frm_MainModule: TFrm_MainModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication;
+
+function Frm_MainModule: TFrm_MainModule;
+begin
+  Result := TFrm_MainModule(UniApplication.UniMainModule)
+end;
+
+{ TFrm_MainModule }
+
+procedure TFrm_MainModule.carrega_dados_conexao;
+begin
+  if UniServerModule.ADOConnection1.Connected then begin
+    ADOQuery_dados.Close;
+    ADOQuery_dados.SQL.Clear;
+    ADOQuery_dados.SQL.Add('SELECT LJ_RAZAO FROM CAD_LJ');
+    try
+      ADOQuery_dados.Open;
+      except on E: Exception do begin
+        ShowMessage('Erro ao conectar no banco de dados! - '+E.Message);
+      end;
+    end;
+
+  end else begin
+
+  end;
+
+  loja_logada:= ADOQuery_dados.FieldByName('lj_razao').AsString;
+
+end;
+
+initialization
+  RegisterMainModuleClass(TFrm_MainModule);
+end.

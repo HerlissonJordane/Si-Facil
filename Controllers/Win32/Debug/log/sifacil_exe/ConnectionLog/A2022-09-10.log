@@ -1,0 +1,3 @@
+SiFacil.exe: 000019E8: 13:00:05 [127.0.0.1]:Failed Sequence Recovery: SeqId: 1, Event: tap
+SiFacil.exe: 000019E8: 13:00:10 [127.0.0.1]:Sequence sent from cache:  SeqId: 1
+SiFacil.exe: 000019E8: 13:00:10 [127.0.0.1]:Processed: Id: 1, Evt: tap, [9ue959TjST10B1D902D]

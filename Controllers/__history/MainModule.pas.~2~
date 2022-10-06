@@ -1,0 +1,33 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes;
+
+type
+  TFrm_MainModule = class(TUniGUIMainModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    var usuario_conectado, id_usuario_conectado: String;
+  end;
+
+function Frm_MainModule: TFrm_MainModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication;
+
+function Frm_MainModule: TFrm_MainModule;
+begin
+  Result := TFrm_MainModule(UniApplication.UniMainModule)
+end;
+
+initialization
+  RegisterMainModuleClass(TFrm_MainModule);
+end.

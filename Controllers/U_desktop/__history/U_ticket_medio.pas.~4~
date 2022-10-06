@@ -1,0 +1,40 @@
+unit U_ticket_medio;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniLabel, uniEdit,
+  uniDBDateTimePicker, uniCalendar, uniDateTimePicker, uniButton, uniPanel;
+
+type
+  TFrm_ticket_medio = class(TUniForm)
+    UniLabel1: TUniLabel;
+    UniPanel1: TUniPanel;
+    UniDateTimePicker1: TUniDateTimePicker;
+    UniLabel2: TUniLabel;
+    UniDateTimePicker2: TUniDateTimePicker;
+    UniLabel3: TUniLabel;
+    UniButton1: TUniButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function Frm_ticket_medio: TFrm_ticket_medio;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, ServerModule;
+
+function Frm_ticket_medio: TFrm_ticket_medio;
+begin
+  Result := TFrm_ticket_medio(Frm_MainModule.GetFormInstance(TFrm_ticket_medio));
+end;
+
+end.

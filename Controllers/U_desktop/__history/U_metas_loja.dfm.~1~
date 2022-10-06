@@ -1,0 +1,14 @@
+object Frm_metas_loja: TFrm_metas_loja
+  Left = 0
+  Top = 0
+  ClientHeight = 497
+  ClientWidth = 558
+  Caption = 'Metas de loja'
+  BorderStyle = bsSingle
+  OldCreateOrder = False
+  BorderIcons = []
+  MonitoredKeys.Keys = <>
+  Font.Height = -15
+  PixelsPerInch = 96
+  TextHeight = 18
+end

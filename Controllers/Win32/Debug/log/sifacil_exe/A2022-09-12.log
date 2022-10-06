@@ -1,0 +1,13 @@
+SiFacil.exe: 00000BCC: 08:56:11 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000BCC: 08:56:11 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000BCC: 08:56:11 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000BCC: 08:56:11 [TUniServerModule]:Global Cache Folder Erased. <9> Files deleted.
+SiFacil.exe: 00000BCC: 08:56:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000BCC: 08:56:11 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000025D4: 08:56:19 [HandleFileRequest[127.0.0.1]]:File not found: D:\SiFácil\Controllers\Win32\Debug\favicon.ico
+SiFacil.exe: 00001420: 10:20:10 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001420: 10:20:10 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001420: 10:20:10 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001420: 10:20:10 [TUniServerModule]:Global Cache Folder Erased. <28> Files deleted.
+SiFacil.exe: 00001420: 10:20:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001420: 10:20:11 [TUniServerModule]:HTTP Server Started on Port: 8077

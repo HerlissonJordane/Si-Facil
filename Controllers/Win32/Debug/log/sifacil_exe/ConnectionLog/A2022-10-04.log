@@ -1,0 +1,3 @@
+SiFacil.exe: 000028B4: 17:17:50 [127.0.0.1]:Failed Sequence Recovery: SeqId: 29, Event: itemclick
+SiFacil.exe: 000028B4: 17:17:50 [127.0.0.1]:Sequence sent from cache:  SeqId: 29
+SiFacil.exe: 000028B4: 17:17:50 [127.0.0.1]:Processed: Id: 29, Evt: itemclick, [7Zc4bbAMhk10B4274F1]

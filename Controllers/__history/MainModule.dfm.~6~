@@ -1,0 +1,26 @@
+object Frm_MainModule: TFrm_MainModule
+  OldCreateOrder = False
+  Theme = 'neptune'
+  TouchTheme = 'material'
+  BrowserOptions = []
+  MonitoredKeys.Keys = <>
+  ServerMessages.LoadingMessage = 'Buscando...'
+  ServerMessages.InvalidSessionMessage = 'Login Incorreto'
+  ServerMessages.TerminateMessage = 'Sess'#227'o finalizada. Reconecte novamente!'
+  Height = 277
+  Width = 425
+  object ADOQuery_dados: TADOQuery
+    Connection = UniServerModule.ADOConnection1
+    Parameters = <>
+    Left = 312
+    Top = 32
+  end
+  object UniNativeImageList1: TUniNativeImageList
+    Left = 184
+    Top = 144
+    Images = {
+      0300000000000000060A00000066612066612D62617273000000000613000000
+      66612066612D6261722D63686172743B66613B00000000061400000066612066
+      612D63616C656E6461722D6F3B66613B}
+  end
+end

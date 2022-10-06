@@ -1,0 +1,33 @@
+unit U_ticket_medio;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniLabel;
+
+type
+  TUniForm2 = class(TUniForm)
+    UniLabel1: TUniLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UniForm2: TUniForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, Main;
+
+function UniForm2: TUniForm2;
+begin
+  Result := TUniForm2(UniMainModule.GetFormInstance(TUniForm2));
+end;
+
+end.

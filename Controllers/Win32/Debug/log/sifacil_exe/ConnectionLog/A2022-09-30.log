@@ -1,0 +1,52 @@
+SiFacil.exe: 000021BC: 14:12:12 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000A50: 14:12:46 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000BC0: 14:13:21 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 000032E8: 14:13:56 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 000032E8: 14:30:27 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 000032E8: 14:30:27 [127.0.0.1]:Processed: Id: 4, Evt: click, [xfkPC4IwEN10B3C2840]
+SiFacil.exe: 00000A50: 14:30:27 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000A50: 14:30:27 [127.0.0.1]:Processed: Id: 4, Evt: click, [xfkPC4IwEN10B3C2840]
+SiFacil.exe: 00000BC0: 14:30:27 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000BC0: 14:30:27 [127.0.0.1]:Processed: Id: 4, Evt: click, [xfkPC4IwEN10B3C2840]
+SiFacil.exe: 000021BC: 14:30:27 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 000021BC: 14:30:27 [127.0.0.1]:Processed: Id: 4, Evt: click, [xfkPC4IwEN10B3C2840]
+SiFacil.exe: 00002180: 14:30:53 [127.0.0.1]:Sequence Error Timeout : TDiff:13266, Event: click, Expected: 20, Received: 22, [CHGknKTPe510B3C2D58]
+SiFacil.exe: 00002180: 14:30:53 [127.0.0.1]:Failed Sequence Reset to: 20
+SiFacil.exe: 0000343C: 14:30:53 [127.0.0.1]:Sequence Error Timeout : TDiff:13516, Event: click, Expected: 20, Received: 21, [CHGknKTPe510B3C2D58]
+SiFacil.exe: 000027D8: 14:36:39 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000A78: 14:37:14 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00003640: 14:37:49 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000E8C: 14:38:25 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000E8C: 14:49:07 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000E8C: 14:49:07 [127.0.0.1]:Processed: Id: 4, Evt: click, [uBec8F3hEu10B3C2DC5]
+SiFacil.exe: 00003640: 14:49:07 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00003640: 14:49:07 [127.0.0.1]:Processed: Id: 4, Evt: click, [uBec8F3hEu10B3C2DC5]
+SiFacil.exe: 00000A78: 14:49:07 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000A78: 14:49:07 [127.0.0.1]:Processed: Id: 4, Evt: click, [uBec8F3hEu10B3C2DC5]
+SiFacil.exe: 000027D8: 14:49:07 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 000027D8: 14:49:07 [127.0.0.1]:Processed: Id: 4, Evt: click, [uBec8F3hEu10B3C2DC5]
+SiFacil.exe: 00000288: 14:50:07 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00003854: 14:50:30 [127.0.0.1]:Failed Sequence Recovery: SeqId: 5, Event: click
+SiFacil.exe: 000028C4: 14:51:27 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 000011FC: 14:52:02 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000C30: 20:53:45 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000C30: 20:53:52 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000C30: 20:53:52 [127.0.0.1]:Processed: Id: 4, Evt: click, [My2Fy9CvwF10B3C952F]
+SiFacil.exe: 0000395C: 20:54:42 [127.0.0.1]:Failed Sequence Recovery: SeqId: 28, Event: click
+SiFacil.exe: 0000395C: 20:54:43 [127.0.0.1]:Sequence sent from cache:  SeqId: 28
+SiFacil.exe: 0000395C: 20:54:43 [127.0.0.1]:Processed: Id: 28, Evt: click, [My2Fy9CvwF10B3C952F]
+SiFacil.exe: 00001FA0: 21:24:33 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000504: 21:25:07 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00000180: 21:25:43 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00002EBC: 21:26:17 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00003708: 21:26:56 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00003708: 21:27:19 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00003708: 21:27:19 [127.0.0.1]:Processed: Id: 4, Evt: click, [EuIH7h54dp10B3C9E31]
+SiFacil.exe: 00000180: 21:27:36 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000180: 21:27:36 [127.0.0.1]:Processed: Id: 4, Evt: click, [BxNdOwonfF10B3C9D8C]
+SiFacil.exe: 00002EBC: 21:27:36 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00002EBC: 21:27:36 [127.0.0.1]:Processed: Id: 4, Evt: click, [BxNdOwonfF10B3C9D8C]
+SiFacil.exe: 00000504: 21:27:36 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00000504: 21:27:36 [127.0.0.1]:Processed: Id: 4, Evt: click, [BxNdOwonfF10B3C9D8C]
+SiFacil.exe: 00001FA0: 21:27:36 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00001FA0: 21:27:36 [127.0.0.1]:Processed: Id: 4, Evt: click, [BxNdOwonfF10B3C9D8C]

@@ -1,0 +1,6 @@
+SiFacil.exe: 00002A18: 10:36:16 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002A18: 10:36:16 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002A18: 10:36:16 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002A18: 10:36:16 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+SiFacil.exe: 00002A18: 10:36:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002A18: 10:36:16 [TUniServerModule]:HTTP Server Started on Port: 8077

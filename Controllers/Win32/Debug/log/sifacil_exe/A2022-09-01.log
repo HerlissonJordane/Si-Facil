@@ -1,0 +1,24 @@
+SiFacil.exe: 00001CF0: 00:20:44 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001CF0: 00:20:44 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001CF0: 00:20:44 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001CF0: 00:20:44 [TUniServerModule]:Global Cache Folder Erased. <12> Files deleted.
+SiFacil.exe: 00001CF0: 00:20:44 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001CF0: 00:20:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001FBC: 00:22:48 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001FBC: 00:22:48 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001FBC: 00:22:48 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001FBC: 00:22:48 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00001FBC: 00:22:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001FBC: 00:22:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001F90: 00:24:06 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001F90: 00:24:06 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001F90: 00:24:06 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001F90: 00:24:06 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00001F90: 00:24:07 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001F90: 00:24:07 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003170: 00:24:49 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003170: 00:24:49 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003170: 00:24:49 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003170: 00:24:49 [TUniServerModule]:Global Cache Folder Erased. <2> Files deleted.
+SiFacil.exe: 00003170: 00:24:49 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003170: 00:24:49 [TUniServerModule]:HTTP Server Started on Port: 8077

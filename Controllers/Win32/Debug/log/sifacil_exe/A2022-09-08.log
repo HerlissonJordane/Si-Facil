@@ -1,0 +1,53 @@
+SiFacil.exe: 00002B98: 23:26:03 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002B98: 23:26:03 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002B98: 23:26:03 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002B98: 23:26:03 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00002B98: 23:26:03 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002B98: 23:26:04 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000064C: 23:26:33 [ADOQuery_login: Field 'cl_id' not found-127.0.0.1]:EDatabaseError : ADOQuery_login: Field 'cl_id' not found : Addr: $0065EC8E
+SiFacil.exe: 000015C4: 23:28:36 []:>--------------------------------------------------------------<
+SiFacil.exe: 000015C4: 23:28:36 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000015C4: 23:28:36 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000015C4: 23:28:36 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 000015C4: 23:28:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000015C4: 23:28:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001614: 23:30:28 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001614: 23:30:28 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001614: 23:30:28 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001614: 23:30:28 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00001614: 23:30:28 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001614: 23:30:28 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000025DC: 23:30:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0078FFBF
+SiFacil.exe: 00000DE0: 23:43:26 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000DE0: 23:43:26 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000DE0: 23:43:26 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000DE0: 23:43:26 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00000DE0: 23:43:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000DE0: 23:43:27 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003444: 23:44:07 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003444: 23:44:07 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003444: 23:44:07 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003444: 23:44:07 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00003444: 23:44:07 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003444: 23:44:07 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001B60: 23:46:13 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001B60: 23:46:13 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001B60: 23:46:13 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001B60: 23:46:13 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00001B60: 23:46:13 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001B60: 23:46:13 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000019F4: 23:46:25 [127.0.0.1]:EDatabaseError : ADOQuery_login: Field 'cl_id' not found : Addr: $0065EC8E
+SiFacil.exe: 0000127C: 23:46:25 [127.0.0.1]:EDatabaseError : ADOQuery_login: Field 'cl_id' not found : Addr: $0065EC8E
+SiFacil.exe: 00002934: 23:47:45 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002934: 23:47:45 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002934: 23:47:45 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002934: 23:47:45 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00002934: 23:47:45 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002934: 23:47:46 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001778: 23:47:56 [ADOQuery_login: Field 'cl_id' not found-127.0.0.1]:EDatabaseError : ADOQuery_login: Field 'cl_id' not found : Addr: $0065EC9A
+SiFacil.exe: 000033B8: 23:59:10 []:>--------------------------------------------------------------<
+SiFacil.exe: 000033B8: 23:59:10 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000033B8: 23:59:10 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000033B8: 23:59:10 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 000033B8: 23:59:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000033B8: 23:59:10 [TUniServerModule]:HTTP Server Started on Port: 8077
