@@ -16,7 +16,7 @@ type
     UniLabel2: TUniLabel;
     data_final: TUniDateTimePicker;
     UniLabel3: TUniLabel;
-    UniButton1: TUniButton;
+    Button_buscar: TUniButton;
     UniContainerPanel1: TUniContainerPanel;
     ticket: TUniLabel;
     UniLabel5: TUniLabel;
@@ -26,9 +26,9 @@ type
     UniLabel9: TUniLabel;
     UniPanel2: TUniPanel;
     UniPanel3: TUniPanel;
-    procedure UniButton1Click(Sender: TObject);
+    procedure Button_buscarClick(Sender: TObject);
+    procedure UniFormShow(Sender: TObject);
   private
-    function Data_Formato_americano(data: string): string;
     { Private declarations }
   public
     { Public declarations }
@@ -48,7 +48,7 @@ begin
   Result := TFrm_ticket_medio(Frm_MainModule.GetFormInstance(TFrm_ticket_medio));
 end;
 
-procedure TFrm_ticket_medio.UniButton1Click(Sender: TObject);
+procedure TFrm_ticket_medio.Button_buscarClick(Sender: TObject);
 begin
   UniServerModule.ADOQuery_ticket.Close;
   UniServerModule.ADOQuery_ticket.SQL.Clear;
@@ -62,9 +62,9 @@ begin
   ticket.Caption:= UniServerModule.ADOQuery_ticket.FieldByName('ticket').AsString;
 end;
 
-function TFrm_ticket_medio.Data_Formato_americano(data:string): string;
+procedure TFrm_ticket_medio.UniFormShow(Sender: TObject);
 begin
-  Result:= copy(data,7,4)+'-'+copy(data,4,2)+'-'+copy(data,1,2);
+  Button_buscar.Click;
 end;
 
 end.

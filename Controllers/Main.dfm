@@ -324,6 +324,10 @@ object MainForm: TMainForm
         ParentFont = False
         Font.Height = -16
         TabOrder = 4
+        ScreenMask.Enabled = True
+        ScreenMask.WaitData = True
+        ScreenMask.Message = 'Atualizando dados...'
+        ScreenMask.Target = Owner
         IconCls = 'refresh'
         OnClick = UniButton1Click
       end
@@ -338,7 +342,7 @@ object MainForm: TMainForm
         Margins.Top = 10
         Margins.Right = 2
         Margins.Bottom = 10
-        DateTime = 44834.000000000000000000
+        DateTime = 44846.000000000000000000
         DateFormat = 'dd/MM/yyyy'
         TimeFormat = 'HH:mm:ss'
         ShowBlankDate = False
@@ -935,14 +939,19 @@ object MainForm: TMainForm
     end
     object UniPanel6: TUniPanel
       AlignWithMargins = True
-      Left = 3
+      Left = 10
       Top = 239
       Width = 457
-      Height = 437
+      Height = 430
       Hint = ''
+      Margins.Left = 10
+      Margins.Bottom = 10
       Align = alLeft
       TabOrder = 3
       Caption = ''
+      Layout = 'accordion'
+      ExplicitLeft = 3
+      ExplicitHeight = 437
       object UniLabel14: TUniLabel
         AlignWithMargins = True
         Left = 4

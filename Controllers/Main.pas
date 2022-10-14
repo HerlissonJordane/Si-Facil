@@ -12,7 +12,7 @@ uses
   uniImageList, uniTreeView, uniTreeMenu, Vcl.Imaging.pngimage, uniImage,
   uniSpeedButton, uniDateTimePicker, uniDBDateTimePicker, uniBasicGrid,
   uniDBGrid, uniDBVerticalGrid, uniDBTreeGrid, uniDBVerticalTreeGrid, uniMemo,
-  uniDBMemo, uniMultiItem, uniListBox, uniDBListBox, uniDBPivotGrid;
+  uniDBMemo, uniMultiItem, uniListBox, uniDBListBox, uniDBPivotGrid, DateUtils;
 
 type
   TMainForm = class(TUniForm)
@@ -137,9 +137,14 @@ end;
 
 PRocedure TMainForm.Atualiza_dados();
 var dados: Integer;
+    data_inicial, data_final: String;
 begin
+  data_inicial:= DateToStr(StartofTheMonth(UniDateTimePicker1.DateTime));
+  //data_final:=  DateToStr(EndofTheMonth(UniDateTimePicker1.DateTime));
+  data_final:=  DateToStr(UniDateTimePicker1.DateTime);
   UniServerModule.ADOConnection1.Connected:= True;
 
+  //pega o total de vandas do dia
   UniServerModule.ADOQuery_dados.Close;
   UniServerModule.ADOQuery_dados.SQL.Clear;
   UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as venda from sai_mt_cab where sai_dt = '+chr(39)+UniDateTimePicker1.text+chr(39)+' and cl_canc is null');
@@ -147,22 +152,25 @@ begin
 
   UniLabel9.Caption:= FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('venda').AsCurrency);
 
+  //pega o valor de venda mensal
   UniServerModule.ADOQuery_dados.Close;
   UniServerModule.ADOQuery_dados.SQL.Clear;
   UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as total from sai_mt_cab '+
-                                          'where sai_dt between ''2022-09-01'' and '+chr(39)+UniDateTimePicker1.text+chr(39)+' and cl_canc is null');
+                                          'where sai_dt between '+chr(39)+data_inicial+chr(39)+' and '
+                                          +chr(39)+UniDateTimePicker1.text+chr(39)+' and cl_canc is null');
   UniServerModule.ADOQuery_dados.Open;
+
   UniLabel7.Caption:=  FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('total').AsCurrency);
   UniProgressBar1.Position:=  Round(UniServerModule.ADOQuery_dados.FieldByName('total').AsInteger);
 
-
+  //Busca top 3 venededores do mês
   UniServerModule.ADOQuery_ranking.Close;
   UniServerModule.ADOQuery_ranking.SQL.Clear;
   UniServerModule.ADOQuery_ranking.SQL.Add('SELECT top 3 CL_NOME, SUM(SAI_TOT) AS TOTAL '+
                                             'FROM SAI_MT_CAB CAB INNER JOIN CAD_CL CL '+
                                             'ON CAB.CL_ID = CL.CL_ID '+
                                             'WHERE CL_CANC IS NULL AND '+
-                                            '    SAI_DT BETWEEN ''2022-09-01'' AND ''2022-09-30'''+//+chr(39)+UniDateTimePicker1.text+chr(39)+
+                                            'SAI_DT BETWEEN '+chr(39)+data_inicial+chr(39)+' AND '+chr(39)+data_final+chr(39)+
                                             ' GROUP BY CL_NOME ORDER BY SUM(SAI_TOT) DESC ');
   UniServerModule.ADOQuery_ranking.Open;
 

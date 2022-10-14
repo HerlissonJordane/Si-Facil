@@ -1,0 +1,6 @@
+SiFacil.exe: 00001F38: 09:33:10 [127.0.0.1]:Failed Sequence Recovery: SeqId: 33, Event: click
+SiFacil.exe: 00001F38: 09:33:10 [127.0.0.1]:Sequence sent from cache:  SeqId: 33
+SiFacil.exe: 00001F38: 09:33:10 [127.0.0.1]:Processed: Id: 33, Evt: click, [cKGGT8hwkN10B468A9A]
+SiFacil.exe: 000023EC: 09:33:13 [127.0.0.1]:Failed Sequence Recovery: SeqId: 33, Event: click
+SiFacil.exe: 000023EC: 09:33:13 [127.0.0.1]:Sequence sent from cache:  SeqId: 33
+SiFacil.exe: 000023EC: 09:33:13 [127.0.0.1]:Processed: Id: 33, Evt: click, [cKGGT8hwkN10B468A9A]

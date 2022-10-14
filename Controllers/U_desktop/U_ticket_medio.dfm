@@ -4,6 +4,7 @@ object Frm_ticket_medio: TFrm_ticket_medio
   ClientHeight = 444
   ClientWidth = 481
   Caption = 'Ticket M'#233'dio'
+  OnShow = UniFormShow
   BorderStyle = bsSingle
   OldCreateOrder = False
   BorderIcons = [biSystemMenu]
@@ -14,7 +15,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
   ScreenMask.Message = 'Carregando...'
   Layout = 'accordion'
   LayoutAttribs.Columns = 2
-  Images = MainForm.UniNativeImageList1
   ImageIndex = 3
   PixelsPerInch = 96
   TextHeight = 19
@@ -47,7 +47,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Width = 137
       Height = 31
       Hint = ''
-      DateTime = 44833.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       TimeFormat = 'HH:mm:ss'
       TabOrder = 1
@@ -69,7 +68,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Width = 137
       Height = 31
       Hint = ''
-      DateTime = 44833.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       TimeFormat = 'HH:mm:ss'
       TabOrder = 3
@@ -85,7 +83,7 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Caption = 'Data final'
       TabOrder = 4
     end
-    object UniButton1: TUniButton
+    object Button_buscar: TUniButton
       Left = 376
       Top = 8
       Width = 66
@@ -93,7 +91,7 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Hint = ''
       Caption = 'Buscar'
       TabOrder = 5
-      OnClick = UniButton1Click
+      OnClick = Button_buscarClick
     end
   end
   object UniContainerPanel1: TUniContainerPanel
@@ -122,7 +120,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       ParentFont = False
       Font.Height = -16
       TabOrder = 1
-      ExplicitTop = 195
     end
     object UniLabel5: TUniLabel
       AlignWithMargins = True
@@ -159,7 +156,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       ParentFont = False
       Font.Height = -16
       TabOrder = 3
-      ExplicitTop = 118
     end
     object UniLabel7: TUniLabel
       AlignWithMargins = True
@@ -196,7 +192,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       ParentFont = False
       Font.Height = -16
       TabOrder = 5
-      ExplicitTop = 41
     end
     object UniLabel9: TUniLabel
       AlignWithMargins = True
@@ -213,7 +208,7 @@ object Frm_ticket_medio: TFrm_ticket_medio
       ParentRTL = False
       ParentShowHint = False
       AutoSize = False
-      Caption = 'Valor em vendas'
+      Caption = 'Quantidade de vendas'
       Align = alTop
       ParentFont = False
       Font.Height = -19
@@ -230,7 +225,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Align = alTop
       TabOrder = 7
       Caption = 'UniPanel2'
-      ExplicitTop = 152
     end
     object UniPanel3: TUniPanel
       Left = 0
@@ -241,7 +235,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Align = alTop
       TabOrder = 8
       Caption = 'UniPanel2'
-      ExplicitTop = 75
     end
   end
 end

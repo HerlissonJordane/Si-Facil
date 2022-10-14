@@ -1,0 +1,12 @@
+SiFacil.exe: 00002A7C: 20:35:19 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00002EB0: 20:35:53 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00001CEC: 20:36:29 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00001D20: 20:37:03 [127.0.0.1]:Failed Sequence Recovery: SeqId: 4, Event: click
+SiFacil.exe: 00001D20: 20:42:13 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00001D20: 20:42:13 [127.0.0.1]:Processed: Id: 4, Evt: click, [mqHNuWyWFP10B4EDFB3]
+SiFacil.exe: 00002EB0: 20:42:13 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00002EB0: 20:42:14 [127.0.0.1]:Processed: Id: 4, Evt: click, [mqHNuWyWFP10B4EDFB3]
+SiFacil.exe: 00001CEC: 20:42:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00001CEC: 20:42:14 [127.0.0.1]:Processed: Id: 4, Evt: click, [mqHNuWyWFP10B4EDFB3]
+SiFacil.exe: 00002A7C: 20:42:14 [127.0.0.1]:Sequence sent from cache:  SeqId: 4
+SiFacil.exe: 00002A7C: 20:42:14 [127.0.0.1]:Processed: Id: 4, Evt: click, [mqHNuWyWFP10B4EDFB3]

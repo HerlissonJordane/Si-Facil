@@ -21,6 +21,7 @@ type
     ADOQuery_rankingtotal: TCurrencyField;
     ADOQuery_ticket: TADOQuery;
   private
+    function Data_Formato_americano(data: string): string;
     { Private declarations }
   protected
     procedure FirstInit; override;
@@ -45,6 +46,11 @@ end;
 procedure TUniServerModule.FirstInit;
 begin
   InitServerModule(Self);
+end;
+
+function TUniServerModule.Data_Formato_americano(data:string): string;
+begin
+  Result:= copy(data,7,4)+'-'+copy(data,4,2)+'-'+copy(data,1,2);
 end;
 
 initialization
