@@ -1,0 +1,44 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes, Data.DB, Data.Win.ADODB,
+  uniGUIBaseClasses, uniGUIClasses, uniImageList, Vcl.Menus, uniMainMenu;
+
+type
+  TFrm_MainModule = class(TUniGUIMainModule)
+    procedure RanckingdeVendas1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function Frm_MainModule: TFrm_MainModule;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication, U_ranking_vendas;
+
+function Frm_MainModule: TFrm_MainModule;
+begin
+  Result := TFrm_MainModule(UniApplication.UniMainModule)
+end;
+
+{ TFrm_MainModule }
+
+procedure TFrm_MainModule.RanckingdeVendas1Click(Sender: TObject);
+begin
+  //Frm_ranking_vendas:= TFrm_ranking_vendas.CreateFormInstance(Self,true);
+  //Frm_ranking_vendas.ShowModalN;
+end;
+
+initialization
+  RegisterMainModuleClass(TFrm_MainModule);
+end.

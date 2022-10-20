@@ -2,7 +2,7 @@ object MainForm: TMainForm
   Left = 0
   Top = 0
   Width = 1200
-  Height = 679
+  Height = 695
   Caption = 'Si - F'#225'cil'
   Icon.Data = {
     0000010001002828000001002000681A00001600000028000000280000005000
@@ -232,15 +232,20 @@ object MainForm: TMainForm
     Left = 281
     Top = 0
     Width = 919
-    Height = 679
+    Height = 695
     Hint = ''
     ParentColor = False
-    Color = 14211288
+    Color = 15265223
     Align = alClient
     ParentAlignmentControl = False
     AutoScroll = True
     TabOrder = 0
-    ScrollHeight = 679
+    Layout = 'vbox'
+    LayoutAttribs.Align = 'middle'
+    LayoutAttribs.Columns = 1
+    LayoutConfig.ColumnWidth = 50.000000000000000000
+    ExplicitLeft = 286
+    ScrollHeight = 695
     ScrollWidth = 919
     object UniContainerPanel3: TUniContainerPanel
       Left = 0
@@ -249,7 +254,7 @@ object MainForm: TMainForm
       Height = 54
       Hint = ''
       ParentColor = False
-      Color = 8453888
+      Color = 7463168
       Align = alTop
       TabOrder = 1
       object UniLabel3: TUniLabel
@@ -293,11 +298,11 @@ object MainForm: TMainForm
       object UniLabel11: TUniLabel
         AlignWithMargins = True
         Left = 3
-        Top = 12
+        Top = 10
         Width = 216
-        Height = 39
+        Height = 41
         Hint = ''
-        Margins.Top = 12
+        Margins.Top = 10
         Alignment = taCenter
         AutoSize = False
         Caption = 'Dashboard'
@@ -306,24 +311,34 @@ object MainForm: TMainForm
         Font.Color = clWhite
         Font.Height = -27
         Font.Style = [fsBold]
+        ParentColor = False
+        Color = 7463168
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+            '.addCls('#39'estiliza'#39');'#13#10'}')
         TabOrder = 3
       end
       object UniButton1: TUniButton
         AlignWithMargins = True
         Left = 232
-        Top = 10
+        Top = 8
         Width = 151
-        Height = 34
+        Height = 38
         Hint = ''
         Margins.Left = 10
-        Margins.Top = 10
+        Margins.Top = 8
         Margins.Right = 10
-        Margins.Bottom = 10
+        Margins.Bottom = 8
         Caption = 'Atualizar'
         Align = alLeft
         ParentFont = False
         Font.Height = -16
         TabOrder = 4
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'   sende' +
+            'r.addCls('#39'botaovermelho'#39'); '#13#10'}')
         ScreenMask.Enabled = True
         ScreenMask.WaitData = True
         ScreenMask.Message = 'Atualizando dados...'
@@ -334,17 +349,16 @@ object MainForm: TMainForm
       object UniDateTimePicker1: TUniDateTimePicker
         AlignWithMargins = True
         Left = 395
-        Top = 10
-        Width = 172
-        Height = 34
+        Top = 8
+        Width = 145
+        Height = 38
         Hint = ''
         Margins.Left = 2
-        Margins.Top = 10
+        Margins.Top = 8
         Margins.Right = 2
-        Margins.Bottom = 10
-        DateTime = 44846.000000000000000000
-        DateFormat = 'dd/MM/yyyy'
-        TimeFormat = 'HH:mm:ss'
+        Margins.Bottom = 8
+        BodyRTL = False
+        DateTime = 44854.000000000000000000
         ShowBlankDate = False
         Align = alLeft
         TabOrder = 5
@@ -352,8 +366,14 @@ object MainForm: TMainForm
         Font.Color = clWhite
         Font.Height = -16
         Font.Style = [fsBold]
-        Color = 16761220
-        BorderStyle = ubsNone
+        Color = 16748574
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'   sende' +
+            'r.addCls('#39'DatePicker'#39'); '#13#10'}')
+        FieldLabelAlign = laRight
+        UseSystemFormats = True
+        BorderStyle = ubsSingle
       end
     end
     object Panel_resumo: TUniSimplePanel
@@ -363,7 +383,7 @@ object MainForm: TMainForm
       Height = 182
       Hint = ''
       ParentColor = False
-      Color = 14211288
+      Color = 15265223
       Border = True
       Align = alTop
       TabOrder = 2
@@ -380,8 +400,13 @@ object MainForm: TMainForm
         Margins.Bottom = 5
         Align = alLeft
         TabOrder = 1
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
+            'der.addCls('#39'paineis'#39'); '#13#10'}')
         BorderStyle = ubsOutset
         Caption = ''
+        ParentAlignmentControl = False
         object UniImage1: TUniImage
           Left = 5
           Top = 26
@@ -555,6 +580,10 @@ object MainForm: TMainForm
           Font.Color = clGreen
           Font.Height = -27
           Font.Style = [fsBold]
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'       s' +
+              'ender.addCls('#39'valores'#39'); '#13#10'}')
           TabOrder = 2
         end
         object UniLabel6: TUniLabel
@@ -587,6 +616,10 @@ object MainForm: TMainForm
         Margins.Bottom = 5
         Align = alLeft
         TabOrder = 2
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'       s' +
+            'ender.addCls('#39'paineis'#39');  '#13#10'}')
         BorderStyle = ubsOutset
         Caption = ''
         object UniImage2: TUniImage
@@ -723,9 +756,9 @@ object MainForm: TMainForm
         object UniLabel7: TUniLabel
           AlignWithMargins = True
           Left = 96
-          Top = 30
-          Width = 216
-          Height = 72
+          Top = 45
+          Width = 220
+          Height = 55
           Hint = ''
           Margins.Bottom = 20
           Alignment = taCenter
@@ -735,6 +768,10 @@ object MainForm: TMainForm
           Font.Color = clGreen
           Font.Height = -27
           Font.Style = [fsBold]
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'        ' +
+              ' sender.addCls('#39'valores'#39'); '#13#10'}')
           TabOrder = 2
         end
         object UniLabel8: TUniLabel
@@ -754,25 +791,30 @@ object MainForm: TMainForm
           TabOrder = 3
         end
         object UniProgressBar1: TUniProgressBar
-          Left = 1
-          Top = 149
-          Width = 324
+          AlignWithMargins = True
+          Left = 4
+          Top = 146
+          Width = 318
           Hint = ''
           Max = 250000
           Position = 180235
           Align = alBottom
           Text = ''
           TabOrder = 4
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+              '.addCls('#39'progressbar'#39');'#13#10'}')
         end
         object UniLabel13: TUniLabel
           Left = 1
-          Top = 129
+          Top = 123
           Width = 324
           Height = 20
           Hint = ''
           Alignment = taCenter
           AutoSize = False
-          Caption = 'Percentual para atingir a meta'
+          Caption = 'Meta mensal'
           Align = alBottom
           ParentFont = False
           Font.Color = clBlack
@@ -795,6 +837,10 @@ object MainForm: TMainForm
         Margins.Bottom = 5
         Align = alLeft
         TabOrder = 3
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+            '.addCls('#39'paineis'#39');'#13#10'}')
         BorderStyle = ubsOutset
         Caption = ''
         object UniImage3: TUniImage
@@ -902,6 +948,10 @@ object MainForm: TMainForm
           Font.Color = clGreen
           Font.Height = -27
           Font.Style = [fsBold]
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'   sende' +
+              'r.addCls('#39'valores'#39'); '#13#10'}')
           TabOrder = 2
         end
         object UniLabel10: TUniLabel
@@ -937,544 +987,1132 @@ object MainForm: TMainForm
         end
       end
     end
-    object UniPanel6: TUniPanel
+    object UniPanel6: TUniContainerPanel
       AlignWithMargins = True
-      Left = 10
-      Top = 239
-      Width = 457
-      Height = 430
+      Left = 3
+      Top = 236
+      Width = 502
+      Height = 449
       Hint = ''
-      Margins.Left = 10
+      Margins.Top = 0
       Margins.Bottom = 10
+      ParentCustomHint = False
+      ParentRTL = False
+      ParentShowHint = False
+      ParentColor = False
+      Color = 15265223
       Align = alLeft
+      ParentAlignmentControl = False
       TabOrder = 3
-      Caption = ''
-      Layout = 'accordion'
-      ExplicitLeft = 3
-      ExplicitHeight = 437
-      object UniLabel14: TUniLabel
-        AlignWithMargins = True
-        Left = 4
-        Top = 4
-        Width = 449
-        Height = 25
+      Layout = 'vbox'
+      object UniContainerPanel1: TUniContainerPanel
+        Left = 0
+        Top = 29
+        Width = 502
+        Height = 420
         Hint = ''
+        Margins.Left = 10
+        Margins.Top = 0
+        Margins.Right = 10
+        Margins.Bottom = 5
         ParentCustomHint = False
         ParentRTL = False
         ParentShowHint = False
+        ParentColor = False
+        Color = 15265223
+        Align = alClient
+        ParentAlignmentControl = False
+        AutoScroll = True
+        TabOrder = 1
+        Layout = 'vbox'
+        ScrollHeight = 420
+        ScrollWidth = 502
+        object UniPanel5: TUniPanel
+          AlignWithMargins = True
+          Left = 0
+          Top = 3
+          Width = 482
+          Height = 112
+          Hint = ''
+          Margins.Left = 0
+          Margins.Right = 20
+          Align = alTop
+          TabOrder = 1
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+              '.addCls('#39'paineis'#39');'#13#10'}')
+          BorderStyle = ubsNone
+          Caption = ''
+          object vendas1: TUniLabel
+            AlignWithMargins = True
+            Left = 3
+            Top = 35
+            Width = 476
+            Height = 29
+            Hint = ''
+            Margins.Top = 0
+            ParentCustomHint = False
+            ParentRTL = False
+            ParentShowHint = False
+            AutoSize = False
+            Caption = 'Valor em vendas'
+            Align = alTop
+            ParentFont = False
+            Font.Color = clGreen
+            Font.Height = -17
+            ParentColor = False
+            Color = 8453888
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+                'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
+                'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
+                'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
+                '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
+                ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
+                '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
+                '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
+                'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
+                '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
+            TabOrder = 1
+            ExplicitLeft = 4
+            ExplicitTop = 38
+            ExplicitWidth = 474
+          end
+          object vendedor1: TUniLabel
+            AlignWithMargins = True
+            Left = 3
+            Top = 3
+            Width = 476
+            Height = 29
+            Hint = ''
+            ParentCustomHint = False
+            ParentRTL = False
+            ParentShowHint = False
+            AutoSize = False
+            Caption = 'Funcion'#225'rio'
+            Align = alTop
+            ParentFont = False
+            Font.Height = -16
+            Font.Style = [fsBold]
+            ParentColor = False
+            Color = 8453888
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+                'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
+                'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
+                'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
+                '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
+                ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
+                '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
+                '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
+                'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
+                '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
+            TabOrder = 2
+            ExplicitLeft = 4
+            ExplicitTop = 4
+            ExplicitWidth = 474
+          end
+          object Progress1: TUniProgressBar
+            AlignWithMargins = True
+            Left = 3
+            Top = 84
+            Width = 476
+            Hint = ''
+            Margins.Bottom = 6
+            Max = 40000
+            Position = 40000
+            Align = alBottom
+            Text = ''
+            TabOrder = 3
+            ClientEvents.ExtEvents.Strings = (
+              
+                'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+                '.addCls('#39'progressbar'#39');'#13#10'}')
+            ExplicitLeft = 4
+            ExplicitTop = 86
+            ExplicitWidth = 474
+          end
+          object UniLabel19: TUniLabel
+            Left = 0
+            Top = 61
+            Width = 482
+            Height = 20
+            Hint = ''
+            Alignment = taCenter
+            AutoSize = False
+            Caption = 'Percentual para atingir a meta'
+            Align = alBottom
+            ParentFont = False
+            Font.Color = clBlack
+            Font.Height = -16
+            ParentColor = False
+            Color = clWhite
+            TabOrder = 4
+            ExplicitLeft = 1
+            ExplicitTop = 63
+            ExplicitWidth = 480
+          end
+          object UniImage8: TUniImage
+            Left = 405
+            Top = 3
+            Width = 50
+            Height = 50
+            Hint = ''
+            Center = True
+            Stretch = True
+            Picture.Data = {
+              0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000080
+              000000800806000000C33E61CB0000000473424954080808087C086488000000
+              0970485973000003B1000003B101F583ED490000001974455874536F66747761
+              7265007777772E696E6B73636170652E6F72679BEE3C1A0000178F4944415478
+              9CED9D7B901D5599C07F5FF77DCC7BF2260F424008A0B8F2D6157611701110F0
+              B13A2480B0EB6AF9DA42DDD5DAE2214B562DC1D796B5562D2ED6AE222224130A
+              1525664004D742711544C507214248421E93CC641EF7D5B7FB7CFB47CF643299
+              99DB7D674EF79D417E55533373EFE9FB7DB7CFD7E77CE79CEF7C477889A22FAE
+              6BC1AFBE0A588DE8F128C703AF006D076901E6016D23C5878103A0455406119E
+              4378069567802D64B2BF93E5EB8A0DFA2A89228D56C016BAFBE3AD54726721BC
+              0138173813C859FA780FF839C823A83C4A36F3D84BC520E6B401A876B9BC70C2
+              79387A0DAA6F67EC894E9A32220F61F806C3D9EFC849EBBC94E45A674E1A806E
+              FFC46AD47C1458032C6CB03AFB817B10F3255979EBB30DD6A56EE69401E88E1B
+              4E41E59F51BD12701BADCF6118441E00F3695979CBE38D56262E73C20074FB4D
+              7F81065F042E68B42E31D98CBA1F93559F7ABAD18A4431AB0D40B75D371F47D6
+              A1F22120D3687DEAC447F81FDCDC8DB27CDDBE462B3315B3D60074DBF57F87C8
+              1780458DD66586F4A2FA315975CB9D8D566432669D01E896751DE42AFF89C855
+              8DD6C52AC2468C799FACBAB5BFD1AA1CCAAC3200DD71E35F62F42EE015D63ED4
+              AB42C503CF0BFFAEFA600C0406D48465C401D701C7816C067259C8E5209F0BFF
+              B6C70BA0EF92A36EF95F9B1F3A13668D01E80B37FC03F0156066773C0860A800
+              C532148BE00733532CE3424B73F8D3DE0AEE8C071F01E8B572D42DB7CDF4836C
+              D07003504578E1869B116E9EC987305480C121184E70824E045A5BA0A32D3406
+              99C1ED13FD0F8ECCFF93C83A634FC169A8D148E1BAE5DA3CF9B6AF815C31AD0F
+              084C58E97D07C2A63D4D5C17E677C2820E70A6DD2A7C8BA1DCBB1B3993D83003
+              50ED72D9B1FA6E94AE695C0C7D03B0BF3FECCF1B89E3C2A279A1314CAF45F836
+              2B735D22EB52B6E090861880EA3A87EDDE9DC095755F5C28C29E7DA143379BC8
+              E760F142686BA9FF5A6123476E592BD23D4387A57E9CB405AA226CF7BE4ABD95
+              1F18D8DD0BDB77CDBECA8770A4B16317BCB8A7FE564979272F1C7F9B6AFA0F64
+              EA0275FBF5FF8ACABFD57551A9022FEE4EBF9F9F2EB92C2C3F029AF2F55DA7DC
+              20AB3E734B324A4D4EAA06A0DB6EB8006113F52CE40C0DC38B7BC37E7F2E2102
+              4B1743677B3D5719844B65E5673625A5D6E1A46600FADC7547E33ABFA09EE5DB
+              FE01D8BB0FE658DD8F63D1025834BF9E2BFAC139538EFAF4D6A4543A94547C00
+              7D7A5D0EC7B98F7A2ABF777FE8ECCDE5CA07D8D7077BF6D773C57C301BF417EF
+              B33A053915E938816DDE0D08A7C42EDFBB1FF61F4850A194E93F101A427C4E63
+              C9A27F494A9D4349BC0BD0E73FF14A1CF32410CF23DADF0FBD75DDACB9C3E285
+              B0705EDCD215D43D3DE99882440D40B5CB65FBEA9F12066846335C809DBB936D
+              F65D17DA5B209305E790AF6F0C94CA502C25275F8015CBEA992B789C955BCE4E
+              727E20D9208B1DABDF4DDCCAAF7823DE7E82FA74B6C3118BC255BFA9285760C7
+              6EF01318722AB06B0FAC5A11AE3646F33A5E587D15F00DFBCA8424D602E8D3EB
+              72B47B7F008E892EACF0FC8ED00892A2B5198E5C1EEF1B7B1E3CB723B9A16753
+              1E8E3E325E59611BE5A11364F5972B49A8929C13D8E67D9038950F61BF9F64E5
+              3B0E2C5B12DFDC73B97AC7EFF551AEC0BE987121CA2AF2EDEF4D4A95440C4077
+              7FBC15E1FA58852B5EFC9B315D16CC834C9DBD5D735332BA8C529FD1DFA82FAE
+              9BC6224334C9B4005EFE6AE0885865F7241C2F99CDD4E3798F51CB4FB0816A3D
+              DF7D1941259110B964BEA5F0BE58E5868BA1D79D24472C9E59E04692144B5088
+              F9FD8D7C280915AC1B806EBBFE6C544F8D2E4838E19324ADCDD35B9E4D93DEFD
+              F1463EC229BAFDC6D7DA166FBF05709CF7C72A572824EBF889C0923910515EAE
+              84310E7150FDA06DF1560D40B75C9B1FD9A4194DFFA04DD11399DF190669CC05
+              FA07E2967CA76EB9B6CE35E6DAD86D019ADADE489C1DBA5E358CD84D8A4CA6DE
+              15B8C65228C60D726923D77E8E4DD1760D40E5D258E50687929DF15BB230792F
+              DE3683C3714B5E6653ACDDBB24BC3956B9A18255B187A279176D6B9EF27D5319
+              2628C76E72D36338A60138BCC5A6586B06A03B3F7102CAAAC882A33B751222C8
+              19FCC15D68305186A90CE10FF7CECEE8A2B2172FE44D59A5DBAF3BCE96587B8B
+              4146CF88552EAEC73B4DD4050D3CAA033B71B2AD48260BAA986A11F56779228F
+              E142E8BC46A1EEE980956414F6BA0035A7C52A572A5B13391932FA74AB62BC61
+              82623F41E9C0ECAF7C0887847150E2DDEB1858F401E4F458C512360027F2E305
+              A7D4E0CD245311F7DE381AEF5EC7F9285B1F049C1C592208120FED762AE0D478
+              D833430631B3746AD8AB86FB1FA2D03AC2EB22B06200BA655D0761DEBDDAA4B4
+              A12333A8B825C60D352580CC80C668211A4C35D63D5AA87BD759C98866C7096C
+              F19711276869A65BB5E3A2E00E2B6E21740A3120B3B4D59F40D58FB7A1A4E22F
+              03B6CC549C9D2EC0B02C56393FE52D5D0AE2CFA1CA87F8A168AAF1EE7904760C
+              20AE3271FAB73F7782B8ADA42EB721CE9213E82F8855CCA4BEF975EE117B6369
+              602541A6150330D542BC00BAD8D6FD674CCC7B64AA452B4EA01D03F0AA534FBE
+              1F8ABE6C0091683C1FC094CB56225D2CF9003107F7B3710E7EB611F71E193B53
+              9B760CC0F70BB11437C1586AB69799882AC4194FAB418D5A5952B5D305A8F782
+              065EB4E619F7E56EA016EA831B3D35A37ED5572D6FB321D2CE4C60600EA85F8E
+              0EEECFE6E6D8A03C652408F72C4660FC529FC158D93E6DC5001CA437A896A3E3
+              9B9B9AA19AC80EA79706552FBC4711A857F61C276B6543851503C896CD331A54
+              A24DB7A9192AC5979DC1C950854A099A631880A96473FBB3339E06064B062067
+              7597508D76F03299B08FF367FB8A4C03F0CBA18F14E5036880AA1A39EFEB566E
+              A2B5E56051DD6ABC18D13E6DED60E6407046DA180FDA3A62142B21A2CFD8126B
+              311E2078C2540BD156D9D91936752F8F06C63041D83576448783996AB184E157
+              B644DB0B0A55F999F18A4E64FFDE3E0FD0F00BBF4CC868CBD9111D5261BC82AB
+              A23FB525DA9A0154ABC1C3A8664D54FFDED21AEEBFAFBEEC0C8628F825C8E7A1
+              B9F6ECAEF14AA09AF524FB235BD2AD1940DB6BBB77035B4D39C696AF854B4287
+              D14B6E7FC09CA15208BB80054B228B9ACA00087F6C3FF9CEBDB6C45BDD1822B0
+              D9548BAA26626960D1E2F0B757F8F39E1A3606BC910D21A3F7640AD404986A51
+              4565B34D15AC1A80814DA88AA90CD52ED8DC0AAD6D61E557626F897AE9E10D87
+              DD606B5B74F35F1904458CE1073655B06A00F9A0A34794FDA63C18DDBF2F5D11
+              FEF60A10A49DFD3B86EF91B47F1254C7BAC0651109A35431E541047AF383BB1E
+              B2A986DD2EE08CDBAB887C534D405089D87FB760F1D8B467E940AA0EA1C65871
+              D398EBF2D3A63C3295DFD404F36BE73108CA03A80940E54E39EF11AB8AD9DF42
+              6BE44E80A03450BB7F17C62CDFF810D56D58C44875D2BD83075143A009A6AE29
+              0F4230528FCB8FAA9DBD4C0DC1A8B188583F7BD0BA01E44EFFD62F11F90D2608
+              8DA0168B8E80D6D6F06FAF100E0DD32030F8437BD1609287490DFED09EE4E217
+              ABA5B1A6BFA52D1C11D520280F8CC6093E953BF55BD6268046496613BD9ACFC2
+              214DD75408B0EAB8B1244EE5C174FC01AF3AB281740741B10F532D62AA458252
+              3FD503DB31D552323B98822A8C3E1422B0EAD89A4FBF06FED843A47AAB7D8512
+              3280DC16730FF027D410142286AC6DEDB068E4295085627FF2D1C3A391B76A08
+              4A07F00777E30FEE2628F68F19AC6F79786A7C28F571D0015DBC04DA6BC7D206
+              C5DED16EF4F9DCB3A6DBAE42218918805CDE1D08DC0AE1EC95891AEA1D750CE4
+              4712336A0085FD891A41ADBD83F594898D09A0D0376678F9265859FB70545319
+              0E67FE0011FDA45C9E4CC2E8C4F2A86473C11D08DB01FCE2FEDA5D819B81E34E
+              0C8F7085D0088A7D891981F8E094A71E754855712A964625C687E2FEB1C52F11
+              587D62CD13485503FCE2C1788FE7B37EE737ED283391C40C404EEAF6403F0A80
+              09088623CEFD696D83A38E1EFBDFF850DC07B5BCF51990199A7C2BB9E341D656
+              02B3C083C2BEF186BCEAD8D0F99B0A856068EFC1D6421DF9B09C717B628E51E2
+              FBA42B4FAEFD1E700980DBDC89DB12B1A165DB73B067E7F8D79AE6412EDED683
+              7A5117742496497C417C4B4FBE571A1BEB8FB27445D8DDD52028EC3F3487D177
+              F3A7DEF3563B0A4D4EE2A9B434D08F207810CE0D98A805A055C78C3985A3940F
+              40A93F91750309C296C02963A7F2D584135B8757FEC2C5B0F2E89A978E4B6025
+              548C137C74E60AD5267103683A63FD5654D68DFEEF0FF7A27E4460E831C7C1FC
+              C35A8A6A1986F741308B834A834AD8E4570F9B445AB0085E717CCD9CC55AADE0
+              177AC7FE57BDA9F9E4EEE7925275945492E9E54E39E1B3828473D86AA80EEE42
+              6B55A43870DC2B61C9D2F1AFEB88375DEC0F7D84D98206E1535F98C4715DBC04
+              8E3DA176E5FB1ED5A1DD633E92D0933FE5955F4C50E383A4962B65E8A9AB97E4
+              D5FFB5AA8669E41D976CC732C48D48E7BA731BECDC3EF17511C8B640AE7526A7
+              77CF0C1384B37A53756B2B56C18A95353F42832AFEC08BE8C82841447A3DCF7F
+              CD487C45E2A49A2CA7F4ABCBCF73701E42C396479C0C998EA5D14670A00FFEF4
+              CCE4C9134420D3141A829BCA517B632B797E79F2914D360BC71C0FF36AA7ABD5
+              C00B731A1E6C35247034383F7BDA861FDB577A7252CF96E43DB1F6032ADC36A6
+              8143A6ED089C282FBF5281AD7F84E11A63342703D926C834C7DA625517A61AFA
+              21D572EDEEA7BD038E3D31F25028532D856B0E8738B6AAF2E1A6D3EEFEB22D95
+              E3D0907459955FADFD24CA4D635A08999645384D11690654A1770FECD8169D6E
+              465CC8E4C0CD852D8393897F70846A58C941157C0F4C253A71432603471E0D8B
+              8F8894733063E9789937E74F5BFFC9780ADAA361F9D2CA4FACF98A888C3B5B20
+              9C275840A45AD56AE81BF4EEA92F8E409C3089B48CFC1C9433B2A9454D58D1F5
+              0C3745C24A3FF2E818E7122941A16F42AE6285DB9A4EBD27911341A248F6DCC0
+              1AE49F35FFE8ADCE34835E33FA5A501AC0544B64DA96D4F60BB25938FA3858BE
+              1276ED84DEDDF152ABA8B197A7481C58B03074F49AA20F98D2A08A3FB467B238
+              843BF25B826BED28553F0DCD98A88A549F5AF37955F9D8B837E27609A354ABB0
+              6F2FECDB03A584630A5A5AC3499D4547848618035319C42FF44DD2B2E8E772A7
+              ACBF4EA4714764CF8A9499E527D77C44907FE7B07909C9E4C9B42C44B2751CE1
+              562C40DF3E181C80C2D0CC43CD44A0B51D3AE78593532DADB12FD5A0823FBC1F
+              9DB8574241AECB9F7AF7E766A6DCCC99150600507962CD5A44BECA24278E384D
+              EDB8CD0B907AC7FB4100C343501C864A194A25F0CAE1EB870F29339970852ED7
+              149E19986F0E2BBBADA3E6CADD64A80604853E268F8E962184F7E64FB97B437D
+              5F2619668D0100781F78E3FBCD9A0537C93C77C584374570F31D384D9D88AD21
+              DEA83FE05A4A95647C4C6980A0324554F4816087DC33F0A9DC7FF5DC6E45A005
+              669501F827BDFE47649D73CDD5F354CF6F9F523727DF8EDBD4896466C7A150EA
+              7B04E50335035FE4A161E3DCD5EF50D51F659E7EECFC14D5ABC9AC31007DE55F
+              2F0B9C603BE002E8ABF2E8DF2F40974FED68899BC3C9B7E2E4DB1127DD018D9A
+              00E30D632A85C9FAF883C81E1FB9A31FF9F5C10522E366F42879EAA73BA7BC28
+              451A360C3C1CE398B58C543E80FCAE82DCB80B734927FAD60EC84EB4550D3C82
+              A24750EC47324D38D9669C6C3392C9DB3F2D5415E39751BF8CF14A352B1D004F
+              91EF0CE03C3008E3E7AC1CE3D3057CC9AE82D363D6B400FE4967FD1C3873B2F7
+              7449067D5B277A760BB83154164132791C378FB8597033889B8BDD4AA8F1C3F1
+              7AE0A3411513786185C71951048AFCA4887C7B00E99D72CAF8E799A71F7B5D2C
+              651266561880BEFAAC6303650B11FAE8E20C7A69077A4E1B4C67DD47001C6474
+              2670B49518496FA36A00136BE7D804AA8A3C3A8C7C6F08D917BD54ED9AE078F9
+              FDE356F2FCCC84D9D105AC58768D0C0C8B0ED5DE1D24BD3EF2B53EF4BE01F4DC
+              3638BB155D56C7575080D18AB683ECF2E127C3C8A305E440BC2056696D85F68E
+              77F1FBC76FB6A6C834991D2DC0855DBF054E52CFC3F4F5C7CF990F705C0EF357
+              ADF0DA16B4239DB800190890C74BC863C3F06C1D41AB990CCEFCF94878A4EDEF
+              6573F7AB92D2312E0D3700BDE81DAF419DA7C65E5074A880191E04535F5BAC4B
+              32F0EA26F4A4F087364B014F65459EADC0D3659CDF94619B575F37E13838ED6D
+              485BDB78E7D4E535F240F76FEC28393D664117E05C31EE5F11A4A30DB7AD1933
+              308416E2671191BD3E3C3C8C3C1C8EC775A10B4BB3B02C0BCB33E8A20CE4056D
+              777C3ADD82B48A0FA005CD3010B4CA90C950D1B00FDF5985DD3EECF291BEE987
+              9F496B2B4E67FBE4514BBE5C0134D4001ABB1804C2855D5B81A963A57D1F335C
+              080DC1FE16F25F088882B563D880D0889B9B71DADB215BF319DBC6E6EE63647A
+              6EA7151A6B001775BD1EE5B158850383290CA185A2B5255D513E0EA0C217AC7C
+              A0EB222D2D386DADF1D70F1CE7F5B269FDCFACC89F068DED028CAE8D3D61E33A
+              381D9DD0D18996CA68A180562A3369158C9309D6030481FB39A61B212D8234E5
+              91D65624465CC00482E00AA06106D0B01640BBBA5C06D9012C8D2C3C15C6A0E5
+              0A5A2EA1E518615B8722FC38F3DBC7DE00E0BFFAAC4751CE897DADE3204D4D23
+              3FF9991E55BF974AEF0A79C46EE68FB834AE0518E07C6406950F6145B434232D
+              CDE1E8C1F7A1E2A19E8756BDF09CC2295A0841EE3EF46F452737001124E34236
+              170EDF72392453477C61344BC82F3917B09AFB272E8D3300D1B5561B2011249B
+              856C16E190A00DDF47FD204CC91218D418F0FDDDCE90D9385AC4F1B21B4DBB73
+              3399CC52719C7079D875C38A8E8CF3B381B98206194043BA00EDEACA31C82E20
+              DE7173D615E001E9E9BE64DC4B17763D005CDC107DE000CEF052D9B429F57D6F
+              A96C0D9BC080BC9946553E8033D6FC1FC264AFA5C53C4CEB458D10DC18031073
+              4574A1C42823D9EF4E78355FF9364A82A9C1A29086DC93D40D40DF74752BC825
+              D1259342EE974D774DD85E24DFFDEE100EDF6F8446235CA6E77659390CB21E1A
+              D00294DE06C40FADB58D688DA6BED67B89D3429EB7A42D347D0390C63475230C
+              D25E23D76EB9ED01C0CA695CD324F57B93AA01E8855D0B800BD294391EB957BA
+              BBA7ECE7E591AF97816FA7A8D0E15CA86F7CBB9543A1E3926E0B20DA05342E94
+              576334F1A6A1DD401637F38E3405A66B00A6A1CD7F2F5E6FF4491BF3E487C09E
+              E4D5990249B71B48CD00F482B5CB11FE2A2D7993B03ECE7CBB747707A01BA3CA
+              25C8397A69D7C48D3109915E0BE006E3C2BE53274EF33F8A711AD90D38787279
+              7AC2D2A391CDFF0BF46C8C7FD2D6831B1E039E4F4C9B284453BB57A918805EBC
+              E658D472D44D7D1ADC5D4FD44D58561AB979F34CBDE01DABD310944E0B60F44A
+              1A1A7DE4D6DFA437763400AEAC49434C4A5D80A6F265A6E00FB279FD53D1C5C6
+              230F76FF0AF85D02FAC443E5AA34C4249F2AF682AE53809392963335F2AD195C
+              BCDE9A1AF573A25EB8E6E4A48524DF02380D1DFB8309EE99F6B58E73170D8CD8
+              8520F17B97A80168E84FA536A49984FF9307EF9DF6FE3BD9B47E2BC22F6D2A54
+              A7065768C2BE53B22DC0DFAC391138BA8E2B0E004F23F4207A07702F33790285
+              E93FFD63CCC41954E05E44EF40E8019EA6BEC5A6A346EE6162241BF0D65CDC86
+              D7F424A10FB01BD881F022CA4E849D20BB10DD8E38BB708B3BE4FEFB27A4F8D2
+              8BBADE83723BF51BAB2163A10FCFB09E2A9F9F967CE17DF283EEFF3EFC0DBDEC
+              B21682962351B30C9595A0CB505620AC40590E1C49182DFD5BE69BE767FC1D6A
+              D0F0BD8171D037BD73EDC89979F518EC23B2B9FB3C3BF2BB1E4178431D9704A8
+              BC477A36DC61437E92342624AC4EA467E33D20577178AE8D5AA8C5183FA7AE39
+              810078F75CA87C98230600209B376C40B99278465025F0EFB5265CA51B88B30F
+              3C00AE91CDDDD64FF84C8A39630000D2D3BD11783B1091A0871EF9E17DFBADC9
+              DDDCDD8746C6ED7B085DB2B97B26F30EA933A70C004036777F1FD5BFA59611D4
+              B3F21797C943C947F1402F971F74DF675D6EC2CC390300909E8D9B30FAD629C2
+              B88B78F21DEB424DFE3E60B264051554DE299B37DA97990273D20000E4C18D3D
+              201701876767BC5F1EE98E38AA741AF27AEE2C801E1E365E04B9547A36DC6F5B
+              5E5ACC590300909E0D3F46B8183824BB5482AB783A2E50A48072996CDED0903D
+              7DB698D30600203FE8FE09462E06B6023FA443362526AC531F407818D88A910B
+              A5A7FBE1C464A5C4FF036A9D4D2D700633AC0000000049454E44AE426082}
+          end
+        end
+        object UniPanel7: TUniPanel
+          AlignWithMargins = True
+          Left = 0
+          Top = 121
+          Width = 482
+          Height = 117
+          Hint = ''
+          Margins.Left = 0
+          Margins.Right = 20
+          Align = alTop
+          TabOrder = 2
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+              '.addCls('#39'paineis'#39');'#13#10'}')
+          BorderStyle = ubsNone
+          Caption = ''
+          object vendas2: TUniLabel
+            AlignWithMargins = True
+            Left = 3
+            Top = 35
+            Width = 476
+            Height = 29
+            Hint = ''
+            Margins.Top = 0
+            ParentCustomHint = False
+            ParentRTL = False
+            ParentShowHint = False
+            AutoSize = False
+            Caption = 'Valor em vendas'
+            Align = alTop
+            ParentFont = False
+            Font.Color = clGreen
+            Font.Height = -17
+            ParentColor = False
+            Color = 8453888
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+                'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
+                'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
+                'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
+                '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
+                ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
+                '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
+                '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
+                'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
+                '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
+            TabOrder = 1
+            ExplicitLeft = 4
+            ExplicitTop = 39
+            ExplicitWidth = 474
+          end
+          object vendedor2: TUniLabel
+            AlignWithMargins = True
+            Left = 3
+            Top = 3
+            Width = 476
+            Height = 29
+            Hint = ''
+            ParentCustomHint = False
+            ParentRTL = False
+            ParentShowHint = False
+            AutoSize = False
+            Caption = 'Funcion'#225'rio'
+            Align = alTop
+            ParentFont = False
+            Font.Height = -16
+            Font.Style = [fsBold]
+            ParentColor = False
+            Color = 8453888
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+                'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
+                'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
+                'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
+                '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
+                ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
+                '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
+                '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
+                'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
+                '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
+            TabOrder = 2
+            ExplicitLeft = 4
+            ExplicitTop = 4
+            ExplicitWidth = 474
+          end
+          object Progress2: TUniProgressBar
+            AlignWithMargins = True
+            Left = 3
+            Top = 89
+            Width = 476
+            Hint = ''
+            Margins.Bottom = 6
+            Max = 40000
+            Position = 40000
+            Align = alBottom
+            Text = ''
+            TabOrder = 3
+            ClientEvents.ExtEvents.Strings = (
+              
+                'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
+                'er.addCls('#39'progressbar'#39');'#13#10'}')
+            ExplicitLeft = 4
+            ExplicitTop = 91
+            ExplicitWidth = 474
+          end
+          object UniLabel23: TUniLabel
+            Left = 0
+            Top = 66
+            Width = 482
+            Height = 20
+            Hint = ''
+            Alignment = taCenter
+            AutoSize = False
+            Caption = 'Percentual para atingir a meta'
+            Align = alBottom
+            ParentFont = False
+            Font.Color = clBlack
+            Font.Height = -16
+            ParentColor = False
+            Color = clWhite
+            TabOrder = 4
+            ExplicitLeft = 1
+            ExplicitTop = 68
+            ExplicitWidth = 480
+          end
+          object UniImage9: TUniImage
+            Left = 405
+            Top = 5
+            Width = 50
+            Height = 50
+            Hint = ''
+            Center = True
+            Stretch = True
+            Picture.Data = {
+              0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000080
+              000000800806000000C33E61CB0000000473424954080808087C086488000000
+              0970485973000003B1000003B101F583ED490000001974455874536F66747761
+              7265007777772E696E6B73636170652E6F72679BEE3C1A00001B224944415478
+              9CE57D7B7454D779EFEF3BE7CC53A3274280400F400F23610142D8B16F5712DA
+              E5D5A6496E9FA63849DDE6518393DBA449BABADAC4AE698174D5C97DE6DED869
+              7BEF6D92E63A719C9BA459B5B3DC344DD2AE90850DC20811C480A441420810E8
+              319A3933E7F5DD3FC48C85349AD967B4CF8CE8FDADA5B560669FF37D73F6EF7C
+              7BEFEFB137E1DF28262626C2966575D9B6DDAE284A07337700D806A012401840
+              0D80C89DE6F30066002401CC011821A28B8EE35C545535AA69DAF9C6C6C66439
+              7E87D7A0722B200B93939315E974FA61667E1B80B703D807C02FE9F606809300
+              7E48443FF2F97C3FF9B742887B9A00CCAC5EB972653F333F0EE0D7F0E61BED35
+              5200BE4F445F9E9F9FFF4E7777B75122B9D2714F12E0F2E5CBEDAAAAFE0180DF
+              02B0AECCEADC02F035DBB6FFEBF6EDDBA365D6C535EE29028C8C8CEC26A24F00
+              780F00B5DCFA2C8103E065663EBE75EBD69F965B1951DC1304181B1BBBDFB2AC
+              FF48448F945B171130F33F6A9AF6C9A6A6A68172EB52086B9A00B158ACD6719C
+              2344F461005AB9F5710907C057FD7EFF271A1B1BA7CAADCC4A58B304181919F9
+              1D22FA1C80FA72EBB24A4C11D1275B5A5ABE5C6E457261CD11201A8D56F97CBE
+              2F00786FB975918C6F12D1EFB5B4B44C975B91C5585304181919790B117D150B
+              0E1BCFE0380E1CC781655900004DD3A0280A1445F1522C005C5114E57DCDCDCD
+              FFE2B52051AC19028C8E8E7E00C0F3007CB2EE994EA7313D3D8DF9F979249349
+              E8BA0E5DD7E1384ECEF68AA220140A21140AA1A2A202151515A8A9A941301894
+              A51200D8CCFCFB5BB76E7D4EE64D8B45D909C0CC343A3AFA0C113D23E15E989E
+              9EC68D1B37303D3D0D5DD765A888502884DADA5A343434A0B6B61644AB7F6CCC
+              FCDF5A5B5B3F4E44B9D95822949500D16834E0F3F9FE3780C756739F643289AB
+              57AFE2FAF5EB300C6F9D728140000D0D0DD8B2650B42A1D06A6FF7422291F8DD
+              727A12CB4600665663B1D80B001E2DF61E737373B872E50A6EDEBC096696A85D
+              611011D6AF5F8FE6E666545555ADE656DF6E69697994882C59BAB9415908C0CC
+              4A2C16FB0A163C7AAE914AA5303C3C8CC9C949C99A1587FAFA7AB4B7B7AFC622
+              BCD4D2D27290886C997A89A0E40460668AC5627F03E0036EAF751C07B1580CB1
+              586CC5895CB9A0280A5A5A5AD0DADA5AEC1CE1AF5B5A5A0E1151494D59C90910
+              8BC5FE9499FFCCED75894402E7CF9F473C1EF7422D69884422E8EAEA4224E23E
+              30C9CC9FDABA75EB5F78A0D68A28290162B1D823CCFC0A5C067226262670F1E2
+              C535F7D6AF045555D1DEDE8EC6C646B7973A00DED5DADAFA8A076AE544C90830
+              3232D24A44AFC345F89699313C3C8C582CE6A166DEA1A9A9096D6D6D6E878469
+              4551F63537375FF64AAFC5F0DCF505008383837E22FA165C74BE6DDB3877EEDC
+              3DDBF90030363686818101B796ABD6719C175F7FFD75690EB17C280901C2E1F0
+              A700EC166DCFCC3877EE1C6EDEBCE9A156A5C1D4D414CE9E3DEB9604BDF5F5F5
+              7FE4954E8BE1F910303A3ABA03403F8080487B66C6C0C000A6A6D66C04B528D4
+              D5D5A1A7A7C74DBC214D447B5B5A5A06BDD4CB5302DCC9D9FB09333F207ACDB9
+              73E770E3C60D2FD582CFE7436565250281000281008808866120994C626E6E0E
+              B6EDCD727CE3C68DE8EAEA7273C9899696969FF3D25DEC6992452C167B3F00E1
+              CE8FC5629E75BEA228D8B469131A1A1A505D5DBDE29BC8CCB875EB16C6C7C771
+              FBF66DA93A4C4E4E221289A0B9B959F49287AE5CB9F25E005F91AAC822786601
+              060707FD15151517006C15697FFBF66DBCF1C61B9EB874376EDC886DDBB6B98E
+              EADDBE7D1B434343D2824AC0820B79D7AE5DA8ABAB13BD64D434CDFBDADBDBD3
+              D2945804CF26819148E4490876BE699A387FFEBCF4CE5755153B77EE44575757
+              5121DDBABA3AF4F5F5B9E9AC8260669C3F7F1EA6698A5ED2EAF3F93E244D8125
+              F0840093939315CCFC27A2ED878686A447F17C3E1F7A7B7BD1D0D0B0EAFBF4F4
+              F4482581611888465D65907F7A6262222C4D8145F08400BAAEFF36800D226DA7
+              A6A6A48FFB4484FBEFBF1F95959552EEA7280A76EEDC2923FC9BC5E4E4A49B95
+              CE26D3343D4991F3840044F484483B66C6A54B97A4CBEFECEC444D4D8DD47B6A
+              9A861D3B7648BD67341A15F60F30F347A40ABF03E90488C562FF0EC01E91B613
+              13134826E596D855555515E38317424D4D0DD6AF5F2FED7EBAAEBB0969EF1A19
+              1979509AF03B904E00663E24D2CE711C8C8E8ECA168FB6B636E9F75C0C174B38
+              218C8C8C085B0145510E4B150EC9048846A3012C146916C4E4E424D269B92B9B
+              EAEA6A57A6DF300CDCBA750B333333C2CE9FEAEA6AA97381743A8DEBD7AF0BB5
+              65E6DFBCF38CA541AA23C8E7F3FD02042B74AF5EBD2A53348085CC1C1198A689
+              A1A1A1BB52C97C3E1FBABBBB8566FB353535527D03E3E3E3D8B4699348D388DF
+              EF7F2B807F94255BF610F02E9146B3B3B39E2476888CCF9665E1F4E9D3B871E3
+              C65D7E07D33431303020B43E97B5BAC8201E8F636E6E4EA82D33BF5BA66CD904
+              F86591465EE4F26572FA0B616C6C0C894422E777B66D0B2D49FD7E59FB4EBC09
+              D16100C0AFC8942B8D00C3C3C39D005A44DADEBA754B96D82C7C3E9F50E24521
+              F265AA85F2C18B0A2217A1EFE6B1B13169335D69BF4451943E917673737348A5
+              52B2C46621F2563A8E5350B68879F7225A984AA5848745CBB2F6CA922B93CABD
+              228D6447D8321019BBD3E974DE78435D5D9DD02450E60470315C3C1BA1672D02
+              99041062A5E864C72D52A914E6E7E7F3B6C9E77A0D8542C2B17AAF7EC3ECECAC
+              503B225A931660974823AF1E1EB010545AC9A9924AA556743C699A869E9E1EA1
+              61C4B66D4C4F7B53E1ED6265249C5E57085208108D46ABB0B0EF5E5EA452294F
+              6BF7666767D1DFDFBFCC124C4D4DE1D4A9533987894CA0A7A2A24248C6F5EBD7
+              3DCB184AA7D3A2CEB175939393620A1780144790AAAA425E0C2F267F4B313B3B
+              8B93274F22140AC1EFF743D7F5BCA46B6F6F170EF57AE5BE5E8C542A8540A0B0
+              B3CF34CD4D00561D4993620188488800B25DBFF9A0EB3A666767F3767E535313
+              366FDE2C7CCFD1D151CF492CFA8C4CD39412F19235075833164014F5F5F5AE02
+              47D3D3D325A951107D4644B4760840444236D4451A94A7A8A8A84057579770C5
+              8EAEEB181C1C2C4909BA8B3952AD0C795208609AA690737C2D5800BFDF8FDDBB
+              7743D3C4A63FA669E2CC99339E6F3C9181A89C743A2D655B5C2904300C43283E
+              5AEEE24E4551D0D3D32334C902DEAC50F2CAF1930B22AE6800B06D5B4A8EA014
+              02D8B62DA475A977F1588A1D3B76B8DACD636868C8B335FF4A107D468EE34831
+              49B22681F3228A3B8E5336126CDBB60D1B3608E5A902582852999898F050A3E5
+              107D36CC0CC7717287345D420A012CCB1A13B102814040D8C4C9444343035A5B
+              5B85DB4F4D4D617878D83B855680699A42C3936559A6E338529624B22CC08C65
+              59052319A150A8E4F380EAEA6A57F578F178BC6433FE5C102960B12CEB161149
+              F1A9CB22C04DCBB20A4EF1ABAAAA3C73A3E64230187455919B4EA771F6ECD992
+              EAB818966509CD516CDB362CCB92523E2D8500A954EAA26559053734A8ACAC44
+              32992CC9DBA5AA2A7A7A7AE0F389EDB3E0380E0606064AEAAD5C0C6686AEEB42
+              F9089665F9E2F1B894C329A410E0E1871FD61DC7A1421DEBF7FBE1F3F93C7FC8
+              4484EEEE6EE18D9A98198383839E462A0BC1300CF87CBE828465663033EFDFBF
+              5F8A53455A3898882E8978FAEAEBEB3D77AA74747408670803C0F0F070D97723
+              310C4348E73BCF6E48965C690460E6FE743A5DD063B261C3061886E1D964B0B1
+              B1D15580E7DAB56B65DF87C8B66DA45229A165AA699A09C771CECA922DD302FC
+              D4344DB5D030B061C386EC78271B9148041D1D1DC2ED67666670E1C205E97AB8
+              45C6452E4200C3307C004EC8922D8D00A669FE0080AFD00CBABABA1AC16010A9
+              544AFA64B0A3A34378C6AFEB3ACE9D3B5776EF243323954A211C0E175C01DC19
+              627D9AA6FDB32CF9D208F0C0030F4C12D12591804F6B6B2B1CC7916A05EAEBEB
+              85CBC24A1DE0C987CCF9052D2D8533EAD3E93403B8B06BD72E69F5F4B213DC5F
+              354D930B8DEF19AF9CCC25A168D16639023CF974C95447172280E338304D13CC
+              FCAA4C1D6413E01566A642CBBCEAEA6AD4D5D5819957ACD27183502824FCF697
+              23C0B3121289049819757575A8AEAECEDBF64E4A3B01F89E4C1DA41687DAB6FD
+              AAA22853A954AA3E180CE64DB8E8ECECC4891327A0EB3A82C1A0707C3E174497
+              7CB66DA3A1A1A1E86D6352A9146EDCB821A5B6C134CDAC15EAECECCCDB969991
+              4EA7414437666767BFBF6AE18B2095007D7D7DE6A953A7BE0AE063E9743AAF5F
+              BBA9A909E7CE9D433C1E473C1E474D4D4DD147B188BEFDAAAAAE7AAF9FC6C646
+              5CBB760D172E5C58D5F09549018F4422686A6ACADB369D4E6796CD7FB77FFF7E
+              A9D1342FB688F90A8082B37C22CA6EB96259D6AA760A29F54C7ED3A64D053B2D
+              1FE6E7E7B3F186EEEEEEBCC4CFAC12008088A4EF17289D007BF7EE3D056040A4
+              0EAFB5B535FBF62693C9A25DC48AA2947452671846D17B10A5D3E9ACAEB5B5B5
+              05277FA9542AF3F69FD9B367CF99A284E681579B44FD257097F22BB5C3BE7DFB
+              B26F403C1E779D2F40442022E8BA9E2D3CB52CCB933FC330108FC7313F3F0F45
+              515CCF5B2CCBCA9A7E22C2DEBD7BF3BEFD4B5EA2BF74254C109E6C151B8D46BF
+              D6D6D6768499DB128944DE08575D5D1D5A5B5B3132320266C6ECEC2C6A6A6AA0
+              AA62674ADC098E8088B21D552AB8197A2CCBC2ECEC6CF69A6DDBB661DDBAFCBB
+              E767560944341C8D46BFB12A6557802716E0C0810336113D0B2CCC760B395CF6
+              ECD9938DDC398E8399991957B1824245A15E40D775E1BC01DBB631373797FD4D
+              914804BB76E52FA5340C239B46EF38CEB103070E7892A4E0D956B17EBFFF4B00
+              AE00851D3E3E9F0F0F3DF450D68D9B2181E803BE76ED5AC9338D44F738B26DFB
+              AEDFA2280A1E7EF8E1BC61DFC50E22221A61E6BF5BBDC6B9E11901BABBBB0D66
+              FE38B0D0A1F3F3F3056BF377EF7EB3E83553852B1262D6751D23232325293CB1
+              6D1BA3A3A34256C734CD65D66CCF9E3DA8AD5DB9A68399118FC7B3D7388EF3B1
+              BEBE3ECF7E98E70746F4F7F77F9799DF05207B2E6F81F6B878F1E25D9F555656
+              0AE5CA1111AAAAAAE0F7FBA51CEFBA18CC9C9D048A589B5C3B7E747676DE45F2
+              5C4826938B277EDFE9EDEDFDD522551682A7E70500806DDB7FA0AAEA23CC1CD0
+              751D8AA2E4CD7CDDB3670F0CC3B8AB0A371E8FC3300C442291BCD1BECC24B29C
+              6066CCCFCF2F5B02B7B4B4088DFB8BAE4BA9AAFA716FB47C139E9F19D4D7D777
+              1940F69CC0643259706CDFB76FDFB2A48E743A8D9999993511C15B098661E0F6
+              EDDBCB3A7FCB962D78F0C107F35A25CBB2EE8A8B10D19FEEDAB56BC433653372
+              BC16002C1C15DBDFDFFF3D008F000BA6BAB2B232EF3A9A9971EAD4295CBEBCFC
+              F434BFDF8F482422BC54F41A8EE3209148E4747C6DDDBA157D7D7D792D576695
+              B0688EF4BD3D7BF6BCB314278B97E4D430227254557D1F8049E0CD894E3E4B40
+              44E8EBEB437777F7B2EF0CC3C0F4F4F45D2ED5722033B9BD75EB56CECEDFB973
+              271E78E081BC9DEF38CE5D9D4F44372CCB7A7FA98E952FE9C9A167CE9CD9CFCC
+              DF676605585812555656167C9327262670F2E4C9155DC5C16010C1605038057C
+              B5B02C0BBAAEAFE8EA0E040278F0C1070B6EFF6ADBF6D249A50DE0E77B7B7B7F
+              2C55E13C28F9D9C1A74F9F3E0CE0B9C59F55565616ECBC64328913274EE4DDE9
+              4BD3B4EC4960B28707CBB2B27BF8E4B33AEBD7AFC75BDEF21684C3F98B774DD3
+              CCB534FE686F6FEFE7E5682C86B21C1F7FFAF4E93F07F07456092284C3E18275
+              7199A364CF9E3D5B7032A8284AB60E415555A8AA2A9C2FE8380E6CDB86655930
+              4D13A669165CFA050201F4F4F460EBD6AD0597A08661E4F2233CD3DBDBFBE742
+              0A4A4459080000A74F9F7E1EC05D670B0483C1826F0EF0660957267E200A2282
+              AAAA20A26564C8542EDBB6EDFA9EDBB66DC3FDF7DF2F54D8B9649D9FC173BDBD
+              BD1F16162A119EFB0156C2A54B973ED2D6D61602F078E6B34C24AFD07A3F1008
+              60DFBE7DE8EEEEC6D0D0102E5FBE2C3419646669C1224551D0DCDC8CAEAE2EE1
+              ED655798B47EE9D2A54BBF2F45A92250360B0000CC4CFDFDFD9F05F0C9C59F8B
+              0E0919A452298C8C8C20168B79EE08AAA9A9414B4B0B5A5B5B858FA24BA552D0
+              757D996521A26777EFDEFDC74454B6DCF4B2122083FEFEFE8F31F37FC29265A9
+              A6690887C3AEE2EED3D3D3181F1FCFE6EEAD3648444458B76E1D366CD8802D5B
+              B6B84A04C9643AE5B03ACCCC7FBC77EFDE6757A59C04AC090200C0E9D3A70F02
+              F86BE43871241008201C0EBBF6EF9BA6993D1226937B984824B2C91D8BE1F7FB
+              A1691A2A2A2A505555854824829A9A1AAC5BB7CEF5F23213CDCBB56C65E63880
+              0FEDDDBBF7455737F5086B860000F0BFCE7EF6D00EEBA1A703082F2BEE232204
+              020104834169FBF567DECCD564242F46268367A55DC9D3488CFF4C3B71F4033D
+              7FF45752044A40D92681B9304EE70F4E68439B773A6FE366A7FB2E7266922333
+              5BA90683C155AFF565757CA6B8335F4EE3A872D639AFFCEB1687EC8300D60C01
+              D68C05387EFE894DB66D8E015001A09EB760A7FD764478E5D8B9AAAAF0FBFDF0
+              FBFD258F0B388E03C330601846DE95458266714EF9116E2AD90A6447B1EDE6A7
+              767F59FEA9594560CD5800C7320F8290EDC5291AC78FB517B0DDE945BBDD0725
+              87AAB66D43D775E8BA0E9FCF074DD3B28E1F2FF2016CDBCE3A860A2D276D5888
+              2AAF6158ED8783BB967E8AA3698F02F82F52152C126B86004C786CE9670E6C44
+              95D7709586D06E3F802DDC095A217E95E9185DD7B30E1F4DD3B21EC0623C818B
+              3D82A20E22868371650851F52492C8BDE308B3F318D60801D6C4107074E077B6
+              3394280AE8134615B6DBBD6872BAA0C0BDC9CF58854C2AF96264B28B33FF760B
+              876C5CA1415C564E43A7C2073F90CA1D4F77FDAD947D7E5683356101D6698D8F
+              2791A0A41D07F23CFB24E630A0FE101795936876BAB1D9E944C4C59EC9ABE9E0
+              95308F698C2B1730A69C479AC4AA9B425A052AB4EAF70178469A2245624D1040
+              D1D4DF88A00A012588B8390D8BF38FAF694A22AABE86A8FA1A6A7823B6389DD8
+              E4B4210029DBE716441A495C532E619C2E6046113EEF0F2A69A8F2D5C0A70440
+              C0A358030428FB10F085E14FF528B6F246E6FF0C866ECD2361C5C1F9CC410E84
+              B90AF5DC847AA709F5DC043FC45CB58560C1C40C4DE2A63286291AC32CDD445E
+              53B504040561AD1261AD02B4E89193423D87B61F1D90A2649128BB05205B7D6C
+              F1C32410C25A25826A0512D61C742721FCAC9334872B34882BCA200020C81144
+              508B08D722C23508A10A1A7CF071D00A7038E143C0020013692D4DC90A93529A
+              051349CC619EA691A01924681A3A8A2F3C096915A850ABA0D0F209283BFC1880
+              FF7F09C00CFAE225FEAD5CDF29A4A0D257833047A05BF3483A49C0E5D89DA279
+              A4308F291A5BFA9506A09A81D70944004B3B860D582071400D21AC564253567E
+              C404BC87199F267269EA24A2AC43C0F3D1A71F02F827226D1D38485AF3485909
+              3890932E47A03F0400067F4EC6FD14A8086A6184D50A2824B64A71C00F7DB8FD
+              F84F65C82F06E5B5008483A28150050A225A15225A150C2705DD4AC070D2AEE7
+              098BE0D88EF275005014FB591499204B20F89400425A05028AFB390791F21880
+              B211A06C16E0457E54BD7DA9731CC0C662EFC17060D869A41D1D869D76651918
+              FCE367EEFFDBB701C09F0DFCEE8F08F456D16B090A026A107E2588801A58D139
+              25881B93E3DAE623FB8F947E1F7D94D102DC8EEEF879905374E703998E0821A0
+              86001F6039162C4EC3700C588E019BED152D044179E1EE7F734E0210082A69F0
+              293E68E4874F09E41DD78B4043E366EBED00A4EEFD238AB21180C83EC8920D90
+              A668D0A021A8DE395493177CF29663C1810D070ED8B161B333A96BD64B99EB1C
+              BFF652C8D29E5149D9488A0A050A5452A19206159AE77692891F439908509621
+              E0C5C123FEDB7EEB1A80D5EDD8542C182F1FEE38F6CEC51F3D17FDF4CB047A47
+              59F401660CCC6EFC68FBE74BBE577D492A8396623A60FD32CAD5F90040F4428E
+              4F737D562AD4F851F54BE5105C1602302F8FFC95102903EADF2FFDD06F9BDF06
+              50C6ED43A92CCFA4E404F8F21B7F5801E09D051B7A06FAEE47DB8F2C8BD37EF0
+              BE67E300FEA10C0A65F0EEFF317844CA61906E50720224C2815F0520E5E8F362
+              C0E4AC6CEAB9ACC34058F3D9FFBED4424B4E803B8E8F72614E0F2457DC6B37E0
+              D35E063053427DEEC29DD54049515202FCCDE0913A303F524A994BF0CD4F34FD
+              E715C7F9F76F3D9202F1B74BA9D012FCE27FFFD99FE4DF3B4E324A4A00D3673D
+              0AC05F4A9977819582269E38E70AA154F0F97CDA6F9452606987801C797FA502
+              033727AF2A054FDAA86D1BFA2700E2591E92C15CDA61A06404F8FC85238D04FC
+              5CA9E42D8502FEBA88BFFD007DC306F052A1761EE2ADCF0D7D5AFCD4AB55A264
+              04F0A9E641A0884C4E4920129FE1736E4751A9A040A103A513563294C7D17107
+              577E6FFB71E193B60E6F3FFA13108F7AA84F7E94D0515612027C31FAD4760052
+              B36E5CE20537593744608252B6E24D22EC7BFEF253EDA590551A0BC0780FCA99
+              7DE4B837E9E4D8E51C06003B77AA9C6C9484004C28C98FC90DBA70B8F3E81B85
+              DBDD8D273A3E7306A0F35E68240452DE5B0A319E13E0AF2E7E6A3780E59BFD95
+              08C4FC7F8ABFDAF9BA3C4DDC82EF7B7EE8E9FC7BCB4A80E70460452DE7E40FAC
+              E26BC55E4BA0AFC24D01806C28DEFB043C25003388E1946C499343FE6B87B71F
+              2BBAFEEE50FBB1CB004E4954C92D1E63D969534BE0694AD817A24FDDA7125A5D
+              5C3203E02A80ABCCB8A6104518FCEB28720249C445BFFD6F825F00A8AFD88B09
+              F47F1DE679226C02B0F9CE9FE84643CD5F883E751F70EC6745CA2F084F09A045
+              B41827AC7E2CCC0126191827600284ABE4E02A135D53803128D6350E05C60F35
+              1E59565DF97CF4A90F6261470DB7D6CA6107AB1EC3D9C1D749C1678B910FE089
+              43ED47FFE7D22FBE3871244C7A7A0B1C6D93033411F32656B0198CCD0C3412B0
+              050BD9D2E7D2A1C4E86A7F433E94BD365004CF5D7AFA20317F05EE08FBC3C3ED
+              C7F64B911F7DEA8704BCCDC52536117FF050DBF12FC990EF25CA9212E6164FB6
+              1DFD1A83DE0B40F8E81492E9CE7597286233F8FDF742E703F7080100E0C9F6A3
+              2F02780FC448609AA6F54D59B27DA6F60D00222755D8C4F4F893EDC7A59FF0E9
+              15EE190200C0E1F6632F113BBF0620FF91A444AFFE871D7F714B96DC0F751FB9
+              0D2E98B76F30F1A3873A8EAEC2EF507ADC53040080431D9FF907859C5F471E12
+              30E7C9FB2B16F9871403E0034FB61DFF9674B91EE39E2300003CD1F6995708F8
+              15E44EE34E3A86EF3BB2658693FAB70024727C9506F8370FB71F972EB314B827
+              09000087DA8FBD0AE65F0296EDDEF0DD8F741F917E94E8E3BB3E97C0F2B4F1A4
+              C278D7E1F6E3DF952DAF54B867090000873B8EFF98147E078045DB72B16751BC
+              2549250926BCFB898E6365A9E993857B9A00007068FBF17F65A27700B80CE67F
+              AA337CAF7825AB36ADBD0CE007002E33D12F3ED976EC075EC92A15FE1F19294D
+              B4FBCABB8A0000000049454E44AE426082}
+          end
+        end
+        object UniPanel8: TUniPanel
+          AlignWithMargins = True
+          Left = 0
+          Top = 244
+          Width = 482
+          Height = 117
+          Hint = ''
+          Margins.Left = 0
+          Margins.Right = 20
+          Align = alTop
+          TabOrder = 3
+          ClientEvents.ExtEvents.Strings = (
+            
+              'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+              '.addCls('#39'paineis'#39');'#13#10'}')
+          BorderStyle = ubsNone
+          Caption = ''
+          object vendas3: TUniLabel
+            AlignWithMargins = True
+            Left = 3
+            Top = 35
+            Width = 476
+            Height = 29
+            Hint = ''
+            Margins.Top = 0
+            ParentCustomHint = False
+            ParentRTL = False
+            ParentShowHint = False
+            AutoSize = False
+            Caption = 'Valor em vendas'
+            Align = alTop
+            ParentFont = False
+            Font.Color = clGreen
+            Font.Height = -17
+            ParentColor = False
+            Color = 8453888
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+                'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
+                'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
+                'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
+                '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
+                ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
+                '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
+                '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
+                'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
+                '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
+            TabOrder = 1
+            ExplicitLeft = 4
+            ExplicitTop = 39
+            ExplicitWidth = 474
+          end
+          object vendedor3: TUniLabel
+            AlignWithMargins = True
+            Left = 3
+            Top = 3
+            Width = 476
+            Height = 29
+            Hint = ''
+            ParentCustomHint = False
+            ParentRTL = False
+            ParentShowHint = False
+            AutoSize = False
+            Caption = 'Funcion'#225'rio'
+            Align = alTop
+            ParentFont = False
+            Font.Height = -16
+            Font.Style = [fsBold]
+            ParentColor = False
+            Color = 8453888
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+                'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
+                'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
+                'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
+                '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
+                ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
+                '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
+                '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
+                'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
+                '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
+            TabOrder = 2
+            ExplicitLeft = 4
+            ExplicitTop = 4
+            ExplicitWidth = 474
+          end
+          object Progress3: TUniProgressBar
+            AlignWithMargins = True
+            Left = 3
+            Top = 89
+            Width = 476
+            Hint = ''
+            Margins.Bottom = 6
+            Max = 40000
+            Position = 40000
+            Align = alBottom
+            Text = ''
+            TabOrder = 3
+            ClientEvents.ExtEvents.Strings = (
+              
+                'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
+                'er.addCls('#39'progressbar'#39');'#13#10'}')
+            ExplicitLeft = 4
+            ExplicitTop = 91
+            ExplicitWidth = 474
+          end
+          object UniLabel27: TUniLabel
+            Left = 0
+            Top = 66
+            Width = 482
+            Height = 20
+            Hint = ''
+            Alignment = taCenter
+            AutoSize = False
+            Caption = 'Percentual para atingir a meta'
+            Align = alBottom
+            ParentFont = False
+            Font.Color = clBlack
+            Font.Height = -16
+            ParentColor = False
+            Color = clWhite
+            TabOrder = 4
+            ExplicitLeft = 1
+            ExplicitTop = 68
+            ExplicitWidth = 480
+          end
+          object UniImage10: TUniImage
+            Left = 405
+            Top = 6
+            Width = 50
+            Height = 50
+            Hint = ''
+            Center = True
+            Stretch = True
+            Picture.Data = {
+              0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000080
+              000000800806000000C33E61CB0000000473424954080808087C086488000000
+              0970485973000003B1000003B101F583ED490000001974455874536F66747761
+              7265007777772E696E6B73636170652E6F72679BEE3C1A00001C0D4944415478
+              9CDD9D7990645775A7BFF3DECBCCCAACBD7AADDE176D46AC663412C6C162206C
+              7980310C92256498C010C8E0B007430002758B1E0901960C76C80112720C1320
+              360931C010460C164666081060066C83245A6AA95BDDADEAADB2B65CDF72CFFC
+              F1AABBBABAAAF2BDCCBC9959ED5F8442D599F7BD73F2DE73CF3DF79C73CF15FE
+              9D423FFDC202EA3E0BDC0B11BD08C34508BB4006410BC0083030DFBC044C8354
+              C0CCA2F2140EFB51D90FD1E348F4885CFFB34AEF7E4DE720BD66C016F473CFED
+              A792FF2D445E8AF232E032206BE9F53EF013E0211CFE090D7EF8EF4520CE6B01
+              D0FBAE72993EFC7254DE8CEAEB5898D19D460D781091CF313AFB0DB9FA577E97
+              E85AC77929007AD7E51782BC0BF843604D8FD99904FD3291F337F2A73F7AA2C7
+              BC348DF34A00F4EEDF7A3EAAEF46F58D80DB6B7ECE8101BE85F061B9FEE11FF7
+              9A99B4382F04403FFDA2E7A0FA71E055BDE6251DF4FFE098F7C8DB7FFAAB5E73
+              9284552D00FAA9DF1E45C27D08EF04BC5EF3D3244290CF20FE8D72FDCF4EF59A
+              9995B06A05403F7DC57F45F92B606DAF79690BCA49D0F7C83B7E7C4FAF59590E
+              AB4E00F48ECB87C8CAA780EB7ACD8B5DC8FD18F7EDF2CE1F4CF59A93B3B1AA04
+              403F75F91538CE17407775940E608C1299F8DFAE038E23DDE88CA731E68FE49D
+              3FF9BF9D27950EAB4600F4CE17FD31A27701195BEFF443A5543554EB867AA0D4
+              7DA51E82AA2EDB5E44C865209775C865847C5618CC3B643CABDD1421FC995CFF
+              F09D365FDA2A7A2E00AA08775DF121840F597817A5AA61AA1C51AAC4836E03B9
+              8C309077181D7019C83B888D5E53EEE0F8C37F21FB3016DED6327A2A007AC795
+              39B2C5FF09726D3BEFA907CAA99988A9B99020B2C5DDF2C878303AE0B176D825
+              9769B3FB942FB266EE2DBDF424F64C00F4BEAB5C8A87BF045CD5EA3B2A75C3F1
+              A990E952F72791080CF7BB6C187129F4396DBC49BFCEB1FC55B2EFA1D01A734D
+              A02702A0FB70D870C53D086F6CE5F920549E990C28CEF5547B9EC170C165CB3A
+              8F6CCB1A41EE676CCB3572F5573AACBF96A21DD16D09AA08E397FF5D2B83AFAA
+              4C14031E39545F35830F30538978F4E93A13C59015ECCB04E81B281EBE53B5FB
+              13B2EB04F5AE17DD04FADF9B7DAE1628078F0554EBAB67E097435FD661C7068F
+              7CAE95B9251F943FF9D147AD33D588623789E95D97BF0AE4019A0CE49C9A0D39
+              7A32C4D831EA3B0E4760CBDA0C6B869B8E57191C5E2D6F7FF8814EF0B51CBA26
+              007AE7153B10FE9926C2B7AA30510C393ED513FBA86DAC1B71D9B2B669B7C614
+              E25C26D7FFF04027783A175DB101F4BE4BB3887E8D2606DF283C75CC3F6F071F
+              E0E474C493C7826635D7286AEED34FBFD09A43AC11BA63044E0E7E10E4F9699B
+              EBFCE0CF9457F77A9F0633A5882727FC6685E0373199F77588A545E8F812A09F
+              BCE23770F939904BD55EE1A98980994AD777441DC550C165D7B887A47723D671
+              A217763AA7A0A302A0F75DE53279F8470897A57B000E1EF799EAA063C7751D0A
+              030532198F4C368388E0D703C230A052AA12869D13BCD141971D1B9AD2EC3F66
+              6CEB8B3BE91FE86C92C5D4E1B7A41E7CE0F874D891C11711C6D68E303A36CCC0
+              50FF8AB35015CA7365A68BB34C9E2C625ADBD4AF88A9B98842CE61FD48EADDC1
+              E5148F5C077CCE2A2367A1631A40EFBB344B71F03160679AF6B315C393137E8B
+              8E9495313236C4A62D1BC8F5A55A81CEC0F703268E1CA7786A8638806C0722B0
+              7B3CCB6021A5F9251CA23E7AB1FCF903756B4C9C85CE1981C581779072F04303
+              874E0456075F1C876D3B37B3F3826D4D0F3E40369B61FBAE2DECBE781BAE6BAF
+              9B54E1D0719F284AF96395EDE48A6FB3C6C039E88806880F69140E001BD2B43F
+              78CCEEBAEFBA2EBB2FDA4EFF60C1CAFBAA951A07F61F22F0032BEF03181B74D8
+              BE21EDB9159940FC0B3A7118A5331AA052781329077FA66CAC0EBE08ECD8BDD5
+              DAE003E40B7DECBE701B8E63AFBB8A7386D9D4DB5C1DC7643A9222D7A925E0ED
+              691AA9C2D153F66615C0E66D9B181AB17F4028DF9F67DBCECD56DF796432486F
+              5D88BED32AF179581700BDF38A17032F48D3767236B296B50350E8CFB36EFD98
+              B5F79D8BD135C35685ABEE2BC5D9B43B3C79BEDEF9A2FF688DF83CEC6B0047AE
+              4FD3CC281C9BB23BFB376DD9D871D7D6A62D1BEDA484CD63A2D844904BF41DF6
+              28C7B02A007AC795B9F9439A89989A8D082CBAF9FB070A0C0EF7A76E1F861173
+              332566674A044D30922FF431343CD40A8BCB220895A9B9D47E9E37E81D5736BF
+              A56900BB8EA06CF11520A974E4A959BB419EE1D1C154EDA228E2E8A1631427A7
+              CEDA760A2363436CDDB109CF4B76D20C8F0E32333DDB3AB3E7E0E44CC49AA154
+              CEA101B2C59700FF608BB6DD2540E5D5699A956B864ADDAEC767786438B18D31
+              CA138F1D64F2D4D4393E0765BA38C3FE479E248A9267E3F0E8A0D565A05A3794
+              6BA9D781D7D8A36C5B001C7E3F4DB3627A95970AE238F4F525EFA94F1C3B45A5
+              5C5DF1FB7AADCEC491E389EFF13C8F4CC66EB476AA9452230AAFB549D79A00E8
+              A75E7C31CAF6E486580FF3663C2F95F1573C997C2AAB383993CA2399C9DA1580
+              E99249E77156B6EB275F74812DBAF6348044FF214DB38A6F0842BBEA3F934D5E
+              3F5595BA9F9C7E1F85116190BC3BF13276CB1304A152F1534E0C575F688BAE45
+              01E037D3344BEFFD4A8F347E75BF1EA48EE9386EF2E09A0E2428CE5552F64DCA
+              BE4E038B510E52496525B5B1931EB56A1D3FC14F3F37534AF5AE42219F2AF813
+              DADCC3CEA39CD6304ED9D769605103E8F3D2342BA755734D4139FAF4B1156778
+              18841C9B3891EA4D1BB7AC4B452F49E05A41A596DA384E9D5E97042B02A0775C
+              3E043292D42E0895D0F2FA7F1AD3C5190E3E797849464FA55CE3F1479F22F093
+              66ACB079EB468647929D3CE5528DA803994341485AE7D81AFDE4CBACF8A4ED38
+              823C6F1C923BC4A6DF7F394C4DCE3033354BFF6001CFF5A8D57DAA95EA8A9AC1
+              755DB2B90C85429EB51BD650E8EF4B4567D6A213E85CF88121E3A598976E751C
+              78BC5D7A760440A2F134CD6C5BFFCBC118656EA6DCB0CDC8D810E35B36D0D742
+              A288AA529C9C6E95BD44F89192CEA1EDAE260190F13426B69F360BA68358B761
+              8C2DDB37B5FCFCE4C9A97847D121A4B62D356AFD479C053B46A0A9A78AC176C0
+              6E6A0AAEE731B2B6F59A53611871EC683A63B255A45E264D6825EE6D4700A24A
+              AA488C1FF4F6A047DFC000555FA8D65AE14339F4E4E1A62287ADA09EB68F4C69
+              15198141254F26711340BD0B364023786EECBE2D55232AB508CF135C57F05C21
+              9791868736E666CBCC4EA7F325B48320AD0608AB791BF46C2D01A994BB6A6F4B
+              1285D1029B46C10F946ACD30578E28CE84F80D3A7F706880B1B5C942DE2E523B
+              18C3AA1555644700B45E42935597316A31C3BE79D44AA5152B841985D97244D8
+              C050DDBA631359CB41A0B3A19A5200D400C19C0D9AB634C0D3682D31D292F184
+              B087877DA33064FAC47156DAB1A82AE5EACA82EC380E9BB76DEC1077101AC54B
+              B32847559FC83F6483A62501D059827231A9593E27443DAEF2509E9DE1E4D1A3
+              F8D52ACB09821F9886E1E091D1617229720F5A4118417F8AC826617992C858F1
+              4659F203B827094B35728DFDE8C3032E4F1FEFAC0A705D9781A17E32198F7ADD
+              A7345B5EA2F6EB9532272A654404C7F3C8E4720C0C8FD057885D30AAAC9CF123
+              B066DD28CF1C4E4E1C69166104430329E66458F1715D2B05A8ED0840ADFC3878
+              898BE3404EF0434555ACA6549DC6DAF5636CDABA715134AF5EF739F8C4E16533
+              81549528088882805AA9C4D0D81A86D6AC25E9FCC7F0C8A07501508530520672
+              293A262C67C996AD5C4E616509907D54D0D0C1348E0778AEE0B91074C02338BA
+              7684AD3B362D09E5E672592EB878472AB53D5B9C24AA37762303F4F5F5594F08
+              F123C575042FA92CAD46805179372BE7B635019B3981FB89920DD3A182DB70BB
+              D50A4460E3A6F52B7EEF7A2E1B36A509F3C2D4C964CDAA28D95CBAC0515A0401
+              0C15D2CCFE5945CD63B6E85A4C0831FF8A9F1C265B3BE4E087602C3A05BD6C8E
+              A4E8ECE0603AC759AD5A238A1A33173B03ED759D318A1F2A6BD35415AB4FCF02
+              FF668BB6BD5FE1F030C16C2E2928343A9FFF6E33342CE224461A33598FB4C786
+              4C8274D6EA91557FC66937DAD8609249A610CEF5013FB245DB9E0044F23D54B3
+              048DDDA503B9B814BB4DB7B0090342E334CC0D1411FAF2C94E1CCF73C93458DF
+              8D8985374A91389A06AAB18B3C9711FA930CC0A004AA593CF77B5688635100E4
+              C6CA04B01FFF54E3E923B071CCC318A8F97684E0F4618E4A429067CDDAE42A75
+              6BD68DD1485354EBD13C4D3BDBD97AA01803E3632952DBEBA70CE823F2DE92B5
+              90A4E593413C48302798C6B3637C345675D540AD54FF5455827A9D9A6F1A1A98
+              EB368E353C3F58E8EF63E3E6958DC530522A3543148656044015AAF39360C358
+              C2FA6F02086605E4BB6D133E0B964F06C903A80A7E63A7607F3EBE89432D6A81
+              6A295E7AE62AE18A06A688B0FBC2ED6C185F8773D676D17184B51BC6B8F0925D
+              2B16815085D9523CFB6BE5B295B241555F5185A17E8781A492F3F5228020F2ED
+              F6292FC0EEE1D0D1CA7798CC9FA4766A0DB9750EB2F28FDABEC1E397077DEABE
+              92F562FF403BA896E7185AB3066360BA143232E02DEBD011C761D3D60D6CDCB2
+              9E5AB5060A7DF95CC3EA1FAA303D179E7163574AEDC76142A367847FDBFA24DB
+              C4807FCAA09CA45EB17630142C6B00B99E00E18B68E8509F6CD876FD8847A14F
+              50880F46B659212AA8D7A996632D1045CA7429A0D1394F478442214FA13FDF70
+              F023A34C97C2335142BF56A55E4D7616358202E56AFCBE7CD6617DD2F6AF760A
+              4CE8E0F005D987555F7A074AC4487C3F5EEDF8BCD76A855602DBE78B264646A9
+              58580A664E9D3A234751045373ED9597AFD50D53B3E1A254F6995327DB56FFD5
+              DAC28D653B377A8DDDE26AA0366FF3458EF5BB07AD0B807CA0F233E05FD108EA
+              271BB61D1FF5CED4CBABF9EDFB0642BFCEDCD482E651855225A2381B50AB378E
+              F22D3C13DF2E36351B325789163D539E99A15E6DCF035B0F95DAFCEF1C2C386C
+              1C4B5885EB27E28924FC426E2CFFA22DE2CBA04345A2F436605E75ADBC231081
+              4BB666CFEC7E2A751A2664A4C16CF114D573D6E82882B94AC4E44CC04C29A452
+              33D4EAF18EC10F949A6FA8D40C33A588C99988D972B8848F7AB5CAF4C9F60240
+              A159381A27C0C55B328D67BFF1E33E8CF1976D115F019D1180DDB52F038FA311
+              540E376C3A5470E23D30F1EC2B55B5BD12AD0AC5E3C7A85596AED33A9F0656AE
+              46CC5522664A2133A590B97244B91ACDE7022C932350AB32F9CC9115B389D220
+              323057D1331A65D31A8FE1FE84B5BF72249EFDCA017655BFD232F106E88800C8
+              D544A8DC0EC4994B7EE373F9176ECE90CFC653214ECD5A58235B811AC3E43347
+              162D07ADA2323BCBC9238713DDC38D608C32575D10AE7CCEE182CD09D1C97AF1
+              ACAC2FBD55AE4E71F4AA0574AE54AC5FF92C10A72D558E82AE6CBC7A9EF0EC9D
+              B933DB36A3F151E97634816A6C149E387CA8A5753BF07D26279EA1787CA2FD99
+              5FD533BE094784E7ECC836DEF69A10AACF9CFED793ACA97DBE650612D0D972F1
+              1FC9BF1EE1AB0064066160674392874F86EC3FB2905A2802037987B643EF02F9
+              FE01F20383F4150616398116F16B0CB54A99EA5C896A79B6EDDAC561140FFED9
+              0274F1962C5BD63532FC144A4F2DCC7E91D7CA0D956FB6C7C9CAE8FC85111FCD
+              7F13888B47F5AD877CE36384FB8F061C3EB160380A50E893F66FE93CFD3E1132
+              D91CAEE7E17A1E2A60C290280C09EAF5B666FBD9F003A55C5B9C05BD6D83C785
+              9B12547FE599B3774FDF900F54FFC00A432BA0B3F70500B8E65D44CE2B813E6A
+              27C0CBD3E810C9459B3284913231192F19A71D454104FDB9F653C95415BF5E83
+              8E145F3FCDAF59720C6EE398C7054983EF4F9D3DF85542FD8B0EB0B8081DBF33
+              48DE573F007AF3990FCA47206A50F45AE0922D59D69DE31DF30365A66212133F
+              7A892052664A4B077FFDB0CBB3B6651BABDBB01C5BFD0BF890ECAD3D659FCBC5
+              E8CEA551F5DA5F827C0788B7357307205CD930731C78CECE1C9BD72C5650C6C4
+              174BCC55CDAABA43D02894AACA5C656974737C8DCBB377E51A6BAEA816AFFB67
+              0ED7E8B7A9573FDE297ECF46F7EE0DBC7D603D61F473203ED6EC7830B01BDCC6
+              B9754F4E043C757C99024F22E43290CFC4D1BC5EC028D4EA4A3D58E6C493C0AE
+              8D19766E4C08F44475283D115BFE318EE13A2F90F7958FD9E77829BA7B73E8AD
+              7D2FC7917FE0F4CDA14E665E081A176A38351BF1C8417FC56CE2AC27F465DB8F
+              28A64518412D58AAEA4F23E3C1A5DB72C937874635987B12F4CC8B42445F2137
+              D4BE6F93DF46E8FEDDC11F2DFC09E89D0B1CB8D0BF3DDE263640CD37FCF260E3
+              BB045D07B21921EB09166F79016277B21FC6C99B8D9C5423FD0ECFDE9123974D
+              4AEF9A83CA2116A5D20B7F2E3754FFD60EC7E9D09BEBE33F5AB81974EF22360A
+              5B20D7B8E68102CF4C861C7826484C0275243E8790F1C075C11552DFD9A7AA44
+              0A6118C7ED835012B7871957B8605386F1B55E72A7FAC5D8183E7BE110FD90DC
+              50BB79C5673A849E9DD7D68FF4DD859C73B740DF3AE81B6F702E2B861F28078E
+              054C4C36775DBB23B1812922080B3F5E4FFFA7B1C7AE19035304368D79ECDE9C
+              21E32675A781CAB1A55152E54EF960B523378224A17702701F2E070A9F017DF3
+              A22FDC3C0C6C0327F9E0452D509E3E11F4E46671C789B777BB3665C86753AC37
+              510DCA4F4374EEEE473ECBEECA5B3BE5EB4F424F2B36A8227C2C7F3BF09E455F
+              8803F9CD894BC269F8A132510C393619516AA9FC4B7A0CE41D368EBA8CAFF1C8
+              261DE33A8D7A11AA4759524341B88DF7576F10E95DD984DE96EC98877E2CFFDF
+              503EC1B97E09AF0085CDE0A6BF016CAE6A38391D512C19664BED1FE0108943D6
+              63430EEB873D06F24D589761351EF87049685A516E900F566F6B93BDB6B12A04
+              00403F96BF06E5EF80A567B87263710C419AF35CC7F97CF1650CE5BAA1528B13
+              31C348098D2ED860029E13D70AEACBC607340A7D0EFD7961A4DFC16DD6CF6042
+              A81E037FD970F41CC2DBE486EA7DCDBDB43358350200F0E60F7CF6FADB06F6EE
+              DDE09C5C7A3F9B38B120E4D68163A740C3E9A4D114C5C1D3C1F8B181572F2E55
+              F7C031B3FEC8FB2A1FBEE59E5BDF74B7258A6DA33BAEE094F85CEDBA6B764C3E
+              B2F9EEEA5B966A6E35717AD4CC63503E1C1B556DC2752D0D7E588D0DBC99C762
+              1E9719FC3B6B6F333B277FB5E59EEAB5D758A0680DAB4703BC4BC771A2C3CC7B
+              095F9EF93E9F1C780FBFE1353809EDF6417604B2A3D6B4426A98008219F0A797
+              5BE3CFE08968377F56FA2BBEEDBFF2CC93A8BB8DBF96A35DE13301AB4703B8E6
+              1A4EBB8881EF052FE105D33FE0A6F28D5475859278512D5E6B671E85B927E2BF
+              83D2B233B06DA881B014A7BBCF3D01338FC4994E2B0C7E450BEC29EFE5D9533F
+              3E7BF0011CC45C659FC1D6B07A34C0BBC39F00972DF7D52EF729F6166EE3BADC
+              BD6424C5A95C71E21D849B0727176B0737975E4B183F0ED2181F4C3D56F15125
+              9560059AE1F3F56BB8B9F27E0E462B5EA1F4133EE15D9E8E99CE627508C07B75
+              3751F43809FCEC700FF1BEFCDFF0C77DF7909356323A04441471151C07995738
+              71D91583461257B36C7EF358A38FCF54DFC46D957771C86C4B7EC0752FE27669
+              BBDA77BB581D4BC08079137DC9BD7E30DACE3B4B7FCDCEE22FD95BD9C3FEE8C2
+              260929A8114CE060EAF1AC8E2AF12C3781839AA607FFD7E145EC29EF65D7E4BF
+              F1A7A54FA41BFC9C18FACD1F35C97C47B03A34C02DD12F814B09152AA4B97BE2
+              0CAEC8FC9437E5BEC41B725F67BDD3F824922D1C37EBF94AFD757CBE760D3F0E
+              535D9616C301FA81D883F8287BDD677586C3F4E8BD00DCAACFC5987F59F4590D
+              A869D39A7897FB14AFCC3CC42BB3DFE3159987187392EF094C83920EF0707019
+              0F062FE341FF77F87FD1F39AAB7B2C409FC0B9E10D759ECB4D62ADDE4F2BE87C
+              5268122273ED1231EC03B2120B814F6A417832DAC9DDD14EEEAEBD0580ADCE11
+              2E729FE062EF712E71F7B3DD7D9A01293326C570DC395E1E75A643802933E24D
+              980DFD451DF34ADACFC1683B8F4517B13FBC805F471772C42CF54BA54616C8CB
+              F28BAD986BB158F0A915F45603A80A1F3607809D2BB631405DE32C5EFB21937F
+              8EBDFDF62E623C832CF1AC6FEC683AC41E6727223D0B06F55603DCC2154883C1
+              8778E6E40572C482E0130B850DA87C1900B1740F9F10F3D92769A7D6766EE572
+              E0612BF45B408F770126BD5BF4B4200C0B0C483CC3DA244EC6B9978C732FED8A
+              5406E817189198C766F4AA31D7B645BB4DF46E09B84F5D7E6D8E00ADD75F5720
+              00028DFFDF9C22FD3E9FF05E0AC0BBC37F025E92FA4987587766241EFCF67AF1
+              0491B3997DD29342FABDD3008F86BF433B830F71C76759987D4340615E3B2405
+              7954BEB4ECDFCBC19D5F82FAE7690C4BFC77161B53683D6EF8B2B6DFD2227A27
+              00AE633F2AB668A0E685E2F492519085AD584626709CFBCF3CE738F7939109FA
+              88DB14E69F195E4EB03AA034C5E9D932D01B01D8A759948E1E7A04E2D9E910AB
+              E91C90275EA307E4E77C5C16AA427F5C4ED12FBF202F719BDCFC330EDD592495
+              D77387367F8BA505F44600DCE8F7012BF7DEB504354B55BEB3CC67DDC308B3D1
+              EFF582708F9600E9A5E55BC3B8FF7BC9A719F7EB60A7067F4BD0DEF449F705E0
+              76ED07FE53D7E99E817C937DB2B4ACFDFB650EE4EF7BC0D069BC867D6AE532C8
+              66D07D01A8477F0029EF47EE04A491AAEFE93250C0895EDB6DA2DD1700D33B8B
+              1798A5E0AE5C6B3772BF0574EE6AF024F46037D05D01D8A76388BEAAAB3417E3
+              ABBC5B565EE7F7490DE1EB5DE4E71CE8EFF2114DAE696F11DD1500D75C850D27
+              6EAB302954FC723B84EE214368FE4B3709767909D05EAAFF93A8977CD3C6C5DE
+              7701FB9702A68574B78FBA2700FB7413C86F778DDEB910EE4DE56FBF5A22E0FE
+              C4761D83BC840F6B1B0908CDA17B02E02D4EFBEE3E9CF4AA5D9B686B1F0E6AAE
+              EE1EB16E417BAAFE9FE6C6266EDADACB0F110E768E9D2474AFAFBA2300B7E86E
+              10FB5937E9F1A5A6B26E4414430F0F6FCA65DCA2CDA63CB7842E6900F3467A99
+              7BD08A4A777BBA0C80983FEC06996E2D015DF931CB42798C9BE45F921B9E831B
+              E517288F7480A374305CD70D329D17805BF5F9C0A51DA7B312842FB6FCACC3BD
+              1639690EC225DCACCFEB3499CE0B40D4DB9C3770BEDCF2A3EA7C814EE422A785
+              74BEEF3A2B00AA8243D7B634CB30F053F6B671FE6EAF1C00FD9945869AC5B5CD
+              9D40691E9D4D0BFF3097003B9A78621A380A721474029501445F4FAB06A448EB
+              B37FE11D5F4269E2FCD722282AFF0BD112C838E8666033B072B9F4C5D836DF87
+              8FB6483F119D15808843B8FC9CD80638067A049C67408F0247519D00F7301E13
+              F81C619F2C2D237E4BF85690BB695E5B19702CACE1CEBD606E6F8DBEBE9D9BDC
+              FFB1E49B7D5A20CB1642C621DA8AC838B0196433984D205B8813667F497F67FD
+              11BD3F1B98063787D720720F4D09AC3EC45EEFE556E8DF123E04F2D2269E8810
+              7D2B7BBCCF5AA1DF41AC8EE3E149B8C9FB32AAD71167FFA74352AA775368EA5D
+              11A26F391F061FCE170100B8C9BB0FF48DA4138200CFF9AA35DA91F315E24369
+              892D517D337B3CEB377C760AE78F0000ECF5EEC7D1D7111F205F192ADFE183D2
+              FE9D71A7B14F8A200F26B4F211BD8A9BBCD6FD0E3DC0F9250000377A7F8FD1D7
+              D348083A91E2DD3851C447F46AF6785FB34EB7C338FF0400E043DE0360FE33CB
+              A7715708DD6F58A79977BF062C5712AC8EE81BD8E3D9A7D9059C9F0200B037F3
+              1DC4F93DA074CE37DF649F9CFB59FB78AF948173D3C62B605ECD1EAF63F7FA75
+              1AE7AF0000EC91EF23CE95C0C26DD1A21D8CE22D7A7719CC6BD89B49B20D5635
+              CE6F0100D8233F409D2B8103887C97D07DA063B422F75B20FF081C409DDF656F
+              E61F3B46AB4BF8FF95F861DFFDEF1BA60000000049454E44AE426082}
+          end
+        end
+      end
+      object UniLabel14: TUniLabel
+        AlignWithMargins = True
+        Left = 3
+        Top = 3
+        Width = 479
+        Height = 23
+        Hint = ''
+        Margins.Right = 20
         Alignment = taCenter
+        TextConversion = txtHTML
         AutoSize = False
-        Caption = 'Ranking de vendas'
+        Caption = '<h4 class = "titulos">Ranking de Vendas</h4>'
         Align = alTop
         ParentFont = False
-        Font.Height = -15
+        Font.Color = clWhite
+        Font.Height = -19
+        Font.Style = [fsBold]
         ParentColor = False
-        Color = 8453888
-        ClientEvents.UniEvents.Strings = (
+        Color = clWindow
+        ClientEvents.ExtEvents.Strings = (
           
-            'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-            'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-            'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-            'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-            '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-            ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-            '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-            '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-            'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-            '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-        TabOrder = 1
-      end
-      object panel_top3: TUniPanel
-        Left = 1
-        Top = 261
-        Width = 455
-        Height = 117
-        Hint = ''
-        Align = alTop
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+            '.addCls('#39'titulos'#39');'#13#10'}')
         TabOrder = 2
-        Caption = ''
-        object vendas3: TUniLabel
-          AlignWithMargins = True
-          Left = 4
-          Top = 39
-          Width = 447
-          Height = 29
-          Hint = ''
-          ParentCustomHint = False
-          ParentRTL = False
-          ParentShowHint = False
-          AutoSize = False
-          Caption = 'Valor em vendas'
-          Align = alTop
-          ParentFont = False
-          Font.Color = clGreen
-          Font.Height = -17
-          ParentColor = False
-          Color = 8453888
-          ClientEvents.UniEvents.Strings = (
-            
-              'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-              'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-              'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-              'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-              '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-              ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-              '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-              '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-              'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-              '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-          TabOrder = 1
-        end
-        object vendedor3: TUniLabel
-          AlignWithMargins = True
-          Left = 4
-          Top = 4
-          Width = 447
-          Height = 29
-          Hint = ''
-          ParentCustomHint = False
-          ParentRTL = False
-          ParentShowHint = False
-          AutoSize = False
-          Caption = 'Funcion'#225'rio'
-          Align = alTop
-          ParentFont = False
-          Font.Height = -16
-          Font.Style = [fsBold]
-          ParentColor = False
-          Color = 8453888
-          ClientEvents.UniEvents.Strings = (
-            
-              'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-              'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-              'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-              'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-              '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-              ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-              '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-              '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-              'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-              '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-          TabOrder = 2
-        end
-        object Progress3: TUniProgressBar
-          Left = 1
-          Top = 94
-          Width = 453
-          Hint = ''
-          Max = 40000
-          Position = 40000
-          Align = alBottom
-          Text = ''
-          TabOrder = 3
-        end
-        object UniLabel18: TUniLabel
-          Left = 1
-          Top = 74
-          Width = 453
-          Height = 20
-          Hint = ''
-          Alignment = taCenter
-          AutoSize = False
-          Caption = 'Percentual para atingir a meta'
-          Align = alBottom
-          ParentFont = False
-          Font.Color = clBlack
-          Font.Height = -16
-          ParentColor = False
-          Color = clWhite
-          TabOrder = 4
-        end
-        object UniImage5: TUniImage
-          Left = 408
-          Top = 8
-          Width = 40
-          Height = 40
-          Hint = ''
-          Center = True
-          Picture.Data = {
-            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
-            00200806000000737A7AF40000000473424954080808087C0864880000000970
-            485973000000EC000000EC01792871BD0000001974455874536F667477617265
-            007777772E696E6B73636170652E6F72679BEE3C1A0000065D4944415478DAA5
-            576B6C145514FEEECCECCC6E7797EDFB491F408B40798A04906034EA1F248118
-            E187111F89A145D4049157520801440A461221BC4C4850F40792C00F08D1F807
-            8DDA10494140CAA350FADCD2DA07ED3E667667AE676697C794EE76814976E7DC
-            7BCE3DE7BBE771EF19862778F89E798590F545E0EC0D1A55D054519CD506B01B
-            60FC341039C9AACE77A4AA93A564F8F0FC1CA8911A92AEA2A13282B84A6A0F80
-            69DB0848F73303E087E6BE0803C7892A786041E3180C1988E8B1B143023C2E01
-            8AE311751CED10D912B6FCAF3F9F1A003F307B01899C205236C77D833AFC3D51
-            8408C0708F4B6128C890E0F388F7A7340858CC96D79D7962007CFFDC1914D3DF
-            88F41806D07C5743EFA03192C3AC27C32BA224C70141B0860380319F559FBB98
-            32007E6C89889E96F3444EE3B4D9C60E0D0341BB715112E176BB2C0D81811074
-            5DB7F1CD9094173AC09865A21E99C5B3D8D29FF4D400EC9F5B45BB3F60D2ADDD
-            1174F5D9D7F9D247A1746C9105C27C4CE3776EB5A1BFF79E4D2E374344519623
-            AE14CBD98ABA6F53037070CE455A30354CB16E6856F168C465C58189932B2088
-            02789C616ED2A038355CBE0935ACD9944F2855E08C25673DABAE7B7E4400FCD0
-            AC4A18E2656BF75DB4FB7EFBEE73F2B230BAB400D1A88E864B37ACB90993CB21
-            5129B435FB71D76FAFBCDC740945D9526CA063125B597735398003B33FA0E9C3
-            267DA5498516B5677C5E410E0A8BF3D0DBDD87A65BAD0F00B8D29CF0B777A1A3
-            B5D3262F4B0C9565CA7D6BEFB3AABA232301D84ED31B7483E39FDB2A30A4E2CC
-            A4F2FADC9478417A7B9199EDB372C27C1AAF35E15EFFE0633E9E3A4681283093
-            FE8200D42407B07FE63E30C78A4088E37A9B8A448F403556FA5C39DC4E071C14
-            E3502084862B8DC3CA5614C956558047F6B115E7572607B0B7720724EF3AD3F5
-            97C803C230696A26A099745979F97079BCC8F0C9300BE21A010806C236597224
-            A69439219BC510EDAF651F5F5D9F1CC0EEE2CFE12ADA65D2F537C38F194FCFF4
-            614CF96874B677A39DE2CDC813132ACBE174C9F0B7510EB4753EB66646B93346
-            84DA56B3552D5F2707509BFE0A3C637E86A838FEBDA3211C316C42D9F979282E
-            C9B1CAEDAA55051C13A75440712A686DE9465787DFA64F710898544A27B91122
-            65CDAFB1CF7A7F4F0E80D3DCEEE27AA4154DEB193070DBAFD9C2A0B89C282C2D
-            816F940C35A45900149782FE010DED775AA106830F64A33AC7D8421959743423
-            D85A8F55AD33298779520016889D99DFC253F22104272EDC52E9A4E336101939
-            B970A7A7535C054B83A61908F4F5A3B7EBA1FBA3068343E4983E8EDCAF533207
-            EE1C626B7BAA86DA1A1E402DBC10B3AFC133B6201215F0F7F510296310C58732
-            B2D309A7DB63A9080707A185428FEC3CB6FB17C6BBE8AAA63B64A0B10381FFC6
-            B3CD184C09403C17DE230FEC83B734CDF4F4C5C6D8912CD3A12624586550CA6B
-            D198DAE9E314BA9E891C6C0A806BD56C4DEFD1E1D624EF0776FABE02933F82A7
-            CCA51B02E543142D743C4BE40D46DE17E3ABCD52D30D58A12AC9955096EF209E
-            611A27B7687BD99AFEB5896C8CD811A93BB2D6CA2CB211AE7C37E40C667641DD
-            743BF60574C473104E6A44323C02B27D22858AE6B41E8E606740E5F216E786EE
-            5DC9F48FDC13AE8EBE394FAAFBE188B74A2B91FCA224A7A94CA60C14140142FC
-            9231C8EF864A3D5A5F6F343CA8B418059165F70EC97F68739661B774E2D900D4
-            44BF43982F611CCE058E5FF0B6724C5B249F825B089A6D5A342E2505E0564F86
-            17B21FD5A5F299C8EBD438B3109CD44B6E93DE7D7A00B5DC0BCDF0939BD3CC5E
-            172AF93BDE18E508DD28139BAF9B74935E32BECBC88E31CC368C4262F5CE0C41
-            C8423ED6B181A703B025FA0E5D7FDFDBE6F4F8BE75AEC360DFC48CF24F29EB44
-            98111187E8E07C193649471399480E60AB411F1A7C4162FF09B3609ED4CC3897
-            5086B3D3D8242C7C72009B792644C3FCC291134834A246A8200F716CD5CD5054
-            24908B40170AB1990DFB919218C016BD9AB8FB93F9071BC54D71D9AD245B9344
-            B69A640F3E1980ADD1B3C47E29B16B85C9D8C4AE58F4763E814EA2AB482C7C16
-            1BA5975307B099538DF393D49AF7D2A885A4EED2FB13AA86F2B8C445DAD1743B
-            60FD02FD4F8B6BBD49FF7B483E97DEC594071994B08B290C466A008607954F39
-            F12B5195F45B4F006A6DFC6DFA7A32F82551D728395F450D6B4B456DEA001E82
-            384549F516EDA66908AF8C78C789B79078FE5455FE0F9BDE6F3FDB4D77BC0000
-            000049454E44AE426082}
-        end
-      end
-      object panel_top2: TUniPanel
-        Left = 1
-        Top = 144
-        Width = 455
-        Height = 117
-        Hint = ''
-        Align = alTop
-        TabOrder = 3
-        Caption = ''
-        object vendas2: TUniLabel
-          AlignWithMargins = True
-          Left = 4
-          Top = 39
-          Width = 447
-          Height = 29
-          Hint = ''
-          ParentCustomHint = False
-          ParentRTL = False
-          ParentShowHint = False
-          AutoSize = False
-          Caption = 'Valor em vendas'
-          Align = alTop
-          ParentFont = False
-          Font.Color = clGreen
-          Font.Height = -17
-          ParentColor = False
-          Color = 8453888
-          ClientEvents.UniEvents.Strings = (
-            
-              'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-              'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-              'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-              'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-              '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-              ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-              '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-              '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-              'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-              '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-          TabOrder = 1
-        end
-        object vendedor2: TUniLabel
-          AlignWithMargins = True
-          Left = 4
-          Top = 4
-          Width = 447
-          Height = 29
-          Hint = ''
-          ParentCustomHint = False
-          ParentRTL = False
-          ParentShowHint = False
-          AutoSize = False
-          Caption = 'Funcion'#225'rio'
-          Align = alTop
-          ParentFont = False
-          Font.Height = -16
-          Font.Style = [fsBold]
-          ParentColor = False
-          Color = 8453888
-          ClientEvents.UniEvents.Strings = (
-            
-              'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-              'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-              'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-              'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-              '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-              ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-              '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-              '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-              'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-              '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-          TabOrder = 2
-        end
-        object Progress2: TUniProgressBar
-          Left = 1
-          Top = 94
-          Width = 453
-          Hint = ''
-          Max = 40000
-          Position = 40000
-          Align = alBottom
-          Text = ''
-          TabOrder = 3
-        end
-        object UniLabel21: TUniLabel
-          Left = 1
-          Top = 74
-          Width = 453
-          Height = 20
-          Hint = ''
-          Alignment = taCenter
-          AutoSize = False
-          Caption = 'Percentual para atingir a meta'
-          Align = alBottom
-          ParentFont = False
-          Font.Color = clBlack
-          Font.Height = -16
-          ParentColor = False
-          Color = clWhite
-          TabOrder = 4
-        end
-        object UniImage6: TUniImage
-          Left = 408
-          Top = 8
-          Width = 40
-          Height = 40
-          Hint = ''
-          Center = True
-          Picture.Data = {
-            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
-            00200806000000737A7AF40000000473424954080808087C0864880000000970
-            485973000000EC000000EC01792871BD0000001974455874536F667477617265
-            007777772E696E6B73636170652E6F72679BEE3C1A0000060C4944415478DAA5
-            57696C5455143EEFCD9BE95E28455BDB941698E942176AA58414140113229248
-            5CFE185109096D4563341121149DA4055362346A841294B8FFC2A009A8249250
-            02B2297483D24E57E832292D4DA1EBCC5BFCCE6D07A765663A2D27B979F7CD3D
-            F79EEF7EDFB9E7BE91680676F3E6CD044DD39E9724E939BCDAD01227863AD11C
-            86611CC7D86F292929DDC1AE2905E3E470381E5114A5048B17E235641AF731F8
-            1D349BCD7B1312127A1F1A405B5B5B011E47D11EF3FC36323242FDFDFD343636
-            26DE43424268EEDCB9141E1EEE3DB50BED65B0F1F7AC0120F8063C8EA159F8FD
-            F6EDDBD4D2D2424343433EFD23232369D1A245347FFE7CCF4F2EB44D00F1C78C
-            0120F8E3789CE175A13BD5D7D7534F4FCF7484098B8B8BA3F4F47432994CFC7A
-            4FD7F52701AC3A68004826537B7BFBBFE82E459FAAABABE9CE9D3B937C6459A6
-            E8E868B2582C343030705F0E8FB124B9B9B9C20F76353939391FB9A10505A0B5
-            B5B510CE15DC4702D2AD5BB7268D47444450565696784E00A6868606EAEAEA9A
-            E4B760C102B25AADE38124691B401C0E0A00E867BA7258EBCB972F1328FC7F82
-            24517E7EBED09B8DC778970CE2FCF9F3343A3A3A8925F69D007A15B990372D00
-            509F89C5EAB8DFD8D8481D1D1D93C639F0F2E5CB45BFAAAA8AEEDEBD4B2B57AE
-            147A739E74774F2E0149494964B3D93CAF4B00A23E2000D0BF05BB3CC2FD73E7
-            CE3DA06D545494D815FFCEE39C07CB962D1363B5B5B5E2A4785B686828151414
-            78D87B1D327C3F1D03FBC0C02ECEFCCACA4A5F0A09102E974BF43938D701A6FE
-            E2C58BC4F3A6DAEAD5AB3D27621F18D83D1D030780B4787070902E5DBA44FE8C
-            F5CDCBCB130C701E5CB97245C8E1CB5832960EE00E2C5EBC787B40004D4D4DE5
-            28BB3B788767CF9EF5B92027627676F6FD8253575717B046AC5AB54A1C575555
-            F7E3547C1010C0F5EBD777A0A496739F25F045297641D052F49B9B9B5936BFC1
-            997A96800DA7EAFDCCCCCC4F02020095CFCC9933E74F4C34B1A653CB2E1718A6
-            9ECDE97432600A647C3FAC58B18237A262AD7539393967020240024A384E7598
-            B8840B0B57414E328FA5A5A55162E2F82DDCDBDB3BA9467476768A4BCA639C98
-            0C363E3E9E868787EB32323272209F1110001B827E87A4798DE93B75EA949001
-            7921C6525353292626C65362BD818B72CDB583CDED7613AE645ABB76AD988FDD
-            7F8BDD6F991ACB27800B172E44A37AB500442C27E3C99327451271634A636363
-            7D02E8EBEB1392718D6000EBD7AF177370A27AE1BF10FA0F0605800D55AE08BB
-            FE0240CC7C244F9F3E2D8284858579CEF403C63B05D502DC9A356B4409062017
-            647A0BBB3FEC6B4EC0EF0154B60A04DD0A2614D6BAA6A6467C0FB01C4CAFF7EE
-            3938EF9A4F085F540C12C055687E1847F64D7F31A6FD22AAA9A92AD534838FA6
-            85E96449B8DE73C9E52F233666856B023EC1C8E303265C085E8E2BF9C340EB4F
-            0BA0B4F68D17E651E24F4F68CF6A2114610E0D093583018959E082E461004586
-            9B31E61A738D1A4363FF48BF9BFAE4EECD1F651F39F650003E6B78EFE721F7C0
-            8BBA6158E28C644AD4335C717A8A64228535F05429934EAADB29B71A1DF20D4B
-            8FD44EB224BB22CCD1BFBC9BF6E92BB306F0CD8D1D516E93C5891D868FE8C334
-            A20E9266A862CC426114AE478933372CDF4B75D1B81C2649A1302592C2E47066
-            68D8ACB9E2B7A6EFBF372B00158E3DAF82E01FBC7F5301C0AD8F92AA6BBA46DA
-            E7222899DE51644536CB210471A686D85C642BFD7176001A4B4EC063835F07D9
-            C89741B6AE1BFEAF4D493A51642DDD3863005F5FB3CF532D6A374D7C92FBB0E6
-            426B990D796854384A580A9B1F3FB7A42B098569769F7F52FC02A868DC534492
-            71D0DFB8215169B1B54C1CB18AA63DA5380A257E7D0D2A2A4E2D3B3433008E12
-            FE1C7ACADFB84C52D6365BE935EE1F6AD8956EC8A67A7FBEB87D2A8B6D654F07
-            0DC06ED8E5F826ED574CEDC7DD856F72A3079E6F1B2459275CAA8B6C65B95300
-            57E1B1747C51A30951BF44EF51309584678CD36ADA6497EC7A50007CD957ADF6
-            7893AAFE856E26DA4E0028F71E3FE4D8BD13003FC68A0D8666AC2B4EDBDB19CC
-            BA4103F0805054F5B8AE2A2F1567D8DBBCC70ED6DB5364453DAA2ACAC6ED0BED
-            CE60D7FC0F8AC2B23F3D5820830000000049454E44AE426082}
-        end
-      end
-      object panel_top1: TUniPanel
-        Left = 1
-        Top = 32
-        Width = 455
-        Height = 112
-        Hint = ''
-        Align = alTop
-        TabOrder = 4
-        Caption = ''
-        object vendas1: TUniLabel
-          AlignWithMargins = True
-          Left = 4
-          Top = 39
-          Width = 447
-          Height = 29
-          Hint = ''
-          ParentCustomHint = False
-          ParentRTL = False
-          ParentShowHint = False
-          AutoSize = False
-          Caption = 'Valor em vendas'
-          Align = alTop
-          ParentFont = False
-          Font.Color = clGreen
-          Font.Height = -17
-          ParentColor = False
-          Color = 8453888
-          ClientEvents.UniEvents.Strings = (
-            
-              'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-              'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-              'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-              'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-              '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-              ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-              '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-              '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-              'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-              '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-          TabOrder = 1
-        end
-        object vendedor1: TUniLabel
-          AlignWithMargins = True
-          Left = 4
-          Top = 4
-          Width = 447
-          Height = 29
-          Hint = ''
-          ParentCustomHint = False
-          ParentRTL = False
-          ParentShowHint = False
-          AutoSize = False
-          Caption = 'Funcion'#225'rio'
-          Align = alTop
-          ParentFont = False
-          Font.Height = -16
-          Font.Style = [fsBold]
-          ParentColor = False
-          Color = 8453888
-          ClientEvents.UniEvents.Strings = (
-            
-              'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
-              'adingText='#39'Carregando...'#39';'#13#10'    config.grouped=false;'#13#10'    confi' +
-              'g.selectedCls='#39#39';'#13#10'    config.itemTp1='#39'<table style="width:100%;' +
-              'white-space: nowrap;vertical-align:middle;">'#39'+'#13#10#13#10'              ' +
-              '      '#39'<tr>'#39'+'#13#10'                        '#39'<td style="color:#3a6383' +
-              ';padding-left:5px;" colspan="2">Vendedor: {0}</td>'#39'+'#13#10'          ' +
-              '          '#39'</tr>'#39'+'#13#10#13#10'                    '#39'<tr>'#39'+'#13#10'             ' +
-              '           '#39'<td style="font-size:15px;padding-top:4px;padding-le' +
-              'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
-              '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
-          TabOrder = 2
-        end
-        object Progress1: TUniProgressBar
-          Left = 1
-          Top = 89
-          Width = 453
-          Hint = ''
-          Max = 40000
-          Position = 40000
-          Align = alBottom
-          Text = ''
-          TabOrder = 3
-        end
-        object UniLabel24: TUniLabel
-          Left = 1
-          Top = 69
-          Width = 453
-          Height = 20
-          Hint = ''
-          Alignment = taCenter
-          AutoSize = False
-          Caption = 'Percentual para atingir a meta'
-          Align = alBottom
-          ParentFont = False
-          Font.Color = clBlack
-          Font.Height = -16
-          ParentColor = False
-          Color = clWhite
-          TabOrder = 4
-        end
-        object UniImage7: TUniImage
-          Left = 408
-          Top = 8
-          Width = 40
-          Height = 40
-          Hint = ''
-          Center = True
-          Picture.Data = {
-            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
-            00200806000000737A7AF40000000473424954080808087C0864880000000970
-            485973000000EC000000EC01792871BD0000001974455874536F667477617265
-            007777772E696E6B73636170652E6F72679BEE3C1A000005B34944415478DAA5
-            976B6C544514C7FFE7BEDA6DBB85B6F4611FB03C5AC10215131223D168248040
-            90A84BFCC0F30BA0461263100A689A00ADA03141138490101E1A0D5B0341AAD4
-            F8014C7CC4C46895F2686B2885D2521E7D3F76F7DE3B9E7B7789D0DDBDBDA593
-            ECDE993B33677E73CE9973E612465144CB7BF980FC32889640A0985F1544BB5A
-            416884103530E914F92ADBDCCA24570BB7956743C70E08DAC0CDA411860759EA
-            01C8DA2ECAAFB8336600D1BCFD1948A29AAB8FD92F4C03E81B04068780B01E91
-            A0C880C703A4A50092747FEA4DD6869F7CBB7F79640071BD7C31EFFA24573598
-            2670B70BE8EC865D8F57645E3C631C9095C1926DD1215E613915557E3F6A00D1
-            BC750EEFE627AEA641E79DDE60B30E85DC588C8DA40185AC30556141E8856C3C
-            4B857BEA5C0308E19771BDE40FAE95C16095B7DC64CB0E5BDCDA615A6AE4D9D7
-            1FAB155505261544CC43F4270A1BE612050C7700D7CA37F0A40376A3B51DE8ED
-            8F1D949305648E8FD4BB7A80F6DBB163BC0C5890175D49ACA7A2AA43EE005AB6
-            59EA9A8D81C1C8EE87178D553CA5E8FFB6056881C62B13590B29C9B616A868F7
-            532302886BEF97828C0B76A3AD03E8EE8D05CC9F004A4F87307490AC3A038CF3
-            F2F9C989D44DE909F2EDBAE40CD052BE8E5F1FB61B8DCDB07D6058094F9021D8
-            E195E42C48295E6700997DA0D817152ED6D2A4AAA323006CABE447B9BDB00510
-            CF44D62C9940D9D9911D3A0158C502B04080DD34B172873340F396FD90E43710
-            0C02576FC0B158AA75033085FD40633F30F5FDE4DBFB962380D1F4CE5E49F36C
-            06DB174DCDD1ED8E018004306DB2AD01333CB4579EFAC9166780CB1BB6482959
-            1FDA8D8646CB71C60620B1294B4AECAAD9DFB5599EB1FF634780F0C5D5F3E5E4
-            DC5A525409579BACD4828401D30D8095BA264F85D04386D17D67BE3AE7C83947
-            0021407AC3C67AC5933903DD9DC0F59B96BB2700B09C309D01F8A8B676C4F6EB
-            1C478A0A79CC78AEDEAD574A0ECEE2C0291C01AC12FA67CD71252D7B25C91C70
-            2E7348D039A62B6ACC38235383F02483868290EF06877572E896393C4F2FE578
-            1182DE77FB9836EBE89AE132E247C2C697D2F550DE55252D2FD34E44F51C1815
-            4F8C26049F2C935F4B9C99497F70E70CA30F00A5653C4781DED3764F51EFF968
-            FAE95E5700B6162EAE7D934C799FE2CD55101A8A68C28A3E1AC77749893FC9BA
-            2B84FA58AAB5F399F6D1D3FB6E8585696CD2661D39106F8AE37D207461CD2122
-            699D929A2B5BCE81D616E0565BC41C129B478A4EB732A119E65DF32F97D370C1
-            445BB2DEDF6108431CD6661F599F688D116F44E1BF575709D37C574ECD50258D
-            3DDE8A0F5DF7D8F1F862128EA6688D5D3D8D9D717C66E4BCB3168C81CE3041FA
-            482D3BB6DD49FE8800FACC79AFE0F1A42F8D4D3926A5F3D94C4E53A524BE7A71
-            12229223BE2058F546186670807FBD21F4E84169DF6D0957065729177E3D3926
-            0063DE92E3A2B7C7CFF64D12651E8817BC21313B99A0C23A16F733958CB00853
-            DD90A0737D1AD5F1F193E42079D303F2CF35AB1E19402C5BE64530A99DB79822
-            FAFB615A371F3DEAEE5E0922476BB08574844AD01BBD11B1D74B7C53A254FBB6
-            3480A4601E9D8EF57E77008B56ACE4C58F3FEC143A04272AA1EB26D73FB5DFA9
-            CA265215892C5F50879D10A25574F6C4178F06B0C05FC32316271C609A73212B
-            1CDBCCDF1DC4D4506D60E9A801C4423FBB34AC2F1C2DC1907F511B2826CB0717
-            FA2D531427181786A6E4D3B75FC5FD48710058B191FF3F77D0CF4EAAADFE20A2
-            A9153B39EDEE483894C4463A5B7D70B41A38CF8FE712039833A9F69BFA08C0AB
-            D341D2A5844305CED30F81E75D03888A0A09BFD59FE2CB48A7F57DC48ED4C18A
-            7E9BBBA64587D4B15D9F1C06FC173FCAA2CD269EF319CFE17C4D45AC810C3C5D
-            BA9C2A2A4C570071A116FBF3F8D4FFC8D5529EB6956A4FEC79A87F817F2B4BAB
-            E2EA158E102FD29940AB1BB9AE011E8038C377F1D7E8ECD7CD0FF52D7ADDC779
-            B79A43D252FA2ED0EE56E67FC0E1303F48C5B0130000000049454E44AE426082}
-        end
       end
     end
   end
@@ -1482,7 +2120,7 @@ object MainForm: TMainForm
     Left = 0
     Top = 0
     Width = 281
-    Height = 679
+    Height = 695
     Hint = ''
     ParentColor = False
     Color = 8453888
@@ -1497,7 +2135,7 @@ object MainForm: TMainForm
       Align = alTop
       TabOrder = 1
       Caption = ''
-      Color = 8453888
+      Color = 7463168
       object UniLabel2: TUniLabel
         Left = 1
         Top = 1
@@ -1510,8 +2148,9 @@ object MainForm: TMainForm
         Align = alLeft
         TabOrder = 1
         OnClick = UniLabel2Click
+        ExplicitTop = 0
       end
-      object UniLabel5: TUniLabel
+      object Label_loja: TUniLabel
         Left = 1
         Top = 141
         Width = 279
@@ -11880,7 +12519,7 @@ object MainForm: TMainForm
       Left = 0
       Top = 187
       Width = 281
-      Height = 492
+      Height = 508
       Hint = ''
       Align = alClient
       Items.FontData = {0100000000}
@@ -11891,7 +12530,7 @@ object MainForm: TMainForm
     Left = 137
     Top = 249
     Images = {
-      0900000000000000061300000066612066612D6261722D63686172743B66613B
+      0A00000000000000061300000066612066612D6261722D63686172743B66613B
       00000000060F00000066612066612D7461736B733B66613B00000000060F0000
       0066612066612D63756265733B66613B00000000060F00000066612066612D6D
       6F6E65793B66613BFFFFFF1F045D05000089504E470D0A1A0A0000000D494844
@@ -12041,7 +12680,8 @@ object MainForm: TMainForm
       539C90E5EDB2DE2CA34FC120A9158CFA34700EA386F73C512FF7759FBC557080
       FF02D12451C0A18C40020000000049454E44AE42608200000000061400000066
       612066612D6C696E652D63686172743B66613B00000000061300000066612066
-      612D7069652D63686172743B66613B}
+      612D7069652D63686172743B66613B00000000061000000066612066612D7365
+      617263683B66613B}
   end
   object UniMenuItems1: TUniMenuItems
     Images = UniNativeImageList1

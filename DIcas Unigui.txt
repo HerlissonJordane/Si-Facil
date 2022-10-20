@@ -18,3 +18,13 @@ IconCls do NativeImageList
 
 No caption do UniLabel, você pode colar a tah HTML do icone da internet e na propriedade TextConversion, selecionar HTML
 
+No Evento Ext Js Event, você pode configurar ações JavaScript de acordo com cada evento.
+
+Pra trabalahr com Bootstrap no Unigui, se copia o link do CSS na página inicial do site do bootstrap para o Custom Meta no serverModule.
+
+Para adicionar comandos bootstrap direto no componente, colocando no BeforeInit do UniEvents
+function beforeInit(sender, config)
+{
+ config.baseCls =  "progress-bar";
+ config.Cls =  "bg-info";
+}

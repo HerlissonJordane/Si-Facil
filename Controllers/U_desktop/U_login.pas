@@ -75,8 +75,8 @@ begin
   if id_usuario.IsEmpty then begin
     Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
   end else begin
-    Frm_MainModule.id_usuario_conectado:=  id_usuario;
-    Frm_MainModule.usuario_conectado:= usuario;
+    UniServerModule.id_usuario_conectado:=  id_usuario;
+    UniServerModule.usuario_conectado:= usuario;
     ModalResult:= mrOK;
   end;
 

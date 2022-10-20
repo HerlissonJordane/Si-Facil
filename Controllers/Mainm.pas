@@ -84,7 +84,7 @@ end;
 
 procedure TMainmForm.UnimFormCreate(Sender: TObject);
 begin
-  Frm_MainModule.carrega_dados_conexao;
+  UniServerModule.carrega_dados_conexao;
   DatePicker.IconCls:= 'fa fa-calendar-o';
 end;
 
@@ -96,8 +96,8 @@ end;
 
 procedure TMainmForm.UnimFormShow(Sender: TObject);
 begin
-  MainmForm.Label_usuario.Caption:= 'Olá, ' +Frm_MainModule.usuario_conectado;
-  Label_loja.Caption:= Frm_MainModule.loja_logada;
+  MainmForm.Label_usuario.Caption:= 'Olá, ' +UniServerModule.usuario_conectado;
+  Label_loja.Caption:= UniServerModule.loja_logada;
   DatePicker.date:= Date;
   //Button_data_vendas.Caption:= DateToStr(Date);
   Atualiza_dados;

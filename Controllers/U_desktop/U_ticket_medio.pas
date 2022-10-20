@@ -26,6 +26,7 @@ type
     UniLabel9: TUniLabel;
     UniPanel2: TUniPanel;
     UniPanel3: TUniPanel;
+    bt_sair: TUniButton;
     procedure Button_buscarClick(Sender: TObject);
     procedure UniFormShow(Sender: TObject);
   private

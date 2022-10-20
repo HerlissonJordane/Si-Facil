@@ -1,0 +1,3 @@
+SiFacil.exe: 00000AA8: 17:50:47 [127.0.0.1]:Failed Sequence Recovery: SeqId: 22, Event: click
+SiFacil.exe: 00000AA8: 17:50:48 [127.0.0.1]:Sequence sent from cache:  SeqId: 22
+SiFacil.exe: 00000AA8: 17:50:48 [127.0.0.1]:Processed: Id: 22, Evt: click, [jXSMpIBsnD10B5653DD]

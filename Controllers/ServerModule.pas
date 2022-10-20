@@ -7,7 +7,7 @@ uses
   uniGUITypes, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error,
   FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool,
   FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait, Data.Win.ADODB, Data.DB,
-  FireDAC.Comp.Client;
+  FireDAC.Comp.Client, uniGUIBaseClasses, uniGUIClasses, uniImageList;
 
 type
   TUniServerModule = class(TUniGUIServerModule)
@@ -20,6 +20,7 @@ type
     ADOQuery_rankingcl_nome: TStringField;
     ADOQuery_rankingtotal: TCurrencyField;
     ADOQuery_ticket: TADOQuery;
+    ADOQuery1: TADOQuery;
   private
     function Data_Formato_americano(data: string): string;
     { Private declarations }
@@ -27,6 +28,8 @@ type
     procedure FirstInit; override;
   public
     { Public declarations }
+  var usuario_conectado, id_usuario_conectado, loja_logada: String;
+  procedure carrega_dados_conexao;
   end;
 
 function UniServerModule: TUniServerModule;
@@ -51,6 +54,24 @@ end;
 function TUniServerModule.Data_Formato_americano(data:string): string;
 begin
   Result:= copy(data,7,4)+'-'+copy(data,4,2)+'-'+copy(data,1,2);
+end;
+
+procedure TUniServerModule.carrega_dados_conexao;
+begin
+  if UniServerModule.ADOConnection1.Connected then begin
+    ADOQuery_dados.Close;
+    ADOQuery_dados.SQL.Clear;
+    ADOQuery_dados.SQL.Add('SELECT LJ_RAZAO FROM CAD_LJ');
+
+    ADOQuery_dados.Open;
+
+    loja_logada:= ADOQuery_dados.FieldByName('lj_razao').AsString;
+
+  end else begin
+    UniServerModule.ADOConnection1.Connected:= True;
+    carrega_dados_conexao;
+  end;
+
 end;
 
 initialization

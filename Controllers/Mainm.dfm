@@ -675,6 +675,7 @@ object MainmForm: TMainmForm
     Hint = ''
     Align = alLeft
     Color = clSilver
+    ExplicitHeight = 18
     object TreeMenu: TUnimTreeMenu
       Left = 0
       Top = 0

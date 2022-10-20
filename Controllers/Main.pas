@@ -12,7 +12,8 @@ uses
   uniImageList, uniTreeView, uniTreeMenu, Vcl.Imaging.pngimage, uniImage,
   uniSpeedButton, uniDateTimePicker, uniDBDateTimePicker, uniBasicGrid,
   uniDBGrid, uniDBVerticalGrid, uniDBTreeGrid, uniDBVerticalTreeGrid, uniMemo,
-  uniDBMemo, uniMultiItem, uniListBox, uniDBListBox, uniDBPivotGrid, DateUtils;
+  uniDBMemo, uniMultiItem, uniListBox, uniDBListBox, uniDBPivotGrid, DateUtils,
+  dxGDIPlusClasses;
 
 type
   TMainForm = class(TUniForm)
@@ -44,35 +45,36 @@ type
     UniLabel10: TUniLabel;
     UniLabel12: TUniLabel;
     UniProgressBar1: TUniProgressBar;
-    UniLabel5: TUniLabel;
+    Label_loja: TUniLabel;
     UniLabel13: TUniLabel;
-    UniPanel6: TUniPanel;
-    UniLabel14: TUniLabel;
     icketMdio1: TUniMenuItem;
     UniImage4: TUniImage;
     UniLabel11: TUniLabel;
     UniButton1: TUniButton;
     UniDateTimePicker1: TUniDateTimePicker;
-    panel_top3: TUniPanel;
-    vendas3: TUniLabel;
-    vendedor3: TUniLabel;
-    Progress3: TUniProgressBar;
-    UniLabel18: TUniLabel;
-    UniImage5: TUniImage;
-    panel_top2: TUniPanel;
-    vendas2: TUniLabel;
-    vendedor2: TUniLabel;
-    Progress2: TUniProgressBar;
-    UniLabel21: TUniLabel;
-    UniImage6: TUniImage;
-    panel_top1: TUniPanel;
+    Metasdeloja1: TUniMenuItem;
+    Metasdevendedores1: TUniMenuItem;
+    UniPanel6: TUniContainerPanel;
+    UniContainerPanel1: TUniContainerPanel;
+    UniPanel5: TUniPanel;
     vendas1: TUniLabel;
     vendedor1: TUniLabel;
     Progress1: TUniProgressBar;
-    UniLabel24: TUniLabel;
-    UniImage7: TUniImage;
-    Metasdeloja1: TUniMenuItem;
-    Metasdevendedores1: TUniMenuItem;
+    UniLabel19: TUniLabel;
+    UniImage8: TUniImage;
+    UniPanel7: TUniPanel;
+    vendas2: TUniLabel;
+    vendedor2: TUniLabel;
+    Progress2: TUniProgressBar;
+    UniLabel23: TUniLabel;
+    UniImage9: TUniImage;
+    UniPanel8: TUniPanel;
+    vendas3: TUniLabel;
+    vendedor3: TUniLabel;
+    Progress3: TUniProgressBar;
+    UniLabel27: TUniLabel;
+    UniImage10: TUniImage;
+    UniLabel14: TUniLabel;
     procedure UniLabel2Click(Sender: TObject);
     procedure UniFormShow(Sender: TObject);
     procedure UniButton1Click(Sender: TObject);
@@ -119,9 +121,9 @@ end;
 procedure TMainForm.UniFormShow(Sender: TObject);
 begin
   Atualiza_dados;
-  Frm_MainModule.carrega_dados_conexao;
-  UniLabel5.Caption:= Frm_MainModule.loja_logada;
-  UniLabel4.Caption:= 'Olá, '+Frm_MainModule.usuario_conectado;
+  UniServerModule.carrega_dados_conexao;
+  Label_loja.Caption:= UniServerModule.loja_logada;
+  UniLabel4.Caption:= 'Olá, '+UniServerModule.usuario_conectado;
   UniPanel6.Left:= Round(Panel_central.Width/2) - Round(UniPanel6.Width/2);
 end;
 
@@ -130,8 +132,10 @@ begin
   TreeMenu.Micro:= not(TreeMenu.Micro);
   if TreeMenu.Micro then begin
     Panel_menu.Width:= 44;
+    Label_loja.Visible:= False;
   end else begin
     Panel_menu.Width:= 281;
+    Label_loja.Visible:= True;
   end;
 end;
 

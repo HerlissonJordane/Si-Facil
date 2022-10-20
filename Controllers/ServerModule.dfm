@@ -5,17 +5,72 @@ object UniServerModule: TUniServerModule
   Title = 'New Application'
   SuppressErrors = []
   Bindings = <>
+  MainFormDisplayMode = mfPage
   CustomCSS.Strings = (
     '.x-form-text {'
-    '    border-radius: 10px;}'
+    '    border-radius: 8px;}'
     ''
     '.estiliza{'
-    '   backgrond-color: lightblue;'
+    '   text-shadow: 4px 4px 5px #0a0310;'
     '   }'
     ''
     '.DatePicker{'
+    '   border: 2px solid !important;'
+    '   border-radius: 5px;'
+    '   border-color:#fff !important;'
+    '}'
+    ''
+    '.botaovermelho{'
+    '   background:DodgerBlue !important;'
+    '   color:#fff !important;'
+    '   border: 2px solid;'
+    '   border-radius: 5px;'
+    '   border-color:#fff;'
+    '   -webkit-transition: background 0.5s ease-in-out;'
+    
+      '   transition: background 0.5s ease-in-out;                     ' +
+      ' '
+    '}'
+    ''
+    '.titulos{'
+    '   background-color: #1E90FF !important;'
+    '   text-align: center;'
+    '}'
+    ''
+    '.paineis{'
+    '   border-style: outset !important;'
+    '   box-shadow: 6px 6px 6px DarkSlateGray !important;'
+    '}'
+    ''
+    '.valores{'
+    '   border-style: outset !important;'
+    '}'
+    ''
+    '.progressbar{'
+    '   border-radius: 10px;'
+    '   background:Wheat'#9' !important;'
+    '   font-size: 20px;'
+    '}'
+    ''
+    ' .x-progress-default .x-progress-text {'
+    '    color: Black;'
+    '    font-weight: bold;'
+    '    font-size: 18px;'
+    '    font-family: helvetica, arial, verdana, sans-serif;'
     '    text-align: center;'
-    '    }')
+    '    line-height: 25px;'
+    ' }'
+    ' '
+    ' x-progress-bar {'
+    '   background-color: blue !important; '
+    ' }'
+    '')
+  CustomMeta.Strings = (
+    
+      '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/' +
+      'bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/S' +
+      'FnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" cross' +
+      'origin="anonymous">')
   SSL.SSLOptions.RootCertFile = 'root.pem'
   SSL.SSLOptions.CertFile = 'cert.pem'
   SSL.SSLOptions.KeyFile = 'key.pem'
@@ -26,8 +81,8 @@ object UniServerModule: TUniServerModule
   SSL.SSLOptions.VerifyDepth = 0
   ConnectionFailureRecovery.ErrorMessage = 'Connection Error'
   ConnectionFailureRecovery.RetryMessage = 'Retrying...'
-  Height = 224
-  Width = 357
+  Height = 337
+  Width = 470
   object FDConnection1: TFDConnection
     Left = 48
     Top = 72
@@ -51,8 +106,8 @@ object UniServerModule: TUniServerModule
   object ADOQuery_dados: TADOQuery
     Connection = ADOConnection1
     Parameters = <>
-    Left = 280
-    Top = 88
+    Left = 336
+    Top = 152
   end
   object ADOQuery_ranking: TADOQuery
     Connection = ADOConnection1
@@ -76,5 +131,11 @@ object UniServerModule: TUniServerModule
     Parameters = <>
     Left = 24
     Top = 8
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 312
+    Top = 32
   end
 end
