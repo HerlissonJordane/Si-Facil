@@ -17,12 +17,9 @@ type
     UniPanel5: TUniPanel;
     UniEdit1: TUniEdit;
     UniLabel2: TUniLabel;
-    UniPanel6: TUniPanel;
     UniEdit2: TUniEdit;
-    UniPanel7: TUniPanel;
     UniPanel9: TUniPanel;
     UniEdit4: TUniEdit;
-    UniPanel10: TUniPanel;
     UniPanel8: TUniPanel;
     UniPanel11: TUniPanel;
     UniButton1: TUniButton;

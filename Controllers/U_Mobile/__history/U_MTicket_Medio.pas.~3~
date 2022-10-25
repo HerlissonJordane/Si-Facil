@@ -1,0 +1,51 @@
+unit U_MTicket_Medio;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUImClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniBitBtn, unimBitBtn, uniButton, unimButton, uniDateTimePicker,
+  unimDatePicker, unimPanel, uniGUIBaseClasses, uniLabel, unimLabel;
+
+type
+  TUnimForm2 = class(TUnimForm)
+    UnimLabel1: TUnimLabel;
+    UnimPanel1: TUnimPanel;
+    UnimPanel2: TUnimPanel;
+    UnimPanel3: TUnimPanel;
+    UnimPanel4: TUnimPanel;
+    UnimDatePicker1: TUnimDatePicker;
+    UnimDatePicker2: TUnimDatePicker;
+    UnimLabel2: TUnimLabel;
+    UnimLabel3: TUnimLabel;
+    UnimLabel4: TUnimLabel;
+    UnimLabel5: TUnimLabel;
+    UnimLabel6: TUnimLabel;
+    UnimLabel7: TUnimLabel;
+    UnimLabel8: TUnimLabel;
+    UnimLabel9: TUnimLabel;
+    UnimButton1: TUnimButton;
+    UnimBitBtn1: TUnimBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UnimForm2: TUnimForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication;
+
+function UnimForm2: TUnimForm2;
+begin
+  Result := TUnimForm2(Frm_MainModule.GetFormInstance(TUnimForm2));
+end;
+
+end.

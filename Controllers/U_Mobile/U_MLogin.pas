@@ -8,16 +8,23 @@ uses
   uniGUIClasses, uniGUImClasses, uniGUIRegClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
   uniButton, unimButton, uniGUIBaseClasses, uniLabel, unimLabel, uniEdit,
   unimEdit, uniMultiItem, unimSelect, uniImage, unimImage, Data.DB,
-  Data.Win.ADODB, Vcl.Imaging.pngimage;
+  Data.Win.ADODB, Vcl.Imaging.pngimage, unimPanel, uniPanel;
 
 type
   TFrm_MLogin = class(TUnimLoginForm)
     UnimButton1: TUnimButton;
+    UnimLabel1: TUnimLabel;
+    UnimPanel1: TUnimPanel;
+    UnimContainerPanel1: TUnimContainerPanel;
+    UnimPanel2: TUnimPanel;
     UnimImage1: TUnimImage;
-    UnimSelect1: TUnimSelect;
-    UnimEdit_usuario: TUnimEdit;
+    UnimPanel3: TUnimPanel;
     UnimEdit_senha: TUnimEdit;
+    UnimEdit_usuario: TUnimEdit;
+    UnimSelect1: TUnimSelect;
     procedure UnimButton1Click(Sender: TObject);
+    procedure UnimLoginFormCreate(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -69,6 +76,14 @@ begin
     ModalResult:= mrOK;
   end;
 
+end;
+
+procedure TFrm_MLogin.UnimLoginFormCreate(Sender: TObject);
+begin
+  //insere legenda no comboBox de seleção de loja
+  with UnimSelect1 do begin
+    JSInterface.JSConfig('placeholder', ['selecione a loja'])
+  end;
 end;
 
 function TFrm_MLogin.Criptografar(wStri: String): String;

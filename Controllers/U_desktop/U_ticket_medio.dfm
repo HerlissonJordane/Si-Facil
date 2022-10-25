@@ -15,7 +15,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
   ScreenMask.Message = 'Carregando...'
   Layout = 'accordion'
   LayoutAttribs.Columns = 2
-  Images = UniServerModule.UniNativeImageList1
   ImageIndex = 3
   PixelsPerInch = 96
   TextHeight = 19
@@ -31,13 +30,12 @@ object Frm_ticket_medio: TFrm_ticket_medio
     Align = alTop
     ParentFont = False
     Font.Color = clWhite
-    Font.Height = -19
+    Font.Height = -24
     ClientEvents.ExtEvents.Strings = (
       
         'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
         'er.addCls('#39'titulos'#39');'#13#10'}')
     TabOrder = 0
-    ExplicitWidth = 481
   end
   object UniPanel1: TUniPanel
     Left = 0
@@ -48,23 +46,23 @@ object Frm_ticket_medio: TFrm_ticket_medio
     Align = alTop
     TabOrder = 1
     Caption = 'UniPanel1'
-    ExplicitWidth = 481
+    Color = 16777200
     object data_inicial: TUniDateTimePicker
-      Left = 16
-      Top = 34
+      Left = 24
+      Top = 33
       Width = 137
       Height = 31
       Hint = ''
-      DateTime = 44853.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       TimeFormat = 'HH:mm:ss'
       TabOrder = 1
       ParentFont = False
+      Font.Color = clBlack
       Font.Height = -16
       ClientEvents.ExtEvents.Strings = (
         
-          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
-          'er.addCls('#39'DatePicker'#39');'#13#10'}')
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'   sende' +
+          'r.addCls('#39'DatePicker'#39'); '#13#10'}')
     end
     object UniLabel2: TUniLabel
       Left = 24
@@ -77,23 +75,23 @@ object Frm_ticket_medio: TFrm_ticket_medio
     end
     object data_final: TUniDateTimePicker
       Left = 208
-      Top = 34
+      Top = 33
       Width = 137
       Height = 31
       Hint = ''
-      DateTime = 44853.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       TimeFormat = 'HH:mm:ss'
       TabOrder = 3
       ParentFont = False
+      Font.Color = clBlack
       Font.Height = -16
       ClientEvents.ExtEvents.Strings = (
         
-          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'      se' +
-          'nder.addCls('#39'DatePicker'#39');'#13#10'}')
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'   sende' +
+          'r.addCls('#39'DatePicker'#39'); '#13#10'}')
     end
     object UniLabel3: TUniLabel
-      Left = 216
+      Left = 208
       Top = 8
       Width = 67
       Height = 19
@@ -102,15 +100,22 @@ object Frm_ticket_medio: TFrm_ticket_medio
       TabOrder = 4
     end
     object Button_buscar: TUniButton
-      Left = 376
-      Top = 6
-      Width = 66
-      Height = 57
+      Left = 374
+      Top = 22
+      Width = 89
+      Height = 48
       Hint = ''
       Caption = 'Buscar'
+      ParentFont = False
+      Font.Height = -13
       TabOrder = 5
-      Images = UniServerModule.UniNativeImageList1
-      ImageIndex = 5
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
+          'der.addCls('#39'botoes'#39');'#13#10'}')
+      Images = MainForm.UniNativeImageList1
+      ImageIndex = 9
+      IconAlign = iaTop
       OnClick = Button_buscarClick
     end
   end
@@ -121,33 +126,36 @@ object Frm_ticket_medio: TFrm_ticket_medio
     Height = 352
     Hint = ''
     ParentColor = False
+    Color = 16777200
     Align = alClient
     TabOrder = 2
-    ExplicitLeft = 8
-    ExplicitTop = 102
     object ticket: TUniLabel
       AlignWithMargins = True
-      Left = 6
-      Top = 213
-      Width = 475
-      Height = 19
+      Left = 35
+      Top = 235
+      Width = 417
+      Height = 30
       Hint = ''
-      Margins.Left = 6
+      Margins.Left = 35
       Margins.Top = 10
-      Margins.Right = 6
+      Margins.Right = 35
       Margins.Bottom = 15
+      Alignment = taCenter
       AutoSize = False
       Caption = 'ticket'
       Align = alTop
       ParentFont = False
-      Font.Height = -16
+      Font.Height = -19
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
+          'der.addCls('#39'valores'#39'); '#13#10'}')
       TabOrder = 1
-      ExplicitWidth = 469
     end
     object UniLabel5: TUniLabel
       AlignWithMargins = True
       Left = 6
-      Top = 172
+      Top = 194
       Width = 475
       Height = 25
       Hint = ''
@@ -155,7 +163,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Margins.Top = 6
       Margins.Right = 6
       Margins.Bottom = 6
-      Alignment = taCenter
       AutoSize = False
       Caption = 'Ticket M'#233'dio'
       Align = alTop
@@ -163,34 +170,39 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Font.Height = -19
       ClientEvents.ExtEvents.Strings = (
         
-          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
-          'er.addCls('#39'titulos'#39');'#13#10'}')
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+          '.addCls('#39'sub-titulos'#39');'#13#10'}')
       TabOrder = 2
-      ExplicitWidth = 469
     end
     object total: TUniLabel
       AlignWithMargins = True
-      Left = 6
-      Top = 130
-      Width = 475
-      Height = 19
+      Left = 35
+      Top = 141
+      Width = 417
+      Height = 30
       Hint = ''
-      Margins.Left = 6
+      Margins.Left = 35
       Margins.Top = 10
-      Margins.Right = 6
+      Margins.Right = 35
       Margins.Bottom = 15
+      Alignment = taCenter
       AutoSize = False
       Caption = 'UniLabel4'
       Align = alTop
       ParentFont = False
-      Font.Height = -16
+      Font.Height = -19
+      ParentColor = False
+      Color = 15265223
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
+          'der.addCls('#39'valores'#39'); '#13#10'}')
       TabOrder = 3
-      ExplicitWidth = 469
     end
     object UniLabel7: TUniLabel
       AlignWithMargins = True
       Left = 6
-      Top = 89
+      Top = 100
       Width = 475
       Height = 25
       Hint = ''
@@ -198,7 +210,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Margins.Top = 6
       Margins.Right = 6
       Margins.Bottom = 6
-      Alignment = taCenter
       AutoSize = False
       Caption = 'Total em vendas'
       Align = alTop
@@ -206,29 +217,34 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Font.Height = -19
       ClientEvents.ExtEvents.Strings = (
         
-          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
-          'er.addCls('#39'titulos'#39');'#13#10'}')
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+          '.addCls('#39'sub-titulos'#39');'#13#10'}')
       TabOrder = 4
-      ExplicitWidth = 469
     end
     object vendas: TUniLabel
       AlignWithMargins = True
-      Left = 6
+      Left = 35
       Top = 47
-      Width = 475
-      Height = 19
+      Width = 417
+      Height = 30
       Hint = ''
-      Margins.Left = 6
+      Margins.Left = 35
       Margins.Top = 10
-      Margins.Right = 6
+      Margins.Right = 35
       Margins.Bottom = 15
+      Alignment = taCenter
       AutoSize = False
       Caption = 'UniLabel4'
       Align = alTop
       ParentFont = False
-      Font.Height = -16
+      Font.Height = -19
+      ParentColor = False
+      Color = 15265223
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
+          'der.addCls('#39'valores'#39'); '#13#10'}')
       TabOrder = 5
-      ExplicitWidth = 469
     end
     object UniLabel9: TUniLabel
       AlignWithMargins = True
@@ -244,7 +260,6 @@ object Frm_ticket_medio: TFrm_ticket_medio
       ParentCustomHint = False
       ParentRTL = False
       ParentShowHint = False
-      Alignment = taCenter
       AutoSize = False
       Caption = 'Quantidade de vendas'
       Align = alTop
@@ -255,46 +270,46 @@ object Frm_ticket_medio: TFrm_ticket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
-          '.addCls('#39'titulos'#39');'#13#10'}')
+          '.addCls('#39'sub-titulos'#39');'#13#10'}')
       TabOrder = 6
-      ExplicitWidth = 469
     end
     object UniPanel2: TUniPanel
       Left = 0
-      Top = 164
+      Top = 186
       Width = 487
       Height = 2
       Hint = ''
       Align = alTop
       TabOrder = 7
       Caption = 'UniPanel2'
-      ExplicitWidth = 481
     end
     object UniPanel3: TUniPanel
       Left = 0
-      Top = 81
+      Top = 92
       Width = 487
       Height = 2
       Hint = ''
       Align = alTop
       TabOrder = 8
       Caption = 'UniPanel2'
-      ExplicitWidth = 481
     end
     object bt_sair: TUniButton
-      Left = 376
-      Top = 272
-      Width = 66
-      Height = 57
+      Left = 365
+      Top = 288
+      Width = 98
+      Height = 41
       Hint = ''
       Caption = 'Sair'
+      ParentFont = False
+      Font.Height = -13
       TabOrder = 9
-      ClientEvents.UniEvents.Strings = (
+      ClientEvents.ExtEvents.Strings = (
         
-          'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'   config.bas' +
-          'eCls =  "btn";'#13#10'   config.Cls =  "btn-danger";'#13#10'}')
-      ImageIndex = 5
-      OnClick = Button_buscarClick
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'       s' +
+          'ender.addCls('#39'botoes-sair'#39');'#13#10'}')
+      Images = MainForm.UniNativeImageList1
+      ImageIndex = 10
+      OnClick = bt_sairClick
     end
   end
 end

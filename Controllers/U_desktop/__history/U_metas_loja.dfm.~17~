@@ -1,0 +1,296 @@
+object Frm_metas_loja: TFrm_metas_loja
+  Left = 0
+  Top = 0
+  ClientHeight = 425
+  ClientWidth = 534
+  Caption = 'Metas de loja'
+  OnShow = UniFormShow
+  BorderStyle = bsNone
+  OldCreateOrder = False
+  BorderIcons = [biSystemMenu]
+  MonitoredKeys.Keys = <>
+  Font.Height = -15
+  PixelsPerInch = 96
+  TextHeight = 18
+  object UniPanel1: TUniPanel
+    Left = 0
+    Top = 0
+    Width = 534
+    Height = 123
+    Hint = ''
+    Align = alTop
+    TabOrder = 0
+    Caption = ''
+    Color = 15265223
+    object UniLabel1: TUniLabel
+      Left = 1
+      Top = 36
+      Width = 532
+      Height = 20
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Escolha o m'#234's e ano para visualizar a meta'
+      Align = alTop
+      ParentFont = False
+      Font.Height = -15
+      Font.Style = [fsBold]
+      ParentColor = False
+      Color = 15265223
+      TabOrder = 1
+    end
+    object Button_buscar: TUniButton
+      Left = 384
+      Top = 67
+      Width = 114
+      Height = 41
+      Hint = ''
+      Caption = 'Buscar'
+      TabOrder = 2
+      ClientEvents.UniEvents.Strings = (
+        
+          'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'  config.base' +
+          'Cls = "btn";'#13#10'  config.cls = "btn-info"'#13#10'}')
+      ScreenMask.Enabled = True
+      ScreenMask.WaitData = True
+      ScreenMask.Message = 'Carregando dados...'
+      Images = MainForm.UniNativeImageList1
+      ImageIndex = 9
+      OnClick = Button_buscarClick
+    end
+    object ComboBox_mes: TUniComboBox
+      Left = 3
+      Top = 67
+      Width = 177
+      Height = 41
+      Hint = ''
+      Text = 'ComboBox_mes'
+      Items.Strings = (
+        'Janeiro'
+        'Fevereiro'
+        'Mar'#231'o'
+        'Abril'
+        'Maio'
+        'Junho'
+        'Julho'
+        'Agosto'
+        'Setembro'
+        'Outubro'
+        'Novembro'
+        'Dezembro')
+      TabOrder = 3
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'      se' +
+          'nder.addCls('#39'edit'#39');'#13#10'}')
+      EmptyText = 'Selecione o M'#234's'
+      CharCase = ecUpperCase
+      ClearButton = True
+      IconItems = <>
+    end
+    object SpinEdit_ano: TUniSpinEdit
+      Left = 210
+      Top = 67
+      Width = 120
+      Height = 41
+      Hint = ''
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
+          'er.addCls('#39'edit'#39');'#13#10'}')
+      TabOrder = 4
+      ParentFont = False
+      Font.Height = -16
+    end
+    object UniLabel3: TUniLabel
+      AlignWithMargins = True
+      Left = 4
+      Top = 4
+      Width = 526
+      Height = 29
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Metas de Loja'
+      Align = alTop
+      ParentFont = False
+      Font.Color = clWhite
+      Font.Height = -21
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
+          'er.addCls('#39'titulos'#39');'#13#10'}')
+      TabOrder = 5
+    end
+  end
+  object UniPanel2: TUniPanel
+    Left = 0
+    Top = 123
+    Width = 534
+    Height = 302
+    Hint = ''
+    Align = alClient
+    TabOrder = 1
+    Caption = ''
+    Color = 15265223
+    object ProgressBar_meta: TUniProgressBar
+      AlignWithMargins = True
+      Left = 4
+      Top = 132
+      Width = 526
+      Hint = ''
+      Max = 150000
+      Position = 35000
+      Align = alTop
+      Text = ''
+      TabOrder = 1
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
+          'er.addCls('#39'progressbar'#39');'#13#10'}')
+    end
+    object UniLabel2: TUniLabel
+      AlignWithMargins = True
+      Left = 4
+      Top = 4
+      Width = 526
+      Height = 29
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Meta atual do m'#234's de "m'#234's escolhido"'
+      Align = alTop
+      ParentFont = False
+      Font.Height = -20
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
+          'er.addCls('#39'sub-titulos'#39');'#13#10'}')
+      TabOrder = 2
+    end
+    object UniEdit_meta: TUniEdit
+      AlignWithMargins = True
+      Left = 26
+      Top = 39
+      Width = 482
+      Height = 40
+      Hint = ''
+      Margins.Left = 25
+      Margins.Right = 25
+      Margins.Bottom = 30
+      BorderStyle = ubsNone
+      Alignment = taCenter
+      Text = 'Meta prevista para o m'#202's atual'
+      ParentFont = False
+      Font.Color = clGreen
+      Font.Height = -19
+      Align = alTop
+      TabOrder = 3
+      ReadOnly = True
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+          '.addCls('#39'edit'#39');'#13#10'}')
+      InputMask.UnmaskText = True
+      InputMask.RemoveWhiteSpace = True
+    end
+    object Button_alterar: TUniButton
+      Left = 26
+      Top = 223
+      Width = 136
+      Height = 39
+      Hint = ''
+      Caption = 'Alterar Meta'
+      TabOrder = 4
+      ClientEvents.UniEvents.Strings = (
+        
+          'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'   config.bas' +
+          'eCls = "btn";'#13#10'  config.cls = "btn-info"'#13#10'}')
+      OnClick = Button_alterarClick
+    end
+    object Button_gravar: TUniButton
+      Left = 191
+      Top = 223
+      Width = 170
+      Height = 39
+      Hint = ''
+      Enabled = False
+      Caption = 'Gravar nova Meta'
+      TabOrder = 5
+      ClientEvents.UniEvents.Strings = (
+        
+          'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'   config.bas' +
+          'eCls = "btn";'#13#10'   config.cls = "btn-info"'#13#10'}')
+      OnClick = Button_gravarClick
+    end
+    object UniButton4: TUniButton
+      Left = 382
+      Top = 223
+      Width = 116
+      Height = 39
+      Hint = ''
+      Caption = 'Sair'
+      TabOrder = 6
+      ClientEvents.UniEvents.Strings = (
+        
+          'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'   config.bas' +
+          'eCls = "btn";'#13#10'   config.cls = "btn-danger"'#13#10'}')
+      Images = MainForm.UniNativeImageList1
+      ImageIndex = 10
+      OnClick = UniButton4Click
+    end
+    object UniLabel5: TUniLabel
+      Left = 1
+      Top = 109
+      Width = 532
+      Height = 20
+      Hint = ''
+      AutoSize = False
+      Caption = 'Percentual atingido da meta mensal'
+      Align = alTop
+      ParentFont = False
+      Font.Height = -15
+      Font.Style = [fsBold]
+      TabOrder = 7
+    end
+    object Label_total: TUniLabel
+      Left = 4
+      Top = 158
+      Width = 229
+      Height = 20
+      Hint = ''
+      AutoSize = False
+      Caption = 'R$ 35.000,00'
+      ParentFont = False
+      Font.Height = -15
+      Font.Style = [fsBold]
+      TabOrder = 8
+    end
+    object Label_meta: TUniLabel
+      Left = 329
+      Top = 158
+      Width = 195
+      Height = 20
+      Hint = ''
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Valor de venda atual para atingir a meta at'#233' a data de hoje'
+      ParentFont = False
+      Font.Height = -15
+      Font.Style = [fsBold]
+      TabOrder = 9
+    end
+  end
+  object ADOQuery_meta: TADOQuery
+    Connection = UniServerModule.ADOConnection1
+    Parameters = <>
+    Left = 464
+    Top = 169
+  end
+  object ADOQuery_vendas: TADOQuery
+    Connection = UniServerModule.ADOConnection1
+    Parameters = <>
+    Left = 448
+    Top = 201
+  end
+end

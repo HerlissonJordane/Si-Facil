@@ -226,6 +226,7 @@ object MainForm: TMainForm
   AutoScroll = True
   MonitoredKeys.Keys = <>
   Layout = 'form'
+  OnCreate = UniFormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Panel_central: TUniContainerPanel
@@ -244,7 +245,6 @@ object MainForm: TMainForm
     LayoutAttribs.Align = 'middle'
     LayoutAttribs.Columns = 1
     LayoutConfig.ColumnWidth = 50.000000000000000000
-    ExplicitLeft = 286
     ScrollHeight = 695
     ScrollWidth = 919
     object UniContainerPanel3: TUniContainerPanel
@@ -254,7 +254,7 @@ object MainForm: TMainForm
       Height = 54
       Hint = ''
       ParentColor = False
-      Color = 7463168
+      Color = 4638752
       Align = alTop
       TabOrder = 1
       object UniLabel3: TUniLabel
@@ -338,7 +338,7 @@ object MainForm: TMainForm
         ClientEvents.ExtEvents.Strings = (
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'   sende' +
-            'r.addCls('#39'botaovermelho'#39'); '#13#10'}')
+            'r.addCls('#39'botoes'#39'); '#13#10'}')
         ScreenMask.Enabled = True
         ScreenMask.WaitData = True
         ScreenMask.Message = 'Atualizando dados...'
@@ -358,7 +358,7 @@ object MainForm: TMainForm
         Margins.Right = 2
         Margins.Bottom = 8
         BodyRTL = False
-        DateTime = 44854.000000000000000000
+        DateTime = 44857.000000000000000000
         ShowBlankDate = False
         Align = alLeft
         TabOrder = 5
@@ -987,14 +987,14 @@ object MainForm: TMainForm
         end
       end
     end
-    object UniPanel6: TUniContainerPanel
+    object Panel_Ranking: TUniContainerPanel
       AlignWithMargins = True
       Left = 3
-      Top = 236
+      Top = 246
       Width = 502
-      Height = 449
+      Height = 439
       Hint = ''
-      Margins.Top = 0
+      Margins.Top = 10
       Margins.Bottom = 10
       ParentCustomHint = False
       ParentRTL = False
@@ -1003,13 +1003,17 @@ object MainForm: TMainForm
       Color = 15265223
       Align = alLeft
       ParentAlignmentControl = False
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+          '.addCls('#39'alinha'#39');'#13#10'}')
       TabOrder = 3
       Layout = 'vbox'
       object UniContainerPanel1: TUniContainerPanel
         Left = 0
-        Top = 29
+        Top = 33
         Width = 502
-        Height = 420
+        Height = 406
         Hint = ''
         Margins.Left = 10
         Margins.Top = 0
@@ -1025,7 +1029,7 @@ object MainForm: TMainForm
         AutoScroll = True
         TabOrder = 1
         Layout = 'vbox'
-        ScrollHeight = 420
+        ScrollHeight = 406
         ScrollWidth = 502
         object UniPanel5: TUniPanel
           AlignWithMargins = True
@@ -1076,9 +1080,6 @@ object MainForm: TMainForm
                 'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
                 '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
             TabOrder = 1
-            ExplicitLeft = 4
-            ExplicitTop = 38
-            ExplicitWidth = 474
           end
           object vendedor1: TUniLabel
             AlignWithMargins = True
@@ -1111,9 +1112,6 @@ object MainForm: TMainForm
                 'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
                 '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
             TabOrder = 2
-            ExplicitLeft = 4
-            ExplicitTop = 4
-            ExplicitWidth = 474
           end
           object Progress1: TUniProgressBar
             AlignWithMargins = True
@@ -1131,9 +1129,6 @@ object MainForm: TMainForm
               
                 'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
                 '.addCls('#39'progressbar'#39');'#13#10'}')
-            ExplicitLeft = 4
-            ExplicitTop = 86
-            ExplicitWidth = 474
           end
           object UniLabel19: TUniLabel
             Left = 0
@@ -1151,9 +1146,6 @@ object MainForm: TMainForm
             ParentColor = False
             Color = clWhite
             TabOrder = 4
-            ExplicitLeft = 1
-            ExplicitTop = 63
-            ExplicitWidth = 480
           end
           object UniImage8: TUniImage
             Left = 405
@@ -1408,9 +1400,6 @@ object MainForm: TMainForm
                 'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
                 '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
             TabOrder = 1
-            ExplicitLeft = 4
-            ExplicitTop = 39
-            ExplicitWidth = 474
           end
           object vendedor2: TUniLabel
             AlignWithMargins = True
@@ -1443,9 +1432,6 @@ object MainForm: TMainForm
                 'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
                 '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
             TabOrder = 2
-            ExplicitLeft = 4
-            ExplicitTop = 4
-            ExplicitWidth = 474
           end
           object Progress2: TUniProgressBar
             AlignWithMargins = True
@@ -1463,9 +1449,6 @@ object MainForm: TMainForm
               
                 'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
                 'er.addCls('#39'progressbar'#39');'#13#10'}')
-            ExplicitLeft = 4
-            ExplicitTop = 91
-            ExplicitWidth = 474
           end
           object UniLabel23: TUniLabel
             Left = 0
@@ -1483,9 +1466,6 @@ object MainForm: TMainForm
             ParentColor = False
             Color = clWhite
             TabOrder = 4
-            ExplicitLeft = 1
-            ExplicitTop = 68
-            ExplicitWidth = 480
           end
           object UniImage9: TUniImage
             Left = 405
@@ -1769,9 +1749,6 @@ object MainForm: TMainForm
                 'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
                 '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
             TabOrder = 1
-            ExplicitLeft = 4
-            ExplicitTop = 39
-            ExplicitWidth = 474
           end
           object vendedor3: TUniLabel
             AlignWithMargins = True
@@ -1804,9 +1781,6 @@ object MainForm: TMainForm
                 'ft:5px;color:#535454;">TOtal: {1}</td>'#39'+'#13#10'                    '#39'<' +
                 '/tr>'#39'+'#13#10'                    '#39'</table>'#39';'#13#10'}'#13#10)
             TabOrder = 2
-            ExplicitLeft = 4
-            ExplicitTop = 4
-            ExplicitWidth = 474
           end
           object Progress3: TUniProgressBar
             AlignWithMargins = True
@@ -1824,9 +1798,6 @@ object MainForm: TMainForm
               
                 'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
                 'er.addCls('#39'progressbar'#39');'#13#10'}')
-            ExplicitLeft = 4
-            ExplicitTop = 91
-            ExplicitWidth = 474
           end
           object UniLabel27: TUniLabel
             Left = 0
@@ -1844,9 +1815,6 @@ object MainForm: TMainForm
             ParentColor = False
             Color = clWhite
             TabOrder = 4
-            ExplicitLeft = 1
-            ExplicitTop = 68
-            ExplicitWidth = 480
           end
           object UniImage10: TUniImage
             Left = 405
@@ -2091,12 +2059,15 @@ object MainForm: TMainForm
       end
       object UniLabel14: TUniLabel
         AlignWithMargins = True
-        Left = 3
-        Top = 3
-        Width = 479
+        Left = 5
+        Top = 5
+        Width = 477
         Height = 23
         Hint = ''
+        Margins.Left = 5
+        Margins.Top = 5
         Margins.Right = 20
+        Margins.Bottom = 5
         Alignment = taCenter
         TextConversion = txtHTML
         AutoSize = False
@@ -2135,7 +2106,7 @@ object MainForm: TMainForm
       Align = alTop
       TabOrder = 1
       Caption = ''
-      Color = 7463168
+      Color = 4638752
       object UniLabel2: TUniLabel
         Left = 1
         Top = 1
@@ -2148,7 +2119,6 @@ object MainForm: TMainForm
         Align = alLeft
         TabOrder = 1
         OnClick = UniLabel2Click
-        ExplicitTop = 0
       end
       object Label_loja: TUniLabel
         Left = 1
@@ -12530,7 +12500,7 @@ object MainForm: TMainForm
     Left = 137
     Top = 249
     Images = {
-      0A00000000000000061300000066612066612D6261722D63686172743B66613B
+      0B00000000000000061300000066612066612D6261722D63686172743B66613B
       00000000060F00000066612066612D7461736B733B66613B00000000060F0000
       0066612066612D63756265733B66613B00000000060F00000066612066612D6D
       6F6E65793B66613BFFFFFF1F045D05000089504E470D0A1A0A0000000D494844
@@ -12681,7 +12651,8 @@ object MainForm: TMainForm
       FF02D12451C0A18C40020000000049454E44AE42608200000000061400000066
       612066612D6C696E652D63686172743B66613B00000000061300000066612066
       612D7069652D63686172743B66613B00000000061000000066612066612D7365
-      617263683B66613B}
+      617263683B66613B00000000061800000066612066612D74696D65732D636972
+      636C652D6F3B66613B}
   end
   object UniMenuItems1: TUniMenuItems
     Images = UniNativeImageList1

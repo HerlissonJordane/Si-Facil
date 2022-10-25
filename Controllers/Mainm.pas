@@ -10,7 +10,8 @@ uses
   uniPanel, unimChart, unimPanel, uniButton, unimButton, uniTreeView,
   uniTreeMenu, unimTreeMenu, Vcl.Imaging.pngimage, uniImage, unimImage,
   uniBitBtn, unimBitBtn, uniDateTimePicker, unimDatePicker, uniDBDateTimePicker,
-  unimDBDatePicker, uniTrackBar, unimSlider;
+  unimDBDatePicker, uniTrackBar, unimSlider, Vcl.Menus, uniMainMenu,
+  uniImageList, Dateutils;
 
 type
   TMainmForm = class(TUnimForm)
@@ -36,6 +37,14 @@ type
     DatePicker: TUnimDatePicker;
     Panel_menu: TUnimContainerPanel;
     TreeMenu: TUnimTreeMenu;
+    UniMenuItems1: TUniMenuItems;
+    Relatrios1: TUniMenuItem;
+    icketMdio1: TUniMenuItem;
+    Metas1: TUniMenuItem;
+    Metasdeloja1: TUniMenuItem;
+    Metasdevendedores1: TUniMenuItem;
+    Produtos1: TUniMenuItem;
+    UniNativeImageList1: TUniNativeImageList;
     procedure UnimFormShow(Sender: TObject);
     procedure UnimFormCreate(Sender: TObject);
     procedure Button_menuClick(Sender: TObject);
@@ -43,6 +52,7 @@ type
       Shift: TShiftState; X, Y: Integer);
     procedure UnimFormScreenResize(Sender: TObject; AWidth, AHeight: Integer);
     procedure UnimBitBtn1Click(Sender: TObject);
+    procedure icketMdio1Click(Sender: TObject);
   private
     procedure Atualiza_dados;
     { Private declarations }
@@ -57,7 +67,7 @@ implementation
 {$R *.dfm}
 
 uses
-  uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_MLogin, U_ranking_vendas;
+  uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_MLogin, U_ranking_vendas, U_MTicket_medio;
 
 function MainmForm: TMainmForm;
 begin
@@ -75,6 +85,11 @@ begin
     Panel_menu.Width:= 0
   end;
 
+end;
+
+procedure TMainmForm.icketMdio1Click(Sender: TObject);
+begin
+  Frm_MTicket_medio.ShowModalN;
 end;
 
 procedure TMainmForm.UnimBitBtn1Click(Sender: TObject);
@@ -111,9 +126,17 @@ begin
 end;
 
 PRocedure TMainmForm.Atualiza_dados();
+var dados: Integer;
+    data_inicial, data_final: String;
 begin
+  data_inicial:= DateToStr(StartofTheMonth(DatePicker.Date));
+  //data_final:=  DateToStr(EndofTheMonth(UniDateTimePicker1.DateTime));
+  data_final:=  DateToStr(DatePicker.Date);
   UniServerModule.ADOConnection1.Connected:= True;
 
+  UniServerModule.ADOConnection1.Connected:= True;
+
+  //pega o total de vandas do dia
   UniServerModule.ADOQuery_dados.Close;
   UniServerModule.ADOQuery_dados.SQL.Clear;
   UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as venda from sai_mt_cab where sai_dt = '+chr(39)+DatePicker.text+chr(39)+' and cl_canc is null');
@@ -121,10 +144,12 @@ begin
 
   UnimLabel4.Caption:= FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('venda').AsCurrency);
 
+  //pega o valor de venda mensal
   UniServerModule.ADOQuery_dados.Close;
   UniServerModule.ADOQuery_dados.SQL.Clear;
   UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as total from sai_mt_cab '+
-                                          'where sai_dt between ''2022-09-01'' and '+chr(39)+DatePicker.text+chr(39)+' and cl_canc is null');
+                                          'where sai_dt between '+chr(39)+data_inicial+chr(39)+' and '
+                                          +chr(39)+DatePicker.text+chr(39)+' and cl_canc is null');
   UniServerModule.ADOQuery_dados.Open;
   Label_venda_mensal.Caption:=  FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('total').AsCurrency);
   UniServerModule.ADOConnection1.Connected:= False;

@@ -19,7 +19,6 @@ type
     ProgressBar_meta: TUniProgressBar;
     UniLabel2: TUniLabel;
     UniEdit_meta: TUniEdit;
-    UniLabel4: TUniLabel;
     Button_alterar: TUniButton;
     Button_gravar: TUniButton;
     UniButton4: TUniButton;
@@ -30,6 +29,7 @@ type
     ADOQuery_meta: TADOQuery;
     ADOQuery_vendas: TADOQuery;
     Label_meta: TUniLabel;
+    UniLabel3: TUniLabel;
     procedure UniButton4Click(Sender: TObject);
     procedure UniFormShow(Sender: TObject);
     procedure Button_buscarClick(Sender: TObject);
@@ -49,7 +49,7 @@ implementation
 {$R *.dfm}
 
 uses
-  MainModule, uniGUIApplication, ServerModule;
+  MainModule, uniGUIApplication, ServerModule, Main;
 
 function Frm_metas_loja: TFrm_metas_loja;
 begin

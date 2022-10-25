@@ -29,6 +29,7 @@ type
     bt_sair: TUniButton;
     procedure Button_buscarClick(Sender: TObject);
     procedure UniFormShow(Sender: TObject);
+    procedure bt_sairClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -47,6 +48,11 @@ uses
 function Frm_ticket_medio: TFrm_ticket_medio;
 begin
   Result := TFrm_ticket_medio(Frm_MainModule.GetFormInstance(TFrm_ticket_medio));
+end;
+
+procedure TFrm_ticket_medio.bt_sairClick(Sender: TObject);
+begin
+  Close;
 end;
 
 procedure TFrm_ticket_medio.Button_buscarClick(Sender: TObject);

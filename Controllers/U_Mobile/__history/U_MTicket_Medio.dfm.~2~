@@ -1,0 +1,221 @@
+object UnimForm2: TUnimForm2
+  Left = 0
+  Top = 0
+  ClientHeight = 627
+  ClientWidth = 361
+  Caption = 'UnimForm2'
+  AutoHeight = False
+  Scrollable = True
+  ShowTitle = False
+  TitleButtons = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  ScrollPosition = 0
+  ScrollHeight = 594
+  PlatformData = {}
+  object UnimLabel1: TUnimLabel
+    Left = 0
+    Top = 0
+    Width = 361
+    Height = 33
+    Hint = ''
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Ticket M'#233'dio'
+    Align = alTop
+    ParentFont = False
+    Font.Height = -27
+    ExplicitTop = 1
+  end
+  object UnimPanel1: TUnimPanel
+    Left = 0
+    Top = 33
+    Width = 361
+    Height = 125
+    Hint = ''
+    Align = alTop
+    Color = 16777200
+    object UnimDatePicker1: TUnimDatePicker
+      Left = 10
+      Top = 45
+      Width = 137
+      Height = 47
+      Hint = ''
+      DateFormat = 'dd/MM/yyyy'
+      Date = 44859.000000000000000000
+    end
+    object UnimDatePicker2: TUnimDatePicker
+      Left = 194
+      Top = 45
+      Width = 137
+      Height = 47
+      Hint = ''
+      DateFormat = 'dd/MM/yyyy'
+      Date = 44859.000000000000000000
+    end
+    object UnimLabel2: TUnimLabel
+      Left = 10
+      Top = 14
+      Width = 137
+      Height = 23
+      Hint = ''
+      AutoSize = False
+      Caption = 'Data inicial'
+      ParentFont = False
+    end
+    object UnimLabel3: TUnimLabel
+      Left = 194
+      Top = 14
+      Width = 144
+      Height = 23
+      Hint = ''
+      AutoSize = False
+      Caption = 'Data final'
+      ParentFont = False
+    end
+  end
+  object UnimPanel4: TUnimPanel
+    Left = 0
+    Top = 158
+    Width = 361
+    Height = 98
+    Hint = ''
+    Align = alTop
+    Color = 16777200
+    object UnimLabel4: TUnimLabel
+      AlignWithMargins = True
+      Left = 36
+      Top = 44
+      Width = 289
+      Height = 23
+      Hint = ''
+      Margins.Left = 35
+      Margins.Top = 20
+      Margins.Right = 35
+      Margins.Bottom = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'qtd'
+      Align = alTop
+      ParentFont = False
+      ExplicitLeft = 35
+      ExplicitTop = 47
+    end
+    object UnimLabel7: TUnimLabel
+      Left = 1
+      Top = 1
+      Width = 359
+      Height = 23
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Quantidade de Vendas'
+      Align = alTop
+      ParentFont = False
+      ExplicitLeft = -1
+      ExplicitTop = -7
+    end
+  end
+  object UnimPanel3: TUnimPanel
+    Left = 0
+    Top = 256
+    Width = 361
+    Height = 128
+    Hint = ''
+    Align = alTop
+    Color = 16777200
+    ExplicitLeft = 1
+    ExplicitTop = 251
+    object UnimLabel5: TUnimLabel
+      Left = 1
+      Top = 1
+      Width = 359
+      Height = 23
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Total em vendas'
+      Align = alTop
+      ParentFont = False
+      ExplicitLeft = 2
+    end
+    object UnimLabel8: TUnimLabel
+      AlignWithMargins = True
+      Left = 36
+      Top = 44
+      Width = 289
+      Height = 23
+      Hint = ''
+      Margins.Left = 35
+      Margins.Top = 20
+      Margins.Right = 35
+      Margins.Bottom = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'valor'
+      Align = alTop
+      ParentFont = False
+      ExplicitLeft = 37
+      ExplicitTop = 60
+    end
+  end
+  object UnimPanel2: TUnimPanel
+    Left = 0
+    Top = 384
+    Width = 361
+    Height = 128
+    Hint = ''
+    Align = alTop
+    Color = 16777200
+    ExplicitLeft = 1
+    ExplicitTop = 420
+    object UnimLabel6: TUnimLabel
+      Left = 1
+      Top = 1
+      Width = 359
+      Height = 23
+      Hint = ''
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Ticket M'#233'dio'
+      Align = alTop
+      ParentFont = False
+      ExplicitLeft = 2
+    end
+    object UnimLabel9: TUnimLabel
+      AlignWithMargins = True
+      Left = 36
+      Top = 44
+      Width = 289
+      Height = 23
+      Hint = ''
+      Margins.Left = 35
+      Margins.Top = 20
+      Margins.Right = 35
+      Margins.Bottom = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'ticket'
+      Align = alTop
+      ParentFont = False
+      ExplicitLeft = 35
+      ExplicitTop = 47
+    end
+  end
+  object UnimButton1: TUnimButton
+    Left = 8
+    Top = 534
+    Width = 129
+    Height = 47
+    Hint = ''
+    Caption = 'UnimButton1'
+  end
+  object UnimBitBtn1: TUnimBitBtn
+    Left = 208
+    Top = 547
+    Width = 96
+    Height = 47
+    Hint = ''
+    Caption = 'UnimBitBtn1'
+  end
+end

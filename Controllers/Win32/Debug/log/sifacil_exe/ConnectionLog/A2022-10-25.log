@@ -1,0 +1,6 @@
+SiFacil.exe: 000027E0: 14:22:09 [192.168.100.221]:Failed Sequence Recovery: SeqId: 1, Event: tap
+SiFacil.exe: 00001154: 14:22:39 [192.168.100.221]:Failed Sequence Recovery: SeqId: 1, Event: tap
+SiFacil.exe: 00001154: 14:26:10 [192.168.100.221]:Sequence sent from cache:  SeqId: 1
+SiFacil.exe: 00001154: 14:26:10 [192.168.100.221]:Processed: Id: 1, Evt: tap, [tacxvUQzoR10B624FAE]
+SiFacil.exe: 000027E0: 14:26:10 [192.168.100.221]:Sequence sent from cache:  SeqId: 1
+SiFacil.exe: 000027E0: 14:26:10 [192.168.100.221]:Processed: Id: 1, Evt: tap, [tacxvUQzoR10B624FAE]

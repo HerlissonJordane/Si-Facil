@@ -1,0 +1,657 @@
+SiFacil.exe: 00001DE8: 07:05:14 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001DE8: 07:05:14 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001DE8: 07:05:14 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001DE8: 07:05:14 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001DE8: 07:05:14 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001DE8: 07:05:14 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001DE8: 07:05:14 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001DE8: 07:05:14 [TUniServerModule]:Global Cache Folder Erased. <3> Files deleted.
+SiFacil.exe: 00001DE8: 07:05:14 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001DE8: 07:05:14 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001D24: 09:06:49 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001D24: 09:06:49 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001D24: 09:06:49 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001D24: 09:06:49 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001D24: 09:06:49 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001D24: 09:06:49 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001D24: 09:06:49 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001D24: 09:06:49 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00001D24: 09:06:49 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001D24: 09:06:49 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003074: 09:07:43 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003074: 09:07:43 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003074: 09:07:43 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003074: 09:07:43 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00003074: 09:07:43 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00003074: 09:07:43 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003074: 09:07:43 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003074: 09:07:43 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 00003074: 09:07:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003074: 09:07:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000C38: 09:08:25 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000C38: 09:08:25 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000C38: 09:08:25 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000C38: 09:08:25 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000C38: 09:08:25 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000C38: 09:08:25 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000C38: 09:08:25 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000C38: 09:08:25 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00000C38: 09:08:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000C38: 09:08:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000022E4: 09:08:57 []:>--------------------------------------------------------------<
+SiFacil.exe: 000022E4: 09:08:57 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000022E4: 09:08:57 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000022E4: 09:08:57 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000022E4: 09:08:57 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000022E4: 09:08:57 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000022E4: 09:08:57 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000022E4: 09:08:57 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 000022E4: 09:08:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000022E4: 09:08:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000970: 09:13:51 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000970: 09:13:51 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000970: 09:13:51 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000970: 09:13:51 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000970: 09:13:51 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000970: 09:13:51 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000970: 09:13:51 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000970: 09:13:51 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00000970: 09:13:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000970: 09:13:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002CC8: 09:14:26 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002CC8: 09:14:26 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002CC8: 09:14:26 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002CC8: 09:14:26 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002CC8: 09:14:26 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002CC8: 09:14:26 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002CC8: 09:14:26 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002CC8: 09:14:26 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00002CC8: 09:14:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002CC8: 09:14:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000874: 09:15:41 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000874: 09:15:41 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000874: 09:15:41 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000874: 09:15:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000874: 09:15:41 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000874: 09:15:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000874: 09:15:41 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000874: 09:15:41 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00000874: 09:15:41 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000874: 09:15:41 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002B1C: 09:17:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00000354: 09:19:22 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000354: 09:19:22 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000354: 09:19:22 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000354: 09:19:22 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000354: 09:19:22 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000354: 09:19:22 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000354: 09:19:22 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000354: 09:19:22 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00000354: 09:19:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000354: 09:19:22 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001D48: 09:20:55 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001D48: 09:20:55 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001D48: 09:20:55 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001D48: 09:20:55 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001D48: 09:20:55 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001D48: 09:20:55 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001D48: 09:20:55 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001D48: 09:20:55 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 00001D48: 09:20:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001D48: 09:20:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002138: 09:21:30 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002138: 09:21:30 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002138: 09:21:30 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002138: 09:21:30 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002138: 09:21:30 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002138: 09:21:30 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002138: 09:21:30 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002138: 09:21:30 [TUniServerModule]:Global Cache Folder Erased. <6> Files deleted.
+SiFacil.exe: 00002138: 09:21:30 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002138: 09:21:30 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000035BC: 09:27:51 []:>--------------------------------------------------------------<
+SiFacil.exe: 000035BC: 09:27:51 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000035BC: 09:27:51 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000035BC: 09:27:51 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000035BC: 09:27:51 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000035BC: 09:27:51 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000035BC: 09:27:51 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000035BC: 09:27:51 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 000035BC: 09:27:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000035BC: 09:27:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001564: 09:28:43 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001564: 09:28:43 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001564: 09:28:43 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001564: 09:28:43 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001564: 09:28:43 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001564: 09:28:43 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001564: 09:28:43 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001564: 09:28:43 [TUniServerModule]:Global Cache Folder Erased. <4> Files deleted.
+SiFacil.exe: 00001564: 09:28:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001564: 09:28:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001174: 09:32:50 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001174: 09:32:50 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001174: 09:32:50 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001174: 09:32:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001174: 09:32:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001174: 09:32:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001174: 09:32:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001174: 09:32:50 [TUniServerModule]:Global Cache Folder Erased. <17> Files deleted.
+SiFacil.exe: 00001174: 09:32:50 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001174: 09:32:50 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002E24: 09:33:03 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 0000295C: 09:35:55 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000295C: 09:35:55 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000295C: 09:35:55 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000295C: 09:35:55 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000295C: 09:35:55 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000295C: 09:35:55 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000295C: 09:35:55 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000295C: 09:35:55 [TUniServerModule]:Global Cache Folder Erased. <13> Files deleted.
+SiFacil.exe: 0000295C: 09:35:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000295C: 09:35:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000830: 09:36:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000011C0: 09:36:04 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 0000085C: 09:38:20 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000085C: 09:38:20 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000085C: 09:38:20 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000085C: 09:38:20 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000085C: 09:38:20 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000085C: 09:38:20 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000085C: 09:38:20 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000085C: 09:38:20 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+SiFacil.exe: 0000085C: 09:38:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000085C: 09:38:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003298: 09:38:34 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000005F0: 09:39:16 []:>--------------------------------------------------------------<
+SiFacil.exe: 000005F0: 09:39:16 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000005F0: 09:39:16 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000005F0: 09:39:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000005F0: 09:39:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000005F0: 09:39:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000005F0: 09:39:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000005F0: 09:39:16 [TUniServerModule]:Global Cache Folder Erased. <9> Files deleted.
+SiFacil.exe: 000005F0: 09:39:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000005F0: 09:39:17 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002F18: 09:39:39 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002D74: 09:49:57 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002D74: 09:49:57 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002D74: 09:49:57 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002D74: 09:49:57 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002D74: 09:49:57 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002D74: 09:49:57 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002D74: 09:49:57 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002D74: 09:49:57 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+SiFacil.exe: 00002D74: 09:49:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002D74: 09:49:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002394: 09:49:58 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001970: 09:50:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003424: 09:50:06 [A operação não pode ser executada durante uma execução assíncrona-192.168.100.221]:EOleException : A operação não pode ser executada durante uma execução assíncrona : Addr: $00866ECC
+SiFacil.exe: 00001404: 10:08:07 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001404: 10:08:07 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001404: 10:08:07 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001404: 10:08:07 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001404: 10:08:07 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001404: 10:08:07 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001404: 10:08:07 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001404: 10:08:07 [TUniServerModule]:Global Cache Folder Erased. <28> Files deleted.
+SiFacil.exe: 00001404: 10:08:07 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001404: 10:08:07 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000514: 10:08:30 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00000B8C: 10:08:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 0000010C: 10:16:16 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000010C: 10:16:16 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000010C: 10:16:16 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000010C: 10:16:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000010C: 10:16:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000010C: 10:16:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000010C: 10:16:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000010C: 10:16:16 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+SiFacil.exe: 0000010C: 10:16:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000010C: 10:16:16 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001298: 10:16:42 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002350: 10:17:56 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002350: 10:17:56 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002350: 10:17:56 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002350: 10:17:56 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002350: 10:17:56 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002350: 10:17:56 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002350: 10:17:56 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002350: 10:17:56 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00002350: 10:17:56 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002350: 10:17:56 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002544: 10:18:11 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000002F8: 10:19:36 []:>--------------------------------------------------------------<
+SiFacil.exe: 000002F8: 10:19:36 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000002F8: 10:19:36 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000002F8: 10:19:36 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000002F8: 10:19:36 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000002F8: 10:19:36 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000002F8: 10:19:36 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000002F8: 10:19:36 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 000002F8: 10:19:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000002F8: 10:19:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000029FC: 10:20:13 []:>--------------------------------------------------------------<
+SiFacil.exe: 000029FC: 10:20:13 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000029FC: 10:20:13 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000029FC: 10:20:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000029FC: 10:20:13 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000029FC: 10:20:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000029FC: 10:20:13 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000029FC: 10:20:13 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 000029FC: 10:20:13 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000029FC: 10:20:13 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002114: 10:20:19 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001A88: 10:20:51 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001A88: 10:20:51 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001A88: 10:20:51 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001A88: 10:20:51 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001A88: 10:20:51 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001A88: 10:20:51 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001A88: 10:20:51 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001A88: 10:20:51 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00001A88: 10:20:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001A88: 10:20:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000030F0: 10:20:59 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000007F4: 13:58:42 []:>--------------------------------------------------------------<
+SiFacil.exe: 000007F4: 13:58:42 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000007F4: 13:58:42 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000007F4: 13:58:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000007F4: 13:58:42 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000007F4: 13:58:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000007F4: 13:58:42 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000007F4: 13:58:42 [TUniServerModule]:Global Cache Folder Erased. <24> Files deleted.
+SiFacil.exe: 000007F4: 13:58:42 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000007F4: 13:58:42 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000011B0: 13:59:44 []:>--------------------------------------------------------------<
+SiFacil.exe: 000011B0: 13:59:44 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000011B0: 13:59:44 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000011B0: 13:59:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000011B0: 13:59:44 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000011B0: 13:59:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000011B0: 13:59:44 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000011B0: 13:59:44 [TUniServerModule]:Global Cache Folder Erased. <11> Files deleted.
+SiFacil.exe: 000011B0: 13:59:44 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000011B0: 13:59:44 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002474: 14:03:00 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002474: 14:03:00 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002474: 14:03:00 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002474: 14:03:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002474: 14:03:00 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002474: 14:03:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002474: 14:03:00 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002474: 14:03:00 [TUniServerModule]:Global Cache Folder Erased. <20> Files deleted.
+SiFacil.exe: 00002474: 14:03:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002474: 14:03:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002710: 14:03:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001AA8: 14:27:06 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001AA8: 14:27:06 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001AA8: 14:27:06 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001AA8: 14:27:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001AA8: 14:27:06 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001AA8: 14:27:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001AA8: 14:27:06 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001AA8: 14:27:06 [TUniServerModule]:Global Cache Folder Erased. <13> Files deleted.
+SiFacil.exe: 00001AA8: 14:27:06 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001AA8: 14:27:06 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001134: 14:29:53 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001134: 14:29:53 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001134: 14:29:53 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001134: 14:29:53 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001134: 14:29:53 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001134: 14:29:53 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001134: 14:29:53 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001134: 14:29:53 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00001134: 14:29:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001134: 14:29:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000031B8: 14:33:18 []:>--------------------------------------------------------------<
+SiFacil.exe: 000031B8: 14:33:18 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000031B8: 14:33:18 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000031B8: 14:33:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000031B8: 14:33:18 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000031B8: 14:33:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000031B8: 14:33:18 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000031B8: 14:33:18 [TUniServerModule]:Global Cache Folder Erased. <36> Files deleted.
+SiFacil.exe: 000031B8: 14:33:18 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000031B8: 14:33:18 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000257C: 14:38:56 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000257C: 14:38:56 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000257C: 14:38:56 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000257C: 14:38:56 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000257C: 14:38:56 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000257C: 14:38:56 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000257C: 14:38:56 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000257C: 14:38:56 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 0000257C: 14:38:56 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000257C: 14:38:56 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000329C: 14:42:29 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000329C: 14:42:29 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000329C: 14:42:29 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000329C: 14:42:29 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000329C: 14:42:29 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000329C: 14:42:29 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000329C: 14:42:29 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000329C: 14:42:29 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 0000329C: 14:42:29 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000329C: 14:42:29 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002FFC: 14:44:08 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002FFC: 14:44:08 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002FFC: 14:44:08 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002FFC: 14:44:08 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002FFC: 14:44:08 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002FFC: 14:44:08 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002FFC: 14:44:08 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002FFC: 14:44:08 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00002FFC: 14:44:08 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002FFC: 14:44:08 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000718: 14:48:55 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002708: 14:50:36 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002708: 14:50:36 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002708: 14:50:36 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002708: 14:50:36 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002708: 14:50:36 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002708: 14:50:36 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002708: 14:50:36 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002708: 14:50:36 [TUniServerModule]:Global Cache Folder Erased. <18> Files deleted.
+SiFacil.exe: 00002708: 14:50:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002708: 14:50:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000E2C: 14:50:38 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002360: 14:53:46 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002360: 14:53:46 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002360: 14:53:46 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002360: 14:53:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002360: 14:53:46 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002360: 14:53:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002360: 14:53:46 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002360: 14:53:46 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00002360: 14:53:46 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002360: 14:53:46 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000520: 14:53:53 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002A94: 15:09:04 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002A94: 15:09:04 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002A94: 15:09:04 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002A94: 15:09:04 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002A94: 15:09:04 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002A94: 15:09:04 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002A94: 15:09:04 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002A94: 15:09:04 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00002A94: 15:09:04 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002A94: 15:09:04 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002FA4: 15:09:04 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002970: 15:11:02 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002970: 15:11:02 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002970: 15:11:02 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002970: 15:11:02 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002970: 15:11:02 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002970: 15:11:02 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002970: 15:11:02 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002970: 15:11:02 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00002970: 15:11:02 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002970: 15:11:02 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003174: 15:11:05 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001668: 15:14:59 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001668: 15:14:59 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001668: 15:14:59 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001668: 15:14:59 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001668: 15:14:59 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001668: 15:14:59 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001668: 15:14:59 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001668: 15:14:59 [TUniServerModule]:Global Cache Folder Erased. <18> Files deleted.
+SiFacil.exe: 00001668: 15:14:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001668: 15:14:59 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000CEC: 15:15:04 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00000260: 15:16:14 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000260: 15:16:14 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000260: 15:16:14 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000260: 15:16:14 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000260: 15:16:14 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000260: 15:16:14 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000260: 15:16:14 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000260: 15:16:14 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00000260: 15:16:14 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000260: 15:16:14 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002560: 15:19:50 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002560: 15:19:50 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002560: 15:19:50 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002560: 15:19:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002560: 15:19:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002560: 15:19:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002560: 15:19:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002560: 15:19:50 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 00002560: 15:19:50 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002560: 15:19:50 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002D14: 15:27:54 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002D14: 15:27:54 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002D14: 15:27:54 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002D14: 15:27:54 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002D14: 15:27:54 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002D14: 15:27:54 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002D14: 15:27:54 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002D14: 15:27:54 [TUniServerModule]:Global Cache Folder Erased. <14> Files deleted.
+SiFacil.exe: 00002D14: 15:27:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002D14: 15:27:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001FB0: 15:27:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00000378: 15:28:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000031AC: 15:48:20 []:>--------------------------------------------------------------<
+SiFacil.exe: 000031AC: 15:48:20 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000031AC: 15:48:20 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000031AC: 15:48:20 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000031AC: 15:48:20 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000031AC: 15:48:20 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000031AC: 15:48:20 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000031AC: 15:48:20 [TUniServerModule]:Global Cache Folder Erased. <21> Files deleted.
+SiFacil.exe: 000031AC: 15:48:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000031AC: 15:48:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000315C: 16:04:08 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000315C: 16:04:08 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000315C: 16:04:08 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000315C: 16:04:08 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000315C: 16:04:08 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000315C: 16:04:08 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000315C: 16:04:08 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000315C: 16:04:08 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 0000315C: 16:04:08 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000315C: 16:04:08 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000026DC: 16:12:39 []:>--------------------------------------------------------------<
+SiFacil.exe: 000026DC: 16:12:39 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000026DC: 16:12:39 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000026DC: 16:12:39 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000026DC: 16:12:39 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000026DC: 16:12:39 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000026DC: 16:12:39 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000026DC: 16:12:39 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 000026DC: 16:12:39 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000026DC: 16:12:39 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001C2C: 16:49:19 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001C2C: 16:49:19 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001C2C: 16:49:19 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001C2C: 16:49:19 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001C2C: 16:49:19 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001C2C: 16:49:19 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001C2C: 16:49:19 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001C2C: 16:49:19 [TUniServerModule]:Global Cache Folder Erased. <7> Files deleted.
+SiFacil.exe: 00001C2C: 16:49:19 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001C2C: 16:49:19 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000396C: 17:03:54 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000396C: 17:03:54 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000396C: 17:03:54 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000396C: 17:03:54 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000396C: 17:03:54 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000396C: 17:03:54 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000396C: 17:03:54 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000396C: 17:03:54 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 0000396C: 17:03:54 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000396C: 17:03:54 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000031A0: 17:04:19 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002018: 17:08:21 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002018: 17:08:21 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002018: 17:08:21 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002018: 17:08:21 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002018: 17:08:21 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002018: 17:08:21 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002018: 17:08:21 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002018: 17:08:21 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 00002018: 17:08:21 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002018: 17:08:21 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002CE8: 17:08:34 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 0000372C: 17:10:23 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000372C: 17:10:23 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000372C: 17:10:23 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000372C: 17:10:23 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 0000372C: 17:10:23 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 0000372C: 17:10:23 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000372C: 17:10:23 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000372C: 17:10:23 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 0000372C: 17:10:23 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000372C: 17:10:23 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000694: 17:12:48 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000694: 17:12:48 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000694: 17:12:48 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000694: 17:12:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000694: 17:12:48 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000694: 17:12:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000694: 17:12:48 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000694: 17:12:48 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+SiFacil.exe: 00000694: 17:12:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000694: 17:12:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000183C: 17:13:04 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002034: 17:13:04 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000038B0: 17:13:04 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00000824: 17:16:55 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000824: 17:16:55 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000824: 17:16:55 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000824: 17:16:55 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000824: 17:16:55 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000824: 17:16:55 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000824: 17:16:55 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000824: 17:16:55 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 00000824: 17:16:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000824: 17:16:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000008BC: 17:17:19 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00000B38: 17:27:07 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000B38: 17:27:07 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000B38: 17:27:07 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000B38: 17:27:07 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000B38: 17:27:07 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000B38: 17:27:07 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000B38: 17:27:07 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000B38: 17:27:07 [TUniServerModule]:Global Cache Folder Erased. <23> Files deleted.
+SiFacil.exe: 00000B38: 17:27:07 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000B38: 17:27:07 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000033FC: 17:27:22 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002AAC: 17:27:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001EF8: 17:27:30 [A operação não pode ser executada durante uma execução assíncrona-127.0.0.1]:EOleException : A operação não pode ser executada durante uma execução assíncrona : Addr: $00866ECC
+SiFacil.exe: 00000760: 17:36:38 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000760: 17:36:38 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000760: 17:36:38 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000760: 17:36:38 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00000760: 17:36:38 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00000760: 17:36:38 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000760: 17:36:38 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000760: 17:36:38 [TUniServerModule]:Global Cache Folder Erased. <25> Files deleted.
+SiFacil.exe: 00000760: 17:36:38 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000760: 17:36:38 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003B60: 17:36:48 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003210: 17:36:48 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003B58: 17:36:48 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001234: 17:36:48 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003B1C: 17:36:52 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003AFC: 17:38:05 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003AFC: 17:38:05 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003AFC: 17:38:05 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003AFC: 17:38:05 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00003AFC: 17:38:05 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00003AFC: 17:38:05 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003AFC: 17:38:05 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003AFC: 17:38:05 [TUniServerModule]:Global Cache Folder Erased. <23> Files deleted.
+SiFacil.exe: 00003AFC: 17:38:05 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003AFC: 17:38:05 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001FD0: 17:38:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000038A8: 17:38:10 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000000F8: 17:43:59 []:>--------------------------------------------------------------<
+SiFacil.exe: 000000F8: 17:43:59 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000000F8: 17:43:59 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000000F8: 17:43:59 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 000000F8: 17:43:59 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 000000F8: 17:43:59 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000000F8: 17:43:59 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000000F8: 17:43:59 [TUniServerModule]:Global Cache Folder Erased. <20> Files deleted.
+SiFacil.exe: 000000F8: 17:43:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000000F8: 17:44:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000C60: 17:44:06 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001768: 17:44:53 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001768: 17:44:53 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001768: 17:44:53 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001768: 17:44:53 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001768: 17:44:53 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001768: 17:44:53 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001768: 17:44:53 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001768: 17:44:53 [TUniServerModule]:Global Cache Folder Erased. <19> Files deleted.
+SiFacil.exe: 00001768: 17:44:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001768: 17:44:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002D00: 17:46:41 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002D00: 17:46:41 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002D00: 17:46:41 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002D00: 17:46:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00002D00: 17:46:41 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00002D00: 17:46:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002D00: 17:46:41 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002D00: 17:46:41 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+SiFacil.exe: 00002D00: 17:46:41 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002D00: 17:46:41 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003824: 17:46:43 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003B04: 17:46:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001C3C: 17:47:24 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001C3C: 17:47:25 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001C3C: 17:47:25 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001C3C: 17:47:25 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001C3C: 17:47:25 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001C3C: 17:47:25 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001C3C: 17:47:25 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001C3C: 17:47:25 [TUniServerModule]:Global Cache Folder Erased. <19> Files deleted.
+SiFacil.exe: 00001C3C: 17:47:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001C3C: 17:47:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003B34: 17:47:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003A98: 17:48:24 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003A98: 17:48:24 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003A98: 17:48:24 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003A98: 17:48:24 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00003A98: 17:48:24 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00003A98: 17:48:24 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003A98: 17:48:24 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003A98: 17:48:24 [TUniServerModule]:Global Cache Folder Erased. <16> Files deleted.
+SiFacil.exe: 00003A98: 17:48:24 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003A98: 17:48:24 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003AA4: 17:48:53 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003AA4: 17:48:53 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003AA4: 17:48:53 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003AA4: 17:48:53 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00003AA4: 17:48:53 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00003AA4: 17:48:53 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003AA4: 17:48:53 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003AA4: 17:48:53 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+SiFacil.exe: 00003AA4: 17:48:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003AA4: 17:48:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001604: 17:49:24 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001604: 17:49:24 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001604: 17:49:24 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001604: 17:49:24 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001604: 17:49:24 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001604: 17:49:24 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001604: 17:49:24 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001604: 17:49:24 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+SiFacil.exe: 00001604: 17:49:24 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001604: 17:49:24 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000034D8: 17:49:29 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002470: 17:49:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001418: 17:50:58 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001418: 17:50:58 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\OAHZJA221024175540338.png" [OS Error:5]
+SiFacil.exe: 00001418: 17:50:58 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\fb6jBwUrlw10B61040B\" [OS Error:145]
+SiFacil.exe: 00001418: 17:50:58 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001418: 17:50:58 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:Global Cache Folder Erased. <26> Files deleted.
+SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003934: 17:51:01 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143

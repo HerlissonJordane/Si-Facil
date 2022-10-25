@@ -54,7 +54,7 @@ type
     UniDateTimePicker1: TUniDateTimePicker;
     Metasdeloja1: TUniMenuItem;
     Metasdevendedores1: TUniMenuItem;
-    UniPanel6: TUniContainerPanel;
+    Panel_Ranking: TUniContainerPanel;
     UniContainerPanel1: TUniContainerPanel;
     UniPanel5: TUniPanel;
     vendas1: TUniLabel;
@@ -80,6 +80,7 @@ type
     procedure UniButton1Click(Sender: TObject);
     procedure icketMdio1Click(Sender: TObject);
     procedure Metasdeloja1Click(Sender: TObject);
+    procedure UniFormCreate(Sender: TObject);
   private
     procedure Atualiza_dados;
     { Private declarations }
@@ -118,13 +119,17 @@ begin
   Atualiza_dados;
 end;
 
+procedure TMainForm.UniFormCreate(Sender: TObject);
+begin
+ // Panel_Ranking.Margins.Left:= Round((Panel_central.Width/2) - (Panel_Ranking.Width/2));
+end;
+
 procedure TMainForm.UniFormShow(Sender: TObject);
 begin
   Atualiza_dados;
   UniServerModule.carrega_dados_conexao;
   Label_loja.Caption:= UniServerModule.loja_logada;
   UniLabel4.Caption:= 'Olá, '+UniServerModule.usuario_conectado;
-  UniPanel6.Left:= Round(Panel_central.Width/2) - Round(UniPanel6.Width/2);
 end;
 
 procedure TMainForm.UniLabel2Click(Sender: TObject);
@@ -167,7 +172,7 @@ begin
   UniLabel7.Caption:=  FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('total').AsCurrency);
   UniProgressBar1.Position:=  Round(UniServerModule.ADOQuery_dados.FieldByName('total').AsInteger);
 
-  //Busca top 3 venededores do mês
+  //Busca top 3 vendedores do mês
   UniServerModule.ADOQuery_ranking.Close;
   UniServerModule.ADOQuery_ranking.SQL.Clear;
   UniServerModule.ADOQuery_ranking.SQL.Add('SELECT top 3 CL_NOME, SUM(SAI_TOT) AS TOTAL '+
