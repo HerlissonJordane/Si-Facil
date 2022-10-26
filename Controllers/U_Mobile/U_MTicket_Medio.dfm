@@ -2,10 +2,9 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   Left = 0
   Top = 0
   ClientHeight = 627
-  ClientWidth = 361
+  ClientWidth = 395
   Caption = 'Frm_MTicket_medio'
-  AutoHeight = False
-  Scrollable = True
+  OnShow = UnimFormShow
   ShowTitle = False
   TitleButtons = <>
   PixelsPerInch = 96
@@ -17,8 +16,8 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
     AlignWithMargins = True
     Left = 3
     Top = 5
-    Width = 355
-    Height = 30
+    Width = 389
+    Height = 45
     Hint = ''
     Margins.Top = 5
     Alignment = taCenter
@@ -28,24 +27,22 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
     ClientEvents.ExtEvents.Strings = (
       
         'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'      ' +
-        'sender.addCls('#39'titulos'#39');'#13#10'}')
+        'sender.addCls('#39'titulos-mobile'#39');'#13#10'}')
     ParentFont = False
     Font.Height = -27
   end
   object UnimPanel1: TUnimPanel
     Left = 0
-    Top = 38
-    Width = 361
+    Top = 53
+    Width = 395
     Height = 125
     Hint = ''
     Align = alTop
     Color = 16777200
-    ExplicitTop = 33
-    ExplicitWidth = 344
     DesignSize = (
-      361
+      395
       125)
-    object UnimDatePicker1: TUnimDatePicker
+    object DatePicker_inicial: TUnimDatePicker
       Left = 10
       Top = 45
       Width = 164
@@ -59,8 +56,8 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       Date = 44859.000000000000000000
       Picker = dptFloated
     end
-    object UnimDatePicker2: TUnimDatePicker
-      Left = 180
+    object DatePicker_fim: TUnimDatePicker
+      Left = 220
       Top = 45
       Width = 164
       Height = 47
@@ -90,7 +87,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       Font.Height = -24
     end
     object UnimLabel3: TUnimLabel
-      Left = 200
+      Left = 240
       Top = 10
       Width = 144
       Height = 26
@@ -105,20 +102,18 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   end
   object UnimPanel4: TUnimPanel
     Left = 0
-    Top = 163
-    Width = 361
+    Top = 178
+    Width = 395
     Height = 125
     Hint = ''
     Align = alTop
     Color = 16777200
-    ExplicitLeft = 48
-    ExplicitTop = 164
-    object UnimLabel4: TUnimLabel
+    object Label_qtd: TUnimLabel
       AlignWithMargins = True
       Left = 36
-      Top = 55
-      Width = 289
-      Height = 34
+      Top = 51
+      Width = 323
+      Height = 35
       Hint = ''
       Margins.Left = 35
       Margins.Top = 15
@@ -131,15 +126,15 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'      ' +
-          ' sender.addCls('#39'valores'#39'); '#13#10'}')
+          ' sender.addCls('#39'valores-mobile'#39'); '#13#10'}')
       ParentFont = False
-      Font.Height = -25
+      Font.Height = -24
     end
     object UnimLabel7: TUnimLabel
       Left = 1
       Top = 1
-      Width = 359
-      Height = 39
+      Width = 393
+      Height = 35
       Hint = ''
       Alignment = taCenter
       AutoSize = False
@@ -148,29 +143,25 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
-          'nder.addCls('#39'sub-titulos'#39');'#13#10'}')
+          'nder.addCls('#39'sub-titulos-mobile'#39');'#13#10'}')
       ParentFont = False
-      Font.Height = -27
-      ExplicitLeft = 0
-      ExplicitTop = -2
+      Font.Height = -25
     end
   end
   object UnimPanel5: TUnimPanel
     Left = 0
-    Top = 288
-    Width = 361
+    Top = 303
+    Width = 395
     Height = 125
     Hint = ''
     Align = alTop
     Color = 16777200
-    ExplicitTop = 283
-    ExplicitWidth = 344
-    object UnimLabel10: TUnimLabel
+    object Label_valor: TUnimLabel
       AlignWithMargins = True
       Left = 36
-      Top = 60
-      Width = 289
-      Height = 32
+      Top = 56
+      Width = 323
+      Height = 35
       Hint = ''
       Margins.Left = 35
       Margins.Top = 20
@@ -183,17 +174,15 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'      ' +
-          ' sender.addCls('#39'valores'#39'); '#13#10'}')
+          ' sender.addCls('#39'valores-mobile'#39'); '#13#10'}')
       ParentFont = False
-      Font.Height = -25
-      ExplicitLeft = 69
-      ExplicitTop = 63
+      Font.Height = -24
     end
     object UnimLabel11: TUnimLabel
       Left = 1
       Top = 1
-      Width = 359
-      Height = 39
+      Width = 393
+      Height = 35
       Hint = ''
       Alignment = taCenter
       AutoSize = False
@@ -202,28 +191,24 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
-          'nder.addCls('#39'sub-titulos'#39');'#13#10'}')
+          'nder.addCls('#39'sub-titulos-mobile'#39');'#13#10'}')
       ParentFont = False
-      Font.Height = -27
-      ExplicitTop = -2
+      Font.Height = -25
     end
   end
   object UnimPanel3: TUnimPanel
     Left = 0
-    Top = 413
-    Width = 361
-    Height = 107
+    Top = 428
+    Width = 395
+    Height = 92
     Hint = ''
     Align = alClient
     Color = 16777200
-    ExplicitTop = 408
-    ExplicitWidth = 344
-    ExplicitHeight = 309
     object UnimLabel5: TUnimLabel
       Left = 1
       Top = 1
-      Width = 359
-      Height = 39
+      Width = 393
+      Height = 35
       Hint = ''
       Alignment = taCenter
       AutoSize = False
@@ -232,18 +217,16 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
-          'nder.addCls('#39'sub-titulos'#39');'#13#10'}')
+          'nder.addCls('#39'sub-titulos-mobile'#39');'#13#10'}')
       ParentFont = False
-      Font.Height = -27
-      ExplicitLeft = 3
-      ExplicitTop = -2
+      Font.Height = -25
     end
-    object UnimLabel8: TUnimLabel
+    object Label_ticket: TUnimLabel
       AlignWithMargins = True
       Left = 36
-      Top = 60
-      Width = 289
-      Height = 32
+      Top = 56
+      Width = 323
+      Height = 35
       Hint = ''
       Margins.Left = 35
       Margins.Top = 20
@@ -256,26 +239,24 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'      ' +
-          ' sender.addCls('#39'valores'#39'); '#13#10'}')
+          ' sender.addCls('#39'valores-mobile'#39'); '#13#10'}')
       ParentFont = False
-      Font.Height = -25
+      Font.Height = -24
     end
   end
   object UnimPanel2: TUnimPanel
     Left = 0
     Top = 520
-    Width = 361
+    Width = 395
     Height = 107
     Hint = ''
     Align = alBottom
     Color = 16777200
-    ExplicitTop = 717
-    ExplicitWidth = 344
     DesignSize = (
-      361
+      395
       107)
-    object UnimButton1: TUnimButton
-      Left = 3
+    object Button_buscar: TUnimButton
+      Left = 10
       Top = 36
       Width = 155
       Height = 47
@@ -289,9 +270,10 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ScreenMask.Message = 'Buscando Informa'#231#245'es...'
       ScreenMask.Target = Owner
       ScreenMask.Opacity = 0.699999988079071000
+      OnClick = Button_buscarClick
     end
     object UnimBitBtn1: TUnimBitBtn
-      Left = 192
+      Left = 229
       Top = 36
       Width = 155
       Height = 47
@@ -300,10 +282,11 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       ClientEvents.ExtEvents.Strings = (
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'  send' +
-          'er.addCls('#39'botoes-sair'#39');'#13#10'}')
+          'er.addCls('#39'botoes-sair-mobile'#39');'#13#10'}')
       UI = 'small'
-      IconCls = 'delete'
       Caption = 'Sair'
+      Images = MainmForm.UniNativeImageList1
+      ImageIndex = 10
       OnClick = UnimBitBtn1Click
     end
   end

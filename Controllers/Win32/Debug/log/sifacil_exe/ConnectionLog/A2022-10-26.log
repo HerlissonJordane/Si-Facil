@@ -1,0 +1,3 @@
+SiFacil.exe: 000020A4: 14:17:27 [192.168.100.221]:Failed Sequence Recovery: SeqId: 3, Event: resize
+SiFacil.exe: 000020A4: 14:17:27 [192.168.100.221]:Sequence sent from cache:  SeqId: 3
+SiFacil.exe: 000020A4: 14:17:27 [192.168.100.221]:Processed: Id: 3, Evt: resize, [xtblyJCboe10B63D5BC]

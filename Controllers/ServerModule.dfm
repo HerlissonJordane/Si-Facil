@@ -2,16 +2,13 @@ object UniServerModule: TUniServerModule
   OldCreateOrder = False
   AutoCoInitialize = True
   TempFolder = 'temp\'
-  Title = 'New Application'
+  Title = 'Si-F'#225'cil'
   SuppressErrors = []
   Bindings = <>
   MainFormDisplayMode = mfPage
   CustomCSS.Strings = (
     '.x-form-text {'
     '    border-radius: 8px;'
-    '}'
-    '.teste{'
-    ''
     '}'
     ''
     '.edit{'
@@ -81,7 +78,6 @@ object UniServerModule: TUniServerModule
     '   border: 2px solid;'
     '   border-radius: 5px;'
     '   border-color:#1C1C1C;'
-    '   line-height: 100%;'
     '}'
     ''
     ''
@@ -123,7 +119,69 @@ object UniServerModule: TUniServerModule
     ' .x-input-el {'
     '       text-align: center;'
     ' }'
-    ' ')
+    ' '
+    ' '
+    ' .sub-titulos-mobile{'
+    '   background-color: #319190 !important;'
+    '   text-align: center !important;'
+    '   color: #fff;'
+    '   opacity: 0.7;'
+    '   border: 2px solid;'
+    '   border-radius: 5px;'
+    '   border-color:#1C1C1C;'
+    '   line-height: 140%;'
+    '}'
+    ''
+    '.valores-mobile{'
+    '   border-style: outset !important;'
+    '   border-radius: 7px;'
+    '   background:White'#9' !important;'
+    '   line-height: 120%;   '
+    '}'
+    ''
+    '.titulos-mobile{'
+    '   background-color: #00e171 !important;'
+    '   text-align: center;'
+    '   border: 2px solid;'
+    '   border-radius: 5px;'
+    '   border-color:#1C1C1C;'
+    '   line-height: 160%;'
+    '}'
+    ''
+    '.botoes-mobile{'
+    '   background:DodgerBlue !important;'
+    '   color:#fff !important;'
+    '   border: 2px solid;'
+    '   border-radius: 10px !important;'
+    '   border-color:DarkBlue;'
+    '   -webkit-transition: background 0.5s ease-in-out;'
+    
+      '   transition: background 0.5s ease-in-out;                     ' +
+      ' '
+    '}'
+    ''
+    '.botoes-sair-mobile{'
+    ' background:#FA8072 !important;'
+    ' border: 2px solid;'
+    ' border-radius: 10px !important;'
+    ' border-color:#fb0c06;'
+    ' -webkit-transition: background 0.5s ease-in-out;'
+    ' transition: background 0.5s ease-in-out; '
+    ' color: var(--base-foreground-color) !important;'
+    '}'
+    ''
+    '.edit-mobile{'
+    '   border-radius: 8px;'
+    '   Text-align: center !important;'
+    '   border: 2px solid !important;'
+    '   border-color: DarkGreen !important;'
+    '   background: white !important;   '
+    '}'
+    ''
+    '.fa-search,.fa-check-square-o,.fa-cogs,.fa-times-circle-o{'
+    '   color: white !important;'
+    '}'
+    '')
   CustomMeta.Strings = (
     
       '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/' +
@@ -196,5 +254,17 @@ object UniServerModule: TUniServerModule
     Parameters = <>
     Left = 312
     Top = 32
+  end
+  object ADOQuery_meta: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 72
+    Top = 200
+  end
+  object ADOQuery_vendas: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 208
+    Top = 240
   end
 end

@@ -1,0 +1,90 @@
+unit U_MMetas_loja;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUImClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniTreeView, unimNestedList, unimSegmentedButton, unimSpinner, uniEdit,
+  unimEdit, unimList, uniMultiItem, unimSelect, uniLabel, unimLabel,
+  uniGUIBaseClasses, unimPanel, uniTrackBar, unimSlider, uniButton, unimButton,
+  uniProgressBar, uniRadioButton, unimRadio, uniBitBtn, unimBitBtn, DateUtils;
+
+type
+  TFrm_MMetas_loja = class(TUnimForm)
+    UnimPanel1: TUnimPanel;
+    UnimLabel2: TUnimLabel;
+    UnimLabel1: TUnimLabel;
+    Select_mes: TUnimSelect;
+    Spinner_ano: TUnimSpinner;
+    Button_buscar: TUnimButton;
+    UnimPanel4: TUnimPanel;
+    Label_mes_meta: TUnimLabel;
+    UnimEdit1: TUnimEdit;
+    UnimEdit2: TUnimEdit;
+    UnimLabel4: TUnimLabel;
+    UnimPanel2: TUnimPanel;
+    UnimBitBtn1: TUnimBitBtn;
+    UnimBitBtn2: TUnimBitBtn;
+    UnimButton1: TUnimButton;
+    procedure UnimBitBtn1Click(Sender: TObject);
+    procedure UnimFormShow(Sender: TObject);
+    procedure Button_buscarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function Frm_MMetas_loja: TFrm_MMetas_loja;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, Mainm;
+
+function Frm_MMetas_loja: TFrm_MMetas_loja;
+begin
+  Result := TFrm_MMetas_loja(Frm_MainModule.GetFormInstance(TFrm_MMetas_loja));
+end;
+
+procedure TFrm_MMetas_loja.Button_buscarClick(Sender: TObject);
+begin
+  if Select_mes.Text = '' then begin
+    ShowMessageN('Selecione um mês para realizar a busca.');
+    Select_mes.SetFocus;
+    Abort;
+  end;
+
+  ADOQuery_meta.Close;
+  ADOQuery_meta.SQL.Clear;
+  ADOQuery_meta.SQL.Add('select top 1(CAST(mdt_metareal2 AS decimal(10,2)))as mdt_metareal2 from tab_mdt '+
+                        'where mdt_mes = '+chr(39)+IntToStr(Select_mes.ItemIndex+1)+chr(39)+
+                        ' and mdt_ano = '+chr(39)+IntToStr(Spinner_ano.Value)+chr(39)+
+                        ' and lj_id = 2020');
+  ADOQuery_meta.Open;
+
+  Label_mes_meta.Caption:= 'Meta atual do mês de '+ Select_mes.Text;
+end;
+
+procedure TFrm_MMetas_loja.UnimBitBtn1Click(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TFrm_MMetas_loja.UnimFormShow(Sender: TObject);
+begin
+  Spinner_ano.Value:= YearOf(Date);
+  Select_mes.ItemIndex:= MonthOf(Date)-1;
+
+  try
+    Button_buscar.Click;
+  except on E: Exception do
+    ShowMessage('Erro ao carregar os dados');
+  end;
+end;
+
+end.

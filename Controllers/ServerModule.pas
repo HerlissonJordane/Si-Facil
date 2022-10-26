@@ -21,6 +21,8 @@ type
     ADOQuery_rankingtotal: TCurrencyField;
     ADOQuery_ticket: TADOQuery;
     ADOQuery1: TADOQuery;
+    ADOQuery_meta: TADOQuery;
+    ADOQuery_vendas: TADOQuery;
   private
     function Data_Formato_americano(data: string): string;
     { Private declarations }

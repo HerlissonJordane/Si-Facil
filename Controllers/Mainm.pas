@@ -53,6 +53,7 @@ type
     procedure UnimFormScreenResize(Sender: TObject; AWidth, AHeight: Integer);
     procedure UnimBitBtn1Click(Sender: TObject);
     procedure icketMdio1Click(Sender: TObject);
+    procedure Metasdeloja1Click(Sender: TObject);
   private
     procedure Atualiza_dados;
     { Private declarations }
@@ -67,7 +68,8 @@ implementation
 {$R *.dfm}
 
 uses
-  uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_MLogin, U_ranking_vendas, U_MTicket_medio;
+  uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_MLogin, U_ranking_vendas,
+  U_MTicket_medio, U_MMetas_loja;
 
 function MainmForm: TMainmForm;
 begin
@@ -90,6 +92,11 @@ end;
 procedure TMainmForm.icketMdio1Click(Sender: TObject);
 begin
   Frm_MTicket_medio.ShowModalN;
+end;
+
+procedure TMainmForm.Metasdeloja1Click(Sender: TObject);
+begin
+  Frm_MMetas_loja.ShowModalN;
 end;
 
 procedure TMainmForm.UnimBitBtn1Click(Sender: TObject);

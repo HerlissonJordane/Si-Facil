@@ -64,12 +64,12 @@ begin
     id_usuario:= UniServerModule.ADOQuery_login.FieldByName('cl_id').AsString;
     UniServerModule.ADOConnection1.Connected:= False;
     except on E: Exception do begin
-      ShowMessage('Erro ao conectar no banco de dados! - '+E.Message);
+      //ShowMessage('Erro ao conectar no banco de dados! - '+E.Message);
     end;
 
   End;
   if id_usuario.IsEmpty then begin
-    Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
+    //Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
   end else begin
     UniServerModule.id_usuario_conectado:=  id_usuario;
     UniServerModule.usuario_conectado:= usuario;

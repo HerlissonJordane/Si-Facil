@@ -655,3 +655,435 @@ SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:Global Cache Folder Erased. <
 SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:Starting HTTP Server on Port: 8077...
 SiFacil.exe: 00001418: 17:50:58 [TUniServerModule]:HTTP Server Started on Port: 8077
 SiFacil.exe: 00003934: 17:51:01 [192.168.100.221]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002524: 21:48:40 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002524: 21:48:40 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002524: 21:48:40 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002524: 21:48:40 [TUniServerModule]:Global Cache Folder Erased. <20> Files deleted.
+SiFacil.exe: 00002524: 21:48:40 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002524: 21:48:40 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000DD8: 21:50:27 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000DD8: 21:50:27 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000DD8: 21:50:27 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000DD8: 21:50:27 [TUniServerModule]:Global Cache Folder Erased. <5> Files deleted.
+SiFacil.exe: 00000DD8: 21:50:27 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000DD8: 21:50:27 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003EEC: 21:50:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 000034D8: 21:53:18 []:>--------------------------------------------------------------<
+SiFacil.exe: 000034D8: 21:53:18 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000034D8: 21:53:18 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 000034D8: 21:53:18 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 000034D8: 21:53:18 [TUniServerModule]:Global Cache Folder Erased. <15> Files deleted.
+SiFacil.exe: 000034D8: 21:53:18 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000034D8: 21:53:18 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002F70: 21:54:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00002DDC: 22:04:46 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002DDC: 22:04:46 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002DDC: 22:04:46 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00002DDC: 22:04:46 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00002DDC: 22:04:46 [TUniServerModule]:Global Cache Folder Erased. <19> Files deleted.
+SiFacil.exe: 00002DDC: 22:04:46 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002DDC: 22:04:46 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003B70: 22:23:00 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003B70: 22:23:00 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003B70: 22:23:00 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00003B70: 22:23:00 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00003B70: 22:23:00 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00003B70: 22:23:00 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003B70: 22:23:00 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000064C: 22:29:33 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000064C: 22:29:33 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000064C: 22:29:33 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 0000064C: 22:29:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 0000064C: 22:29:33 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 0000064C: 22:29:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000064C: 22:29:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000014A0: 22:33:48 []:>--------------------------------------------------------------<
+SiFacil.exe: 000014A0: 22:33:48 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000014A0: 22:33:48 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 000014A0: 22:33:48 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 000014A0: 22:33:48 [TUniServerModule]:Global Cache Folder Erased. <17> Files deleted.
+SiFacil.exe: 000014A0: 22:33:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000014A0: 22:33:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000248: 22:36:41 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000248: 22:36:41 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000248: 22:36:41 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000248: 22:36:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:41 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:41 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00000248: 22:36:42 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00000248: 22:36:42 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00000248: 22:36:42 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000248: 22:36:42 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000009B8: 22:43:37 []:>--------------------------------------------------------------<
+SiFacil.exe: 000009B8: 22:43:37 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000009B8: 22:43:37 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 000009B8: 22:43:37 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 000009B8: 22:43:37 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 000009B8: 22:43:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000009B8: 22:43:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003A94: 22:43:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00003FB0: 22:47:50 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003FB0: 22:47:50 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003FB0: 22:47:50 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00003FB0: 22:47:50 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00003FB0: 22:47:50 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00003FB0: 22:47:50 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003FB0: 22:47:50 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000294C: 22:49:13 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000294C: 22:49:13 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000294C: 22:49:13 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 0000294C: 22:49:13 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 0000294C: 22:49:13 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 0000294C: 22:49:13 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000294C: 22:49:13 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000030EC: 22:49:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00794143
+SiFacil.exe: 00001410: 22:50:39 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001410: 22:50:39 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001410: 22:50:39 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00001410: 22:50:40 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00001410: 22:50:40 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00001410: 22:50:40 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001410: 22:50:40 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00002010: 22:55:45 []:>--------------------------------------------------------------<
+SiFacil.exe: 00002010: 22:55:45 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00002010: 22:55:45 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00002010: 22:55:45 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00002010: 22:55:45 [TUniServerModule]:Global Cache Folder Erased. <13> Files deleted.
+SiFacil.exe: 00002010: 22:55:45 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00002010: 22:55:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 0000060C: 23:14:06 []:>--------------------------------------------------------------<
+SiFacil.exe: 0000060C: 23:14:06 [TUniServerModule]:Server First Init.
+SiFacil.exe: 0000060C: 23:14:06 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 0000060C: 23:14:06 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 0000060C: 23:14:06 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 0000060C: 23:14:06 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 0000060C: 23:14:06 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 000010E0: 23:14:44 []:>--------------------------------------------------------------<
+SiFacil.exe: 000010E0: 23:14:44 [TUniServerModule]:Server First Init.
+SiFacil.exe: 000010E0: 23:14:44 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 000010E0: 23:14:44 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 000010E0: 23:14:44 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+SiFacil.exe: 000010E0: 23:14:44 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 000010E0: 23:14:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00000EF0: 23:18:16 []:>--------------------------------------------------------------<
+SiFacil.exe: 00000EF0: 23:18:16 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00000EF0: 23:18:16 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00000EF0: 23:18:16 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00000EF0: 23:18:16 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00000EF0: 23:18:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00000EF0: 23:18:16 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00001D18: 23:21:33 []:>--------------------------------------------------------------<
+SiFacil.exe: 00001D18: 23:21:33 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00001D18: 23:21:33 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00001D18: 23:21:33 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00001D18: 23:21:33 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00001D18: 23:21:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00001D18: 23:21:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+SiFacil.exe: 00003258: 23:29:17 []:>--------------------------------------------------------------<
+SiFacil.exe: 00003258: 23:29:17 [TUniServerModule]:Server First Init.
+SiFacil.exe: 00003258: 23:29:17 [TUniServerModule]:Debug Mode = ON
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\IHAICS221025215058364.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\JRBXHF221025215058363.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\TUPYJS221025215058363.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\3qOhkS1hpU10B62CA79\" [OS Error:145]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\FVGGEI221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\ISZVOY221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\PAROCR221025215129053.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\hhZmPpsQ4Z10B62CA97\" [OS Error:145]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__0D793CC11ACA91ED2843D567.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__3F7F57AC57B3F503973356C7.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__8CA59ECAA03C3E802CE21CC6.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__9B946CE896C715A2325B7814.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__BCB3DEA5EBCB6F37A87F5249.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__E04CDB0E7C67BF6E5D66E722.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\__F6CE4E7B02B9959FF98808EA.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\res\" [OS Error:145]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\BCGBLP221025215227766.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\EJOHKT221025215227766.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting file: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\LFWWJF221025215227765.png" [OS Error:5]
+SiFacil.exe: 00003258: 23:29:17 []:Error deleting folder: "D:\SiFácil\Si-Facil\Controllers\Win32\Debug\cache\sifacil_exe\sZ3ZOGcRp610B62CAE0\" [OS Error:145]
+SiFacil.exe: 00003258: 23:29:17 [TUniServerModule]:Global Cache Folder Erased. <10> Files deleted.
+SiFacil.exe: 00003258: 23:29:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+SiFacil.exe: 00003258: 23:29:17 [TUniServerModule]:HTTP Server Started on Port: 8077

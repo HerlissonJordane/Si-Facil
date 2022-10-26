@@ -1,5 +1,4 @@
 object MainmForm: TMainmForm
-  AlignWithMargins = True
   Left = 0
   Top = 0
   ClientHeight = 627
@@ -8,8 +7,6 @@ object MainmForm: TMainmForm
   OnShow = UnimFormShow
   Layout = 'fit'
   BorderIcons = []
-  AutoHeight = False
-  Scrollable = True
   ScreenMask.Message = 'Aguarde'
   ShowTitle = False
   CloseButton.Text = 'Sair'
@@ -89,8 +86,6 @@ object MainmForm: TMainmForm
       Align = alClient
       ParentFont = False
       Font.Height = -24
-      ExplicitLeft = 51
-      ExplicitTop = 5
     end
     object Button_sair: TUnimButton
       Left = 310
@@ -108,6 +103,8 @@ object MainmForm: TMainmForm
       IconAlign = iaCenter
       IconCls = 'fa fa-power-off'
       UI = 'decline'
+      ExplicitLeft = 313
+      ExplicitTop = -1
     end
   end
   object UnimContainerPanel1: TUnimContainerPanel
@@ -134,7 +131,6 @@ object MainmForm: TMainmForm
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
           'nder.addCls('#39'paineis'#39');'#13#10'}')
       BorderStyle = ubsOutset
-      ExplicitTop = 194
       DesignSize = (
         148
         130)
@@ -460,7 +456,6 @@ object MainmForm: TMainmForm
       IconCls = 'fa fa-refresh'
       Caption = 'Atualizar'
       OnClick = UnimBitBtn1Click
-      ExplicitTop = 499
     end
     object UnimPanel4: TUnimPanel
       AlignWithMargins = True
@@ -479,7 +474,6 @@ object MainmForm: TMainmForm
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
           'nder.addCls('#39'paineis'#39');'#13#10'}')
       BorderStyle = ubsOutset
-      ExplicitTop = 334
       DesignSize = (
         148
         130)
@@ -694,6 +688,7 @@ object MainmForm: TMainmForm
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
           'nder.addCls('#39'edit'#39');'#13#10'}')
       DateFormat = 'dd/MM/yyyy'
+      Date = 44859.000000000000000000
       Picker = dptFloated
       Color = 16297038
       Font.Color = clWhite
@@ -721,8 +716,6 @@ object MainmForm: TMainmForm
       MicroWidth = 0
       SingleExpand = True
       SelectOnExpander = True
-      ExplicitLeft = 1
-      ExplicitTop = 2
     end
   end
   object UniMenuItems1: TUniMenuItems
@@ -745,6 +738,7 @@ object MainmForm: TMainmForm
       object Metasdeloja1: TUniMenuItem
         Caption = 'Metas de loja'
         ImageIndex = 8
+        OnClick = Metasdeloja1Click
       end
       object Metasdevendedores1: TUniMenuItem
         Caption = 'Metas de vendedores'
@@ -760,7 +754,7 @@ object MainmForm: TMainmForm
     Left = 137
     Top = 249
     Images = {
-      0B00000000000000061300000066612066612D6261722D63686172743B66613B
+      0D00000000000000061300000066612066612D6261722D63686172743B66613B
       00000000060F00000066612066612D7461736B733B66613B00000000060F0000
       0066612066612D63756265733B66613B00000000060F00000066612066612D6D
       6F6E65793B66613BFFFFFF1F045D05000089504E470D0A1A0A0000000D494844
@@ -912,6 +906,8 @@ object MainmForm: TMainmForm
       612066612D6C696E652D63686172743B66613B00000000061300000066612066
       612D7069652D63686172743B66613B00000000061000000066612066612D7365
       617263683B66613B00000000061800000066612066612D74696D65732D636972
-      636C652D6F3B66613B}
+      636C652D6F3B66613B00000000061800000066612066612D636865636B2D7371
+      756172652D6F3B66613B00000000060E00000066612066612D636F67733B6661
+      3B}
   end
 end

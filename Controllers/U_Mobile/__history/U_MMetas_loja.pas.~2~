@@ -1,0 +1,52 @@
+unit U_MMetas_loja;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUImClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniTreeView, unimNestedList, unimSegmentedButton, unimSpinner, uniEdit,
+  unimEdit, unimList, uniMultiItem, unimSelect, uniLabel, unimLabel,
+  uniGUIBaseClasses, unimPanel, uniTrackBar, unimSlider, uniButton, unimButton,
+  uniProgressBar, uniRadioButton, unimRadio, uniBitBtn, unimBitBtn;
+
+type
+  TFrm_MMetas_loja = class(TUnimForm)
+    UnimPanel1: TUnimPanel;
+    UnimLabel2: TUnimLabel;
+    UnimLabel1: TUnimLabel;
+    UnimSelect1: TUnimSelect;
+    UnimSpinner1: TUnimSpinner;
+    Button_buscar: TUnimButton;
+    UnimPanel4: TUnimPanel;
+    UnimLabel7: TUnimLabel;
+    UnimEdit1: TUnimEdit;
+    UnimLabel3: TUnimLabel;
+    UnimEdit2: TUnimEdit;
+    UnimLabel4: TUnimLabel;
+    UnimPanel2: TUnimPanel;
+    UnimButton1: TUnimButton;
+    UnimBitBtn1: TUnimBitBtn;
+    UnimBitBtn2: TUnimBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function Frm_MMetas_loja: TFrm_MMetas_loja;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication;
+
+function Frm_MMetas_loja: TFrm_MMetas_loja;
+begin
+  Result := TFrm_MMetas_loja(Frm_MainModule.GetFormInstance(TFrm_MMetas_loja));
+end;
+
+end.

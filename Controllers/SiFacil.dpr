@@ -19,7 +19,8 @@ uses
   U_ranking_vendas in 'U_Mobile\U_ranking_vendas.pas' {Frm_ranking_vendas: TUnimForm},
   U_ticket_medio in 'U_desktop\U_ticket_medio.pas' {Frm_ticket_medio: TUniForm},
   U_metas_loja in 'U_desktop\U_metas_loja.pas' {Frm_metas_loja: TUniForm},
-  U_MTicket_Medio in 'U_Mobile\U_MTicket_Medio.pas' {Frm_MTicket_medio: TUnimForm};
+  U_MTicket_Medio in 'U_Mobile\U_MTicket_Medio.pas' {Frm_MTicket_medio: TUnimForm},
+  U_MMetas_loja in 'U_Mobile\U_MMetas_loja.pas' {Frm_MMetas_loja: TUnimForm};
 
 {$R *.res}
 

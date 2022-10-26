@@ -374,7 +374,6 @@ object Frm_MLogin: TFrm_MLogin
     Color = 15784883
     ParentFont = False
     Font.Height = -24
-    ExplicitWidth = 314
   end
   object UnimPanel1: TUnimPanel
     Left = 0
@@ -384,7 +383,6 @@ object Frm_MLogin: TFrm_MLogin
     Hint = ''
     Align = alTop
     Color = clYellow
-    ExplicitWidth = 320
   end
   object UnimContainerPanel1: TUnimContainerPanel
     AlignWithMargins = True
@@ -399,10 +397,6 @@ object Frm_MLogin: TFrm_MLogin
     Margins.Bottom = 20
     Align = alClient
     Color = 15784883
-    ExplicitLeft = 10
-    ExplicitTop = 57
-    ExplicitWidth = 300
-    ExplicitHeight = 460
     object UnimButton1: TUnimButton
       AlignWithMargins = True
       Left = 3
@@ -422,9 +416,8 @@ object Frm_MLogin: TFrm_MLogin
       ScreenMask.WaitData = True
       ScreenMask.Message = 'Fazendo Login...'
       ScreenMask.Target = Owner
+      ScreenMask.Color = clWhite
       OnClick = UnimButton1Click
-      ExplicitTop = 403
-      ExplicitWidth = 294
     end
     object UnimPanel2: TUnimPanel
       Left = 0
@@ -435,7 +428,6 @@ object Frm_MLogin: TFrm_MLogin
       Align = alTop
       Color = 15784883
       BorderStyle = ubsNone
-      ExplicitWidth = 341
       object UnimImage1: TUnimImage
         AlignWithMargins = True
         Left = 85
@@ -10789,7 +10781,6 @@ object Frm_MLogin: TFrm_MLogin
           
             'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
             'nder.addCls('#39'alinha'#39');'#13#10'}')
-        ExplicitWidth = 130
       end
     end
     object UnimPanel3: TUnimPanel
@@ -10801,9 +10792,6 @@ object Frm_MLogin: TFrm_MLogin
       Align = alClient
       Color = 15784883
       BorderStyle = ubsNone
-      ExplicitTop = 158
-      ExplicitWidth = 300
-      ExplicitHeight = 242
       object UnimEdit_senha: TUnimEdit
         AlignWithMargins = True
         Left = 5
@@ -10835,7 +10823,6 @@ object Frm_MLogin: TFrm_MLogin
         ScreenMask.Message = 'Usu'#225'rio'
         TabOrder = 2
         InputType = 'text'
-        ExplicitWidth = 290
       end
       object UnimEdit_usuario: TUnimEdit
         AlignWithMargins = True
@@ -10864,8 +10851,6 @@ object Frm_MLogin: TFrm_MLogin
         ScreenMask.Target = UnimEdit_usuario
         TabOrder = 1
         InputType = 'text'
-        ExplicitTop = -9
-        ExplicitWidth = 290
       end
       object UnimSelect1: TUnimSelect
         AlignWithMargins = True
@@ -10891,8 +10876,6 @@ object Frm_MLogin: TFrm_MLogin
           'Minas')
         Color = clWhite
         TabOrder = 3
-        ExplicitTop = 233
-        ExplicitWidth = 335
       end
     end
   end
