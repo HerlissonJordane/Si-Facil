@@ -35,6 +35,7 @@ type
     procedure Button_gravarClick(Sender: TObject);
   private
     function BuscaVendasMetas(data: TDate): Double;
+    procedure Cor_label_aviso(percentual: Integer);
     { Private declarations }
   public
     { Public declarations }
@@ -78,67 +79,69 @@ begin
 
   data:= '01/'+IntToStr(Select_mes.ItemIndex+1)+'/'+FloatToStr(Spinner_ano.Value);
   total_vendas:= BuscaVendasMetas(StrToDate(data));
-    if UniServerModule.ADOQuery_meta.FieldByName('mdt_metareal2').AsString = '' then begin
-    Edit_meta.Text:= 'Nenhuma meta registrada para esse mês';
-    Label_meta_mes.Caption:= '';
+
+  if UniServerModule.ADOQuery_meta.FieldByName('mdt_metareal2').AsString = '' then begin
+    Edit_meta.Text:= '';
+    Label_meta_mes.Caption:= 'Nenhuma meta registrada para esse mês';
   end else begin
     valor_meta:=  UniServerModule.ADOQuery_meta.FieldByName('mdt_metareal2').AsCurrency;
     Edit_meta.Text:= FormatCurr('R$ ###,##0.00',valor_meta);
     meta_cadastrada:= UniServerModule.ADOQuery_meta.FieldByName('mdt_metareal2').AsFloat;
-    percentual_meta:= Round((valor_meta * 100) / meta_cadastrada);
+    percentual_meta:= Round((total_vendas * 100) / meta_cadastrada);
     Label_meta_mes.Caption:= IntToStr(percentual_meta) + '% da meta atingida';
   end;
   Edit_valor_venda.Text:= FormatCurr('R$ ###,##0.00',total_vendas);
-
+  Cor_label_aviso(percentual_meta);
 end;
 
 procedure TFrm_MMetas_loja.Button_gravarClick(Sender: TObject);
+var nova_meta: Double;
 begin
- // try
+  try
     Button_alterar.Enabled:= True;
     Edit_meta.ReadOnly:= True;
     Button_gravar.Enabled:= False;
 
 
     //CASO NÃO TENHA NENHUMA META CADASTRADA ESSE MÊS, FAZ O INSERT
-//    if Label_meta.Caption = '' then begin
-//      nova_meta:= StrToFloat(UniEdit_meta.Text);
-//
-//      ADOQuery_meta.Close;
-//      ADOQuery_meta.SQL.Clear;
-//      ADOQuery_meta.SQL.Add('pr_conf_meta '
-//                            +chr(39)+IntToStr(ComboBox_mes.ItemIndex+1)+chr(39)+', '
-//                            +chr(39)+IntToStr(SpinEdit_ano.Value)+chr(39)+', '
-//                            +chr(39)+'0'+chr(39)+', '
-//                            +chr(39)+FloatToStr(nova_meta)+chr(39)+', '
-//                            +chr(39)+'2020'+chr(39));
-//
-//
-//      ADOQuery_meta.ExecSQL;
-//      ShowMessageN('Nova meta cadastrada com sucesso!');
-//    end else begin //CASO SEJA UPDATE
-//
-//      UniEdit_meta.Text:=  StringReplace(UniEdit_meta.Text,'R$','',[rfReplaceAll, rfIgnoreCase]);
-//      UniEdit_meta.Text:=  StringReplace(UniEdit_meta.Text,'.','',[rfReplaceAll, rfIgnoreCase]);
-//      nova_meta:= StrToFloat(UniEdit_meta.Text);
-//
-//      ADOQuery_meta.Close;
-//      ADOQuery_meta.SQL.Clear;
-//      ADOQuery_meta.SQL.Add('UPDATE TAB_MDT SET mdt_metareal2 = '+chr(39)+FloatToStr(nova_meta)+chr(39)+
-//                            ' WHERE mdt_mes = '+chr(39)+IntToStr(ComboBox_mes.ItemIndex+1)+chr(39)+
-//                            ' AND MDT_ANO = '+chr(39)+IntToStr(SpinEdit_ano.Value)+chr(39)+
-//                            ' and lj_id = 2020');
-//
-//      ADOQuery_meta.ExecSQL;
+    if Pos('Nenhuma',Label_meta_mes.Text) > 0 then begin
+      nova_meta:= StrToFloat(Edit_meta.Text);
+
+      UniServerModule.ADOQuery_meta.Close;
+      UniServerModule.ADOQuery_meta.SQL.Clear;
+      UniServerModule.ADOQuery_meta.SQL.Add('pr_conf_meta '
+                            +chr(39)+IntToStr(Select_mes.ItemIndex+1)+chr(39)+', '
+                            +chr(39)+FloatToStr(Spinner_ano.Value)+chr(39)+', '
+                            +chr(39)+'0'+chr(39)+', '
+                            +chr(39)+FloatToStr(nova_meta)+chr(39)+', '
+                            +chr(39)+'2020'+chr(39));
+
+
+      UniServerModule.ADOQuery_meta.ExecSQL;
+      ShowMessageN('Nova meta cadastrada com sucesso!');
+    end else begin //CASO SEJA UPDATE
+
+      Edit_meta.Text:=  StringReplace(Edit_meta.Text,'R$','',[rfReplaceAll, rfIgnoreCase]);
+      Edit_meta.Text:=  StringReplace(Edit_meta.Text,'.','',[rfReplaceAll, rfIgnoreCase]);
+      nova_meta:= StrToFloat(Edit_meta.Text);
+
+      UniServerModule.ADOQuery_meta.Close;
+      UniServerModule.ADOQuery_meta.SQL.Clear;
+      UniServerModule.ADOQuery_meta.SQL.Add('UPDATE TAB_MDT SET mdt_metareal2 = '+chr(39)+FloatToStr(nova_meta)+chr(39)+
+                            ' WHERE mdt_mes = '+chr(39)+IntToStr(Select_mes.ItemIndex+1)+chr(39)+
+                            ' AND MDT_ANO = '+chr(39)+FloatToStr(Spinner_ano.Value)+chr(39)+
+                            ' and lj_id = 2020');
+
+      UniServerModule.ADOQuery_meta.ExecSQL;
 
       ShowMessageN('Meta alterada com sucesso!');
-    //end;
+    end;
 
-   // except on E: Exception do begin
+    except on E: Exception do begin
       ShowMessageN('Erro ao tentar atualizar informações.');
       Abort;
-   // end;
-  //end;
+    end;
+  end;
 
   Button_buscar.Click;
 end;
@@ -154,6 +157,7 @@ begin
     //deixa alterar
     Button_alterar.Enabled:= False;
     Edit_meta.ReadOnly:= False;
+    Edit_meta.SetFocus;
     Button_gravar.Enabled:= True;
   end else begin
     ShowMessageN('Não é permitido alterar meta de datas anteriores.');
@@ -186,6 +190,19 @@ begin
                           +chr(39)+ data_final+chr(39)+' and cl_canc is null');
   UniServerModule.ADOQuery_vendas.Open;
   Result:= UniServerModule.ADOQuery_vendas.FieldByName('total').AsFloat;
+end;
+
+procedure TFrm_MMetas_loja.Cor_label_aviso(percentual: Integer);
+begin
+  if percentual <= 50 then begin
+    Label_meta_mes.Font.Color:= clRed;
+  end else if (percentual >50) and (percentual <75 ) then begin
+    Label_meta_mes.Font.Color:= $004080FF;
+  end else if (percentual > 75) and (percentual < 100) then begin
+    Label_meta_mes.Font.Color:= clBlue;
+  end else if (percentual > 100) then begin
+    Label_meta_mes.Font.Color:= clGreen;
+  end;
 end;
 
 end.

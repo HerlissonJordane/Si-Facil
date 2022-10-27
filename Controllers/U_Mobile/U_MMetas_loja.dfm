@@ -32,8 +32,6 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
         'sender.addCls('#39'titulos-mobile'#39');'#13#10'}')
     ParentFont = False
     Font.Height = -27
-    ExplicitLeft = -2
-    ExplicitTop = 6
   end
   object UnimPanel1: TUnimPanel
     Left = 0
@@ -60,12 +58,10 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Align = alTop
       ParentFont = False
       Font.Height = -16
-      ExplicitTop = 12
-      ExplicitWidth = 361
     end
     object Select_mes: TUnimSelect
-      Left = 3
-      Top = 53
+      Left = 8
+      Top = 52
       Width = 162
       Height = 47
       Hint = ''
@@ -128,8 +124,7 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 9
       OnClick = Button_buscarClick
-      ExplicitLeft = 42
-      ExplicitWidth = 287
+      ExplicitTop = 105
     end
   end
   object UnimPanel4: TUnimPanel
@@ -141,7 +136,7 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
     Align = alClient
     Color = 16777200
     BorderStyle = ubsNone
-    ExplicitTop = 211
+    ExplicitTop = 212
     object Label_mes_meta: TUnimLabel
       AlignWithMargins = True
       Left = 3
@@ -159,21 +154,19 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'    se' +
           'nder.addCls('#39'sub-titulos-mobile'#39');'#13#10'}')
       ParentFont = False
-      Font.Height = -27
-      ExplicitLeft = 5
-      ExplicitWidth = 361
+      Font.Height = -23
     end
     object Edit_meta: TUnimEdit
       AlignWithMargins = True
       Left = 25
-      Top = 93
+      Top = 86
       Width = 319
       Height = 60
       Hint = ''
       Margins.Left = 25
-      Margins.Top = 25
+      Margins.Top = 18
       Margins.Right = 25
-      Margins.Bottom = 25
+      Margins.Bottom = 18
       Align = alTop
       ClientEvents.ExtEvents.Strings = (
         
@@ -185,18 +178,17 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Font.Height = -27
       ReadOnly = True
       TabOrder = 2
-      ExplicitLeft = 52
-      ExplicitTop = 89
-      ExplicitWidth = 317
+      ExplicitTop = 93
     end
     object Edit_valor_venda: TUnimEdit
       AlignWithMargins = True
       Left = 3
-      Top = 227
+      Top = 239
       Width = 363
       Height = 47
       Hint = ''
-      Margins.Bottom = 5
+      Margins.Top = 12
+      Margins.Bottom = 25
       Align = alBottom
       ClientEvents.ExtEvents.Strings = (
         
@@ -209,34 +201,34 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       FieldLabelFont.Color = clRed
       FieldLabelFont.Height = -24
       ParentFont = False
+      Font.Height = -27
       ReadOnly = True
       TabOrder = 3
-      ExplicitLeft = 5
-      ExplicitTop = 221
-      ExplicitWidth = 361
+      ExplicitTop = 215
     end
     object Label_meta_mes: TUnimLabel
       AlignWithMargins = True
       Left = 3
-      Top = 282
+      Top = 167
       Width = 363
-      Height = 26
+      Height = 60
       Hint = ''
+      Margins.Top = 0
+      Margins.Bottom = 0
       Alignment = taCenter
       AutoSize = False
       Caption = '18% da meta atingida'
       Align = alBottom
       ParentFont = False
       Font.Color = clRed
+      Font.Height = -23
       Font.Style = [fsBold]
-      ExplicitLeft = 11
-      ExplicitTop = 281
-      ExplicitWidth = 361
+      ExplicitTop = 187
     end
     object Button_alterar: TUnimButton
       AlignWithMargins = True
       Left = 25
-      Top = 181
+      Top = 167
       Width = 319
       Height = 47
       Hint = ''
@@ -257,9 +249,7 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 12
       OnClick = Button_alterarClick
-      ExplicitLeft = 110
-      ExplicitTop = 100
-      ExplicitWidth = 146
+      ExplicitTop = 181
     end
   end
   object UnimPanel2: TUnimPanel
@@ -270,8 +260,6 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
     Hint = ''
     Align = alBottom
     Color = 16777200
-    ExplicitLeft = 1
-    ExplicitTop = 522
     DesignSize = (
       369
       107)

@@ -417,6 +417,7 @@ object Frm_MLogin: TFrm_MLogin
       ScreenMask.Message = 'Fazendo Login...'
       ScreenMask.Target = Owner
       ScreenMask.Color = clWhite
+      ScreenMask.Opacity = 1.000000000000000000
       OnClick = UnimButton1Click
     end
     object UnimPanel2: TUnimPanel
@@ -10813,7 +10814,7 @@ object Frm_MLogin: TFrm_MLogin
             'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'   config.bas' +
             'eCls = "form-control";'#13#10'   config.Cls = "is-valid";'#13#10'}')
         Text = ''
-        PasswordChar = #1
+        PasswordChar = '*'
         EmptyText = 'senha'
         FieldLabelAlign = laRight
         Color = clWhite
@@ -10822,7 +10823,7 @@ object Frm_MLogin: TFrm_MLogin
         ScreenMask.WaitData = True
         ScreenMask.Message = 'Usu'#225'rio'
         TabOrder = 2
-        InputType = 'text'
+        InputType = 'password'
       end
       object UnimEdit_usuario: TUnimEdit
         AlignWithMargins = True

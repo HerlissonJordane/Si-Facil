@@ -10474,7 +10474,7 @@ object Frm_login: TFrm_login
           Margins.Top = 20
           Margins.Right = 5
           Margins.Bottom = 2
-          PasswordChar = '#'
+          PasswordChar = '*'
           BorderStyle = ubsNone
           Text = ''
           ParentFont = False
@@ -10491,9 +10491,7 @@ object Frm_login: TFrm_login
             
               'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.ba' +
               'seCls = "form-control";'#13#10'  config.Cls = "is-valid";'#13#10'}')
-          InputMask.Mask = '#'
-          InputMask.UnmaskText = True
-          InputType = 'text'
+          InputType = 'password'
         end
       end
       object UniLabel2: TUniLabel

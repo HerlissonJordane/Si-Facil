@@ -129,7 +129,7 @@ object UniServerModule: TUniServerModule
     '   border: 2px solid;'
     '   border-radius: 5px;'
     '   border-color:#1C1C1C;'
-    '   line-height: 140%;'
+    '   line-height: 180%;'
     '}'
     ''
     '.valores-mobile{'
