@@ -175,7 +175,8 @@ begin
   //Busca top 3 vendedores do mês
   UniServerModule.ADOQuery_ranking.Close;
   UniServerModule.ADOQuery_ranking.SQL.Clear;
-  UniServerModule.ADOQuery_ranking.SQL.Add('SELECT top 3 CL_NOME, SUM(SAI_TOT) AS TOTAL '+
+  UniServerModule.ADOQuery_ranking.SQL.Add('SELECT top 3 CL_NOME, FORMAT(SUM(SAI_TOT), ''N'') AS TOTAL, '+
+                                            'COUNT(SAI_TOT) AS QTD_VENDAS, SUM(SAI_TOT) AS TOTAL_VENDA '+
                                             'FROM SAI_MT_CAB CAB INNER JOIN CAD_CL CL '+
                                             'ON CAB.CL_ID = CL.CL_ID '+
                                             'WHERE CL_CANC IS NULL AND '+
@@ -189,20 +190,20 @@ begin
     case dados of
       1: begin
         vendedor1.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
-        vendas1.Caption:= CurrToStrF(UniServerModule.ADOQuery_ranking.FieldByName('total').AsCurrency,ffCurrency,2);
-        Progress1.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total').AsInteger);
+        vendas1.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
+        Progress1.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
       end;
 
       2: begin
         vendedor2.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
-        vendas2.Caption:= CurrToStrF(UniServerModule.ADOQuery_ranking.FieldByName('total').AsCurrency,ffCurrency,2);
-        Progress2.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total').AsInteger);
+        vendas2.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
+        Progress2.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
       end;
 
       3: begin
         vendedor3.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
-        vendas3.Caption:= CurrToStrF(UniServerModule.ADOQuery_ranking.FieldByName('total').AsCurrency,ffCurrency,2);
-        Progress3.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total').AsInteger);
+        vendas3.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
+        Progress3.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
       end;
     end;
     UniServerModule.ADOQuery_ranking.Next

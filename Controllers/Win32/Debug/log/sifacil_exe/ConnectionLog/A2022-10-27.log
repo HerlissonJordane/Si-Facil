@@ -1,3 +1,5 @@
 SiFacil.exe: 00002FEC: 10:46:52 [127.0.0.1]:Failed Sequence Recovery: SeqId: 21, Event: tap
 SiFacil.exe: 00002FEC: 10:46:53 [127.0.0.1]:Sequence sent from cache:  SeqId: 21
 SiFacil.exe: 00002FEC: 10:46:53 [127.0.0.1]:Processed: Id: 21, Evt: tap, [zrpQZm7LDR10B6520CE]
+SiFacil.exe: 00000150: 16:14:37 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: selectionchange
+SiFacil.exe: 00002458: 16:14:37 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: itemclick

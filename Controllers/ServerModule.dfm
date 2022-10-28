@@ -178,7 +178,9 @@ object UniServerModule: TUniServerModule
     '   background: white !important;   '
     '}'
     ''
-    '.fa-search,.fa-check-square-o,.fa-cogs,.fa-times-circle-o{'
+    
+      '.fa-search,.fa-check-square-o,.fa-cogs,.fa-times-circle-o, .fa-r' +
+      'efresh{'
     '   color: white !important;'
     '}'
     '')
@@ -234,8 +236,15 @@ object UniServerModule: TUniServerModule
     object ADOQuery_rankingcl_nome: TStringField
       FieldName = 'cl_nome'
     end
-    object ADOQuery_rankingtotal: TCurrencyField
+    object ADOQuery_rankingtotal2: TStringField
       FieldName = 'total'
+      Size = 15
+    end
+    object ADOQuery_rankingqtd_vendas: TIntegerField
+      FieldName = 'qtd_vendas'
+    end
+    object ADOQuery_rankingtotal_venda: TFloatField
+      FieldName = 'total_venda'
     end
   end
   object DataSource1: TDataSource

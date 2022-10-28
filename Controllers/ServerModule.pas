@@ -18,11 +18,13 @@ type
     ADOQuery_ranking: TADOQuery;
     DataSource1: TDataSource;
     ADOQuery_rankingcl_nome: TStringField;
-    ADOQuery_rankingtotal: TCurrencyField;
     ADOQuery_ticket: TADOQuery;
     ADOQuery1: TADOQuery;
     ADOQuery_meta: TADOQuery;
     ADOQuery_vendas: TADOQuery;
+    ADOQuery_rankingtotal2: TStringField;
+    ADOQuery_rankingqtd_vendas: TIntegerField;
+    ADOQuery_rankingtotal_venda: TFloatField;
   private
     function Data_Formato_americano(data: string): string;
     { Private declarations }

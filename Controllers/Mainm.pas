@@ -45,6 +45,7 @@ type
     Metasdevendedores1: TUniMenuItem;
     Produtos1: TUniMenuItem;
     UniNativeImageList1: TUniNativeImageList;
+    RankingdeVendas1: TUniMenuItem;
     procedure UnimFormShow(Sender: TObject);
     procedure UnimFormCreate(Sender: TObject);
     procedure Button_menuClick(Sender: TObject);
@@ -54,6 +55,7 @@ type
     procedure UnimBitBtn1Click(Sender: TObject);
     procedure icketMdio1Click(Sender: TObject);
     procedure Metasdeloja1Click(Sender: TObject);
+    procedure RankingdeVendas1Click(Sender: TObject);
   private
     procedure Atualiza_dados;
     { Private declarations }
@@ -69,7 +71,7 @@ implementation
 
 uses
   uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_MLogin, U_ranking_vendas,
-  U_MTicket_medio, U_MMetas_loja;
+  U_MTicket_medio, U_MMetas_loja, U_MRanking_vendas;
 
 function MainmForm: TMainmForm;
 begin
@@ -97,6 +99,11 @@ end;
 procedure TMainmForm.Metasdeloja1Click(Sender: TObject);
 begin
   Frm_MMetas_loja.ShowModalN;
+end;
+
+procedure TMainmForm.RankingdeVendas1Click(Sender: TObject);
+begin
+  Frm_MRanking_vendas.ShowModalN;
 end;
 
 procedure TMainmForm.UnimBitBtn1Click(Sender: TObject);

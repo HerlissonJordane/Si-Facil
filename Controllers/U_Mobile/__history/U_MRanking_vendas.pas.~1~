@@ -1,0 +1,34 @@
+unit U_MRanking_vendas;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUImClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniGUIBaseClasses, uniBasicGrid, uniDBGrid, unimDBListGrid;
+
+type
+  TUnimForm2 = class(TUnimForm)
+    UnimDBListGrid1: TUnimDBListGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UnimForm2: TUnimForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication;
+
+function UnimForm2: TUnimForm2;
+begin
+  Result := TUnimForm2(UniMainModule.GetFormInstance(TUnimForm2));
+end;
+
+end.

@@ -9,21 +9,21 @@
     <Transaction>2022/08/31 23:45:19.000.084,=D:\SiFácil\Controllers\Unit2.pas</Transaction>
     <Transaction>2022/08/31 23:45:52.000.524,D:\SiFácil\Controllers\U_desktop\U_login.dfm=D:\SiFácil\Controllers\Unit1.dfm</Transaction>
     <Transaction>2022/08/31 23:45:52.000.524,D:\SiFácil\Controllers\U_desktop\U_login.pas=D:\SiFácil\Controllers\Unit1.pas</Transaction>
-    <Transaction>2022/08/31 23:48:15.000.470,D:\SiFácil\Controllers\U_Mobile\U_MLogin.dfm=D:\SiFácil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/08/31 23:48:15.000.470,D:\SiFácil\Controllers\U_Mobile\U_MLogin.pas=D:\SiFácil\Controllers\Unit2.pas</Transaction>
+    <Transaction>2022/08/31 23:48:15.000.470,D:\SiFácil\Controllers\U_Mobile\U_MLogin.dfm=D:\SiFácil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/09/10 13:13:09.000.801,D:\SiFácil\Controllers\U_Mobile\U_MLogin.pas=</Transaction>
     <Transaction>2022/09/10 13:20:12.000.558,=D:\SiFácil\Controllers\U_Mobile\U_MLogin.pas</Transaction>
     <Transaction>2022/09/12 10:17:21.000.966,=D:\SiFácil\Controllers\U_desktop\U_login.pas</Transaction>
     <Transaction>2022/09/21 00:15:27.000.759,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
-    <Transaction>2022/09/21 00:17:19.000.361,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.dfm=D:\SiFácil\Si-Facil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/09/21 00:17:19.000.361,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.pas=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
+    <Transaction>2022/09/21 00:17:19.000.361,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.dfm=D:\SiFácil\Si-Facil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/09/21 00:45:33.000.799,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
     <Transaction>2022/09/21 00:46:53.000.547,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.pas=</Transaction>
-    <Transaction>2022/09/21 00:47:25.000.458,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.dfm=D:\SiFácil\Si-Facil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/09/21 00:47:25.000.458,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.pas=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
+    <Transaction>2022/09/21 00:47:25.000.458,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_ranking_vendas.dfm=D:\SiFácil\Si-Facil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/09/27 22:52:00.000.997,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
-    <Transaction>2022/09/27 22:53:12.000.800,D:\SiFácil\Si-Facil\Controllers\Unit2.dfm=D:\SiFácil\Si-Facil\Controllers\U_desktop\U_ticket_medio.dfm</Transaction>
     <Transaction>2022/09/27 22:53:12.000.800,D:\SiFácil\Si-Facil\Controllers\Unit2.pas=D:\SiFácil\Si-Facil\Controllers\U_desktop\U_ticket_medio.pas</Transaction>
+    <Transaction>2022/09/27 22:53:12.000.800,D:\SiFácil\Si-Facil\Controllers\Unit2.dfm=D:\SiFácil\Si-Facil\Controllers\U_desktop\U_ticket_medio.dfm</Transaction>
     <Transaction>2022/09/30 21:11:16.000.460,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
     <Transaction>2022/09/30 21:14:29.000.618,D:\SiFácil\Si-Facil\Controllers\U_desktop\U_metas_loja.dfm=D:\SiFácil\Si-Facil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/09/30 21:14:29.000.618,D:\SiFácil\Si-Facil\Controllers\U_desktop\U_metas_loja.pas=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
@@ -33,6 +33,10 @@
     <Transaction>2022/10/26 10:20:29.000.486,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
     <Transaction>2022/10/26 10:27:48.000.074,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_MMetas_loja.dfm=D:\SiFácil\Si-Facil\Controllers\Unit2.dfm</Transaction>
     <Transaction>2022/10/26 10:27:48.000.074,D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_MMetas_loja.pas=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
+    <Transaction>2022/10/27 14:10:45.000.787,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
+    <Transaction>2022/10/27 14:12:15.000.146,D:\SiFácil\Si-Facil\Controllers\Unit2.dfm=D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_MRanking_vendas.dfm</Transaction>
+    <Transaction>2022/10/27 14:12:15.000.146,D:\SiFácil\Si-Facil\Controllers\Unit2.pas=D:\SiFácil\Si-Facil\Controllers\U_Mobile\U_MRanking_vendas.pas</Transaction>
+    <Transaction>2022/10/28 08:46:59.337,=D:\SiFácil\Si-Facil\Controllers\Unit2.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="U_desktop"/>
@@ -51,6 +55,8 @@
     <File Path="U_Mobile\U_MTicket_Medio.dfm"/>
     <File Path="U_Mobile\U_MMetas_loja.pas"/>
     <File Path="U_Mobile\U_MMetas_loja.dfm"/>
+    <File Path="U_Mobile\U_MRanking_vendas.pas"/>
+    <File Path="U_Mobile\U_MRanking_vendas.dfm"/>
     <File Path="Main.pas"/>
     <File Path="Main.dfm"/>
     <File Path="Mainm.pas"/>

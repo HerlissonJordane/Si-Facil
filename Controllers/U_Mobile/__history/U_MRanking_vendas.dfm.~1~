@@ -1,0 +1,22 @@
+object UnimForm2: TUnimForm2
+  Left = 0
+  Top = 0
+  ClientHeight = 627
+  ClientWidth = 361
+  Caption = 'UnimForm2'
+  ShowTitle = False
+  TitleButtons = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  ScrollPosition = 0
+  ScrollHeight = 0
+  PlatformData = {}
+  object UnimDBListGrid1: TUnimDBListGrid
+    Left = 0
+    Top = 0
+    Width = 361
+    Height = 627
+    Hint = ''
+    Align = alClient
+  end
+end
