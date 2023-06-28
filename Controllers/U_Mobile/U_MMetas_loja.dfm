@@ -60,8 +60,8 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Font.Height = -16
     end
     object Select_mes: TUnimSelect
-      Left = 8
-      Top = 52
+      Left = 3
+      Top = 53
       Width = 162
       Height = 47
       Hint = ''
@@ -69,6 +69,12 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
         
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'  send' +
           'er.addCls('#39'edit-mobile'#39');'#13#10'}')
+      ClientEvents.UniEvents.Strings = (
+        
+          'afterCreate=function afterCreate(sender)'#13#10'{'#13#10'  var me=sender.get' +
+          'Picker();'#13#10'    if (me && !Ext.isWindows) {'#13#10'        me.getDoneBu' +
+          'tton().setText("Selecione");'#13#10'        me.getCancelButton().setTe' +
+          'xt("Cancelar");'#13#10'    }'#13#10'}')
       Items.Strings = (
         'Janeiro'
         'Fevereiro'
@@ -124,7 +130,6 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 9
       OnClick = Button_buscarClick
-      ExplicitTop = 105
     end
   end
   object UnimPanel4: TUnimPanel
@@ -136,7 +141,6 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
     Align = alClient
     Color = 16777200
     BorderStyle = ubsNone
-    ExplicitTop = 212
     object Label_mes_meta: TUnimLabel
       AlignWithMargins = True
       Left = 3
@@ -178,7 +182,6 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Font.Height = -27
       ReadOnly = True
       TabOrder = 2
-      ExplicitTop = 93
     end
     object Edit_valor_venda: TUnimEdit
       AlignWithMargins = True
@@ -204,14 +207,13 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Font.Height = -27
       ReadOnly = True
       TabOrder = 3
-      ExplicitTop = 215
     end
     object Label_meta_mes: TUnimLabel
       AlignWithMargins = True
       Left = 3
-      Top = 167
+      Top = 158
       Width = 363
-      Height = 60
+      Height = 69
       Hint = ''
       Margins.Top = 0
       Margins.Bottom = 0
@@ -223,7 +225,7 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Font.Color = clRed
       Font.Height = -23
       Font.Style = [fsBold]
-      ExplicitTop = 187
+      ExplicitTop = 159
     end
     object Button_alterar: TUnimButton
       AlignWithMargins = True
@@ -249,7 +251,6 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 12
       OnClick = Button_alterarClick
-      ExplicitTop = 181
     end
   end
   object UnimPanel2: TUnimPanel
@@ -275,7 +276,7 @@ object Frm_MMetas_loja: TFrm_MMetas_loja
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'  send' +
           'er.addCls('#39'botoes-sair-mobile'#39');'#13#10'}')
       UI = 'small'
-      Caption = 'Sair'
+      Caption = 'Voltar'
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 10
       OnClick = Button_sairClick

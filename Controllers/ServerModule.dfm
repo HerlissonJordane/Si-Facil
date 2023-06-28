@@ -182,14 +182,14 @@ object UniServerModule: TUniServerModule
       '.fa-search,.fa-check-square-o,.fa-cogs,.fa-times-circle-o, .fa-r' +
       'efresh{'
     '   color: white !important;'
-    '}'
-    '')
+    '}')
   CustomMeta.Strings = (
     
       '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/' +
       'bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/S' +
       'FnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" cross' +
-      'origin="anonymous">')
+      'origin="anonymous">'
+    '<link rel="stylesheet" href="style.css">')
   SSL.SSLOptions.RootCertFile = 'root.pem'
   SSL.SSLOptions.CertFile = 'cert.pem'
   SSL.SSLOptions.KeyFile = 'key.pem'
@@ -249,8 +249,8 @@ object UniServerModule: TUniServerModule
   end
   object DataSource1: TDataSource
     DataSet = ADOQuery_ranking
-    Left = 128
-    Top = 128
+    Left = 80
+    Top = 136
   end
   object ADOQuery_ticket: TADOQuery
     Connection = ADOConnection1
@@ -275,5 +275,11 @@ object UniServerModule: TUniServerModule
     Parameters = <>
     Left = 208
     Top = 240
+  end
+  object ADOQuery_percentual_venda: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 336
+    Top = 208
   end
 end

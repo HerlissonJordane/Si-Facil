@@ -1,5 +1,4 @@
 object Frm_MLogin: TFrm_MLogin
-  AlignWithMargins = True
   Left = 0
   Top = 0
   Cursor = crHandPoint
@@ -335,7 +334,6 @@ object Frm_MLogin: TFrm_MLogin
     00000001C000F00000000003C000F80000000007C000FC000000000FC000FE00
     0000001FC000FF000000003FC000FFC0000000FFC000FFF0000003FFC000}
   Color = 8969735
-  Layout = 'fit'
   BorderIcons = []
   DisplayCaption = False
   ScreenMask.Enabled = True
@@ -351,7 +349,6 @@ object Frm_MLogin: TFrm_MLogin
   TitleDocked = True
   TitleButtons = <>
   ShowAnimation = 'flip'
-  HideAnimation = 'flip'
   OnCreate = UnimLoginFormCreate
   PixelsPerInch = 96
   TextHeight = 13
@@ -10869,6 +10866,12 @@ object Frm_MLogin: TFrm_MLogin
           
             'show=function show(sender, eOpts)'#13#10'{'#13#10'   if ('#39'placeholder'#39' in se' +
             'nder.el.dom) sender.el.dom.placeholder = '#39'test'#39';'#13#10'}')
+        ClientEvents.UniEvents.Strings = (
+          
+            'afterCreate=function afterCreate(sender)'#13#10'{'#13#10'var me=sender.getPi' +
+            'cker();'#13#10'    if (me && !Ext.isWindows) {'#13#10'        me.getDoneButt' +
+            'on().setText("Selecione");'#13#10'        me.getCancelButton().setText' +
+            '("Cancelar");'#13#10'    }'#13#10'}')
         Items.Strings = (
           'Marcella'
           'Nati'

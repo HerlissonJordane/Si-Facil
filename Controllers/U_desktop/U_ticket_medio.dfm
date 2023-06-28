@@ -53,6 +53,7 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Width = 137
       Height = 31
       Hint = ''
+      DateTime = 44866.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       TimeFormat = 'HH:mm:ss'
       TabOrder = 1
@@ -79,6 +80,7 @@ object Frm_ticket_medio: TFrm_ticket_medio
       Width = 137
       Height = 31
       Hint = ''
+      DateTime = 44866.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       TimeFormat = 'HH:mm:ss'
       TabOrder = 3
@@ -113,6 +115,10 @@ object Frm_ticket_medio: TFrm_ticket_medio
         
           'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
           'der.addCls('#39'botoes'#39');'#13#10'}')
+      ScreenMask.Enabled = True
+      ScreenMask.WaitData = True
+      ScreenMask.Message = 'Carregando dados...'
+      ScreenMask.Target = Owner
       Images = MainForm.UniNativeImageList1
       ImageIndex = 9
       IconAlign = iaTop

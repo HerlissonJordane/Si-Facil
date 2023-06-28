@@ -89,7 +89,6 @@ object Frm_MRanking_vendas: TFrm_MRanking_vendas
     Hint = ''
     Align = alBottom
     Color = 16777200
-    ExplicitTop = 577
     DesignSize = (
       361
       56)
@@ -105,7 +104,7 @@ object Frm_MRanking_vendas: TFrm_MRanking_vendas
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'  send' +
           'er.addCls('#39'botoes-sair-mobile'#39');'#13#10'}')
       UI = 'small'
-      Caption = 'Sair'
+      Caption = 'Voltar'
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 10
       OnClick = Button_sairClick

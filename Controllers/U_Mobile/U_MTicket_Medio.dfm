@@ -2,7 +2,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   Left = 0
   Top = 0
   ClientHeight = 627
-  ClientWidth = 412
+  ClientWidth = 429
   Caption = 'Frm_MTicket_medio'
   OnShow = UnimFormShow
   ShowTitle = False
@@ -16,7 +16,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
     AlignWithMargins = True
     Left = 3
     Top = 5
-    Width = 406
+    Width = 423
     Height = 45
     Hint = ''
     Margins.Top = 5
@@ -34,13 +34,13 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   object UnimPanel1: TUnimPanel
     Left = 0
     Top = 53
-    Width = 412
+    Width = 429
     Height = 125
     Hint = ''
     Align = alTop
     Color = 16777200
     DesignSize = (
-      412
+      429
       125)
     object DatePicker_inicial: TUnimDatePicker
       Left = 10
@@ -103,7 +103,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   object UnimPanel4: TUnimPanel
     Left = 0
     Top = 178
-    Width = 412
+    Width = 429
     Height = 125
     Hint = ''
     Align = alTop
@@ -112,7 +112,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       AlignWithMargins = True
       Left = 36
       Top = 61
-      Width = 340
+      Width = 357
       Height = 35
       Hint = ''
       Margins.Left = 35
@@ -129,12 +129,11 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
           ' sender.addCls('#39'valores-mobile'#39'); '#13#10'}')
       ParentFont = False
       Font.Height = -24
-      ExplicitTop = 51
     end
     object UnimLabel7: TUnimLabel
       Left = 1
       Top = 1
-      Width = 410
+      Width = 427
       Height = 45
       Hint = ''
       Alignment = taCenter
@@ -152,7 +151,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   object UnimPanel5: TUnimPanel
     Left = 0
     Top = 303
-    Width = 412
+    Width = 429
     Height = 125
     Hint = ''
     Align = alTop
@@ -161,7 +160,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       AlignWithMargins = True
       Left = 36
       Top = 66
-      Width = 340
+      Width = 357
       Height = 35
       Hint = ''
       Margins.Left = 35
@@ -178,12 +177,11 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
           ' sender.addCls('#39'valores-mobile'#39'); '#13#10'}')
       ParentFont = False
       Font.Height = -24
-      ExplicitTop = 56
     end
     object UnimLabel11: TUnimLabel
       Left = 1
       Top = 1
-      Width = 410
+      Width = 427
       Height = 45
       Hint = ''
       Alignment = taCenter
@@ -201,7 +199,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
   object UnimPanel3: TUnimPanel
     Left = 0
     Top = 428
-    Width = 412
+    Width = 429
     Height = 92
     Hint = ''
     Align = alClient
@@ -209,7 +207,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
     object UnimLabel5: TUnimLabel
       Left = 1
       Top = 1
-      Width = 410
+      Width = 427
       Height = 45
       Hint = ''
       Alignment = taCenter
@@ -227,7 +225,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
       AlignWithMargins = True
       Left = 36
       Top = 66
-      Width = 340
+      Width = 357
       Height = 35
       Hint = ''
       Margins.Left = 35
@@ -244,19 +242,18 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
           ' sender.addCls('#39'valores-mobile'#39'); '#13#10'}')
       ParentFont = False
       Font.Height = -24
-      ExplicitTop = 56
     end
   end
   object UnimPanel2: TUnimPanel
     Left = 0
     Top = 520
-    Width = 412
+    Width = 429
     Height = 107
     Hint = ''
     Align = alBottom
     Color = 16777200
     DesignSize = (
-      412
+      429
       107)
     object Button_buscar: TUnimButton
       Left = 10
@@ -291,7 +288,7 @@ object Frm_MTicket_medio: TFrm_MTicket_medio
           'added=function added(sender, container, index, eOpts)'#13#10'{'#13#10'  send' +
           'er.addCls('#39'botoes-sair-mobile'#39');'#13#10'}')
       UI = 'small'
-      Caption = 'Sair'
+      Caption = 'Voltar'
       Images = MainmForm.UniNativeImageList1
       ImageIndex = 10
       OnClick = UnimBitBtn1Click

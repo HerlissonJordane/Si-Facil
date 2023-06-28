@@ -32,7 +32,7 @@ type
     UnimBitBtn1: TUnimBitBtn;
     UnimPanel4: TUnimPanel;
     UnimImage3: TUnimImage;
-    UnimLabel1: TUnimLabel;
+    Label_cliente: TUnimLabel;
     UnimLabel3: TUnimLabel;
     DatePicker: TUnimDatePicker;
     Panel_menu: TUnimContainerPanel;
@@ -113,7 +113,7 @@ end;
 
 procedure TMainmForm.UnimFormCreate(Sender: TObject);
 begin
-  UniServerModule.carrega_dados_conexao;
+  UniServerModule.carrega_dados_loja;
   DatePicker.IconCls:= 'fa fa-calendar-o';
 end;
 
@@ -167,6 +167,16 @@ begin
   UniServerModule.ADOQuery_dados.Open;
   Label_venda_mensal.Caption:=  FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('total').AsCurrency);
   UniServerModule.ADOConnection1.Connected:= False;
+
+  //QUANTIDADE DE CLIENTES CADASTRADOS NO DIA (passa pra procedure pronta somente a data do dia)
+  UniServerModule.ADOQuery_dados.Close;
+  UniServerModule.ADOQuery_dados.SQL.Clear;
+  UniServerModule.ADOQuery_dados.SQL.Add('pr_lista_cadastro_por_periodo '+
+                                        chr(39)+DatePicker.text+chr(39)+', '+
+                                        chr(39)+DatePicker.text+chr(39)+', '+
+                                        chr(39)+'1'+chr(39));
+  UniServerModule.ADOQuery_dados.Open;
+  Label_cliente.Caption:= IntToStr(UniServerModule.ADOQuery_dados.RecordCount) + ' Cliente(s)';
 end;
 
   //Frm_ranking_vendas:= TFrm_ranking_vendas.CreateFormInstance(Self,true);

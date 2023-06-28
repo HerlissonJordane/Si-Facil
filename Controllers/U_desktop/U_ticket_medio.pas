@@ -57,6 +57,8 @@ end;
 
 procedure TFrm_ticket_medio.Button_buscarClick(Sender: TObject);
 begin
+  UniServerModule.Abre_Conexao;
+
   UniServerModule.ADOQuery_ticket.Close;
   UniServerModule.ADOQuery_ticket.SQL.Clear;
   UniServerModule.ADOQuery_ticket.SQL.Add('pr_rel_ticket_medio '
@@ -67,10 +69,14 @@ begin
   vendas.Caption:= UniServerModule.ADOQuery_ticket.FieldByName('total').AsString;
   total.Caption:= UniServerModule.ADOQuery_ticket.FieldByName('valor').AsString;
   ticket.Caption:= UniServerModule.ADOQuery_ticket.FieldByName('ticket').AsString;
+
+  UniServerModule.Fecha_Conexao;
 end;
 
 procedure TFrm_ticket_medio.UniFormShow(Sender: TObject);
 begin
+  data_inicial.DateTime:= Date;
+  data_final.DateTime:= Date;
   Button_buscar.Click;
 end;
 

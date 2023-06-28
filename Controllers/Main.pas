@@ -1,4 +1,4 @@
-unit Main;
+﻿unit Main;
 
 interface
 
@@ -33,7 +33,7 @@ type
     Panel_resumo: TUniSimplePanel;
     UniPanel3: TUniPanel;
     UniImage1: TUniImage;
-    UniLabel1: TUniLabel;
+    UniLabel_Clientes: TUniLabel;
     UniLabel6: TUniLabel;
     UniPanel2: TUniPanel;
     UniImage2: TUniImage;
@@ -43,7 +43,7 @@ type
     UniImage3: TUniImage;
     UniLabel9: TUniLabel;
     UniLabel10: TUniLabel;
-    UniLabel12: TUniLabel;
+    Label_percentual: TUniLabel;
     UniProgressBar1: TUniProgressBar;
     Label_loja: TUniLabel;
     UniLabel13: TUniLabel;
@@ -75,14 +75,16 @@ type
     UniLabel27: TUniLabel;
     UniImage10: TUniImage;
     UniLabel14: TUniLabel;
+    WEB1: TUniMenuItem;
     procedure UniLabel2Click(Sender: TObject);
     procedure UniFormShow(Sender: TObject);
     procedure UniButton1Click(Sender: TObject);
     procedure icketMdio1Click(Sender: TObject);
     procedure Metasdeloja1Click(Sender: TObject);
-    procedure UniFormCreate(Sender: TObject);
+    procedure WEB1Click(Sender: TObject);
   private
     procedure Atualiza_dados;
+    procedure calcula_percentual_venda(data: TDate; vendas_hoje: Double);
     { Private declarations }
   public
     { Public declarations }
@@ -95,7 +97,7 @@ implementation
 {$R *.dfm}
 
 uses
-  uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_ticket_medio, U_metas_loja;
+  uniGUIVars, MainModule, uniGUIApplication, ServerModule, U_ticket_medio, U_metas_loja, Frm_webpage;
 
 function MainForm: TMainForm;
 begin
@@ -104,8 +106,7 @@ end;
 
 procedure TMainForm.icketMdio1Click(Sender: TObject);
 begin
-// chamada de ticket m�dio
- // TFrm_ticket_medio.Create(UniApplication);
+// chamada de ticket médio
   Frm_ticket_medio.ShowModalN;
 end;
 
@@ -119,24 +120,23 @@ begin
   Atualiza_dados;
 end;
 
-procedure TMainForm.UniFormCreate(Sender: TObject);
-begin
- // Panel_Ranking.Margins.Left:= Round((Panel_central.Width/2) - (Panel_Ranking.Width/2));
-end;
-
 procedure TMainForm.UniFormShow(Sender: TObject);
 begin
+  //PASSA SEMPRE A DATA DO DIA INICIALMENTE, PORQUE O COMPONENTE ESTÁ COM ERRO E NÃO FAZ ISSO AUTOMATICAMENTE
+  UniDateTimePicker1.DateTime:= Date;
+
+  UniServerModule.carrega_dados_loja;
   Atualiza_dados;
-  UniServerModule.carrega_dados_conexao;
+
   Label_loja.Caption:= UniServerModule.loja_logada;
-  UniLabel4.Caption:= 'Ol�, '+UniServerModule.usuario_conectado;
+  UniLabel4.Caption:= 'Olá, '+UniServerModule.usuario_conectado;
 end;
 
 procedure TMainForm.UniLabel2Click(Sender: TObject);
 begin
   TreeMenu.Micro:= not(TreeMenu.Micro);
   if TreeMenu.Micro then begin
-    Panel_menu.Width:= 44;
+    Panel_menu.Width:= 48;
     Label_loja.Visible:= False;
   end else begin
     Panel_menu.Width:= 281;
@@ -144,74 +144,135 @@ begin
   end;
 end;
 
+procedure TMainForm.WEB1Click(Sender: TObject);
+begin
+  Frm_webpage.WebPage.ShowModalN;
+end;
+
 PRocedure TMainForm.Atualiza_dados();
 var dados: Integer;
     data_inicial, data_final: String;
+    vendas_hoje: Double;
 begin
-  data_inicial:= DateToStr(StartofTheMonth(UniDateTimePicker1.DateTime));
-  //data_final:=  DateToStr(EndofTheMonth(UniDateTimePicker1.DateTime));
-  data_final:=  DateToStr(UniDateTimePicker1.DateTime);
-  UniServerModule.ADOConnection1.Connected:= True;
+  if UniServerModule.ADOConnection1.Connected then begin
 
-  //pega o total de vandas do dia
-  UniServerModule.ADOQuery_dados.Close;
-  UniServerModule.ADOQuery_dados.SQL.Clear;
-  UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as venda from sai_mt_cab where sai_dt = '+chr(39)+UniDateTimePicker1.text+chr(39)+' and cl_canc is null');
-  UniServerModule.ADOQuery_dados.Open;
+    data_inicial:= DateToStr(StartofTheMonth(UniDateTimePicker1.DateTime));
+    data_final:=  DateToStr(UniDateTimePicker1.DateTime);
+    UniServerModule.ADOConnection1.Connected:= True;
 
-  UniLabel9.Caption:= FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('venda').AsCurrency);
+    //pega o total de vandas do dia
+    UniServerModule.ADOQuery_dados.Close;
+    UniServerModule.ADOQuery_dados.SQL.Clear;
+    UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as venda from sai_mt_cab '+
+                                           ' where sai_dt = '+chr(39)+UniDateTimePicker1.text+chr(39)+' and '+
+                                           ' cl_canc is null');
+    UniServerModule.ADOQuery_dados.Open;
 
-  //pega o valor de venda mensal
-  UniServerModule.ADOQuery_dados.Close;
-  UniServerModule.ADOQuery_dados.SQL.Clear;
-  UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as total from sai_mt_cab '+
-                                          'where sai_dt between '+chr(39)+data_inicial+chr(39)+' and '
-                                          +chr(39)+UniDateTimePicker1.text+chr(39)+' and cl_canc is null');
-  UniServerModule.ADOQuery_dados.Open;
+    vendas_hoje:= UniServerModule.ADOQuery_dados.FieldByName('venda').AsCurrency;
+    UniLabel9.Caption:= FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('venda').AsCurrency);
 
-  UniLabel7.Caption:=  FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('total').AsCurrency);
-  UniProgressBar1.Position:=  Round(UniServerModule.ADOQuery_dados.FieldByName('total').AsInteger);
+    //CHAMADA DA PROCEDURE QUE CALCULA O PERCENTUAL DE DIFERENÇA DE VENDAS DO DIA ATUAL COM O ANTERIOR
+    calcula_percentual_venda(UniDateTimePicker1.DateTime, vendas_hoje); 
 
-  //Busca top 3 vendedores do m�s
-  UniServerModule.ADOQuery_ranking.Close;
-  UniServerModule.ADOQuery_ranking.SQL.Clear;
-  UniServerModule.ADOQuery_ranking.SQL.Add('SELECT top 3 CL_NOME, FORMAT(SUM(SAI_TOT), ''N'') AS TOTAL, '+
-                                            'COUNT(SAI_TOT) AS QTD_VENDAS, SUM(SAI_TOT) AS TOTAL_VENDA '+
-                                            'FROM SAI_MT_CAB CAB INNER JOIN CAD_CL CL '+
-                                            'ON CAB.CL_ID = CL.CL_ID '+
-                                            'WHERE CL_CANC IS NULL AND '+
-                                            'SAI_DT BETWEEN '+chr(39)+data_inicial+chr(39)+' AND '+chr(39)+data_final+chr(39)+
-                                            ' GROUP BY CL_NOME ORDER BY SUM(SAI_TOT) DESC ');
-  UniServerModule.ADOQuery_ranking.Open;
+    //pega o valor de venda mensal
+    UniServerModule.ADOQuery_dados.Close;
+    UniServerModule.ADOQuery_dados.SQL.Clear;
+    UniServerModule.ADOQuery_dados.SQL.Add('select cast(sum(sai_tot)as float)as total from sai_mt_cab '+
+                                            'where sai_dt between '+chr(39)+data_inicial+chr(39)+' and '
+                                            +chr(39)+UniDateTimePicker1.text+chr(39)+' and cl_canc is null');
+    UniServerModule.ADOQuery_dados.Open;
 
-  UniServerModule.ADOQuery_ranking.First;
-  while not (UniServerModule.ADOQuery_ranking.Eof) do begin
-    dados:= UniServerModule.ADOQuery_ranking.RecNo;
-    case dados of
-      1: begin
-        vendedor1.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
-        vendas1.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
-        Progress1.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
+    UniLabel7.Caption:=  FormatCurr('R$ ###,##0.00',UniServerModule.ADOQuery_dados.FieldByName('total').AsCurrency);
+    UniProgressBar1.Position:=  Round(UniServerModule.ADOQuery_dados.FieldByName('total').AsInteger);
+
+    //QUANTIDADE DE CLIENTES CADASTRADOS NO DIA (passa pra procedure pronta somente a data do dia)
+    UniServerModule.ADOQuery_dados.Close;
+    UniServerModule.ADOQuery_dados.SQL.Clear;
+    UniServerModule.ADOQuery_dados.SQL.Add('pr_lista_cadastro_por_periodo '+
+                                          chr(39)+UniDateTimePicker1.text+chr(39)+', '+
+                                          chr(39)+UniDateTimePicker1.text+chr(39)+', '+
+                                          chr(39)+'1'+chr(39));
+    UniServerModule.ADOQuery_dados.Open;
+
+    UniLabel_Clientes.Caption:= IntToStr(UniServerModule.ADOQuery_dados.RecordCount) + ' Cliente(s)';
+
+
+    //Busca top 3 vendedores do mês
+    UniServerModule.ADOQuery_ranking.Close;
+    UniServerModule.ADOQuery_ranking.SQL.Clear;
+    UniServerModule.ADOQuery_ranking.SQL.Add('SELECT top 3 CL_NOME, FORMAT(SUM(SAI_TOT), ''N'') AS TOTAL, '+
+                                              'COUNT(SAI_TOT) AS QTD_VENDAS, SUM(SAI_TOT) AS TOTAL_VENDA '+
+                                              'FROM SAI_MT_CAB CAB INNER JOIN CAD_CL CL '+
+                                              'ON CAB.CL_ID = CL.CL_ID '+
+                                              'WHERE CL_CANC IS NULL AND '+
+                                              'SAI_DT BETWEEN '+chr(39)+data_inicial+chr(39)+' AND '+chr(39)+data_final+chr(39)+
+                                              ' GROUP BY CL_NOME ORDER BY SUM(SAI_TOT) DESC ');
+    UniServerModule.ADOQuery_ranking.Open;
+
+    //PREENCHE OS DADOS DOS TOP 3 VENDEDORES NA TELA PRINCIPAL
+    UniServerModule.ADOQuery_ranking.First;
+    while not (UniServerModule.ADOQuery_ranking.Eof) do begin
+      dados:= UniServerModule.ADOQuery_ranking.RecNo;
+      case dados of
+        1: begin
+          vendedor1.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
+          vendas1.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
+          Progress1.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
+        end;
+
+        2: begin
+          vendedor2.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
+          vendas2.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
+          Progress2.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
+        end;
+
+        3: begin
+          vendedor3.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
+          vendas3.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
+          Progress3.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
+        end;
       end;
-
-      2: begin
-        vendedor2.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
-        vendas2.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
-        Progress2.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
-      end;
-
-      3: begin
-        vendedor3.Caption:= UniServerModule.ADOQuery_ranking.FieldByName('cl_nome').AsString;
-        vendas3.Caption:= 'R$ '+UniServerModule.ADOQuery_ranking.FieldByName('total').AsString;
-        Progress3.Position:= Round(UniServerModule.ADOQuery_ranking.FieldByName('total_venda').AsFloat);
-      end;
+      UniServerModule.ADOQuery_ranking.Next
     end;
-    UniServerModule.ADOQuery_ranking.Next
+
+    //FECHA CONEXÃO COM BANCO
+    UniServerModule.ADOConnection1.Connected:= False;
+
+  end else begin
+    UniServerModule.Abre_Conexao;
+    Atualiza_dados;
+  end;
+end;
+
+
+//CALCULA O PERCENTUAL DE DIFERENÇA DE VENDAS DO DIA ATUAL COM O ANTERIOR
+procedure TMainForm.calcula_percentual_venda(data: TDate; vendas_hoje: Double);
+var data_anterior: TDate;
+    venda_anterior: Double;
+    percentual: Integer;
+begin
+  data_anterior:= IncDay(data, -1);
+  
+  UniServerModule.ADOQuery_percentual_venda.Close;
+  UniServerModule.ADOQuery_percentual_venda.SQL.Clear;
+  UniServerModule.ADOQuery_percentual_venda.SQL.Add('select cast(sum(sai_tot)as float)as venda_anterior from sai_mt_cab '+
+                                                   ' where sai_dt = '+chr(39)+DateToStr(data_anterior)+chr(39)+' and '+
+                                                   ' cl_canc is null');
+  UniServerModule.ADOQuery_percentual_venda.Open;
+
+  venda_anterior:= UniServerModule.ADOQuery_percentual_venda.FieldByName('venda_anterior').AsCurrency;
+
+  if venda_anterior > vendas_hoje then begin
+    percentual:= Round(((vendas_hoje * 100) / venda_anterior) - 100) * -1;
+    Label_percentual.Caption:= '▼ -'+ IntToStr(percentual) +'%';   //alt 31
+    Label_percentual.Font.Color:= clRed;
+  end else begin
+    percentual:= Round(((vendas_hoje * 100) / venda_anterior) - 100);
+    Label_percentual.Caption:= '▲ +'+ IntToStr(percentual) +'%';    //alt 30
+    Label_percentual.Font.Color:= clGreen;
   end;
 
-  UniServerModule.ADOConnection1.Connected:= False;
-
-  end;
+end;
 
 initialization
   RegisterAppFormClass(TMainForm);

@@ -15,19 +15,18 @@ type
     UniPanel3: TUniPanel;
     UniPanel4: TUniPanel;
     UniPanel5: TUniPanel;
-    UniEdit1: TUniEdit;
+    UniEdit_user: TUniEdit;
     UniLabel2: TUniLabel;
-    UniEdit2: TUniEdit;
+    UniEdit_senha: TUniEdit;
     UniPanel9: TUniPanel;
-    UniEdit4: TUniEdit;
+    UniEdit_loja: TUniEdit;
     UniPanel8: TUniPanel;
     UniPanel11: TUniPanel;
-    UniButton1: TUniButton;
+    Button_login: TUniButton;
     UniImage1: TUniImage;
-    procedure UniButton1Click(Sender: TObject);
+    procedure Button_loginClick(Sender: TObject);
     procedure UniLoginFormShow(Sender: TObject);
   private
-    function Criptografar(wStri: String): String;
     { Private declarations }
   public
     { Public declarations }
@@ -47,34 +46,22 @@ begin
   Result := TFrm_login(Frm_MainModule.GetFormInstance(TFrm_login));
 end;
 
-procedure TFrm_login.UniButton1Click(Sender: TObject);
+procedure TFrm_login.Button_loginClick(Sender: TObject);
 var usuario, senha, id_usuario: String;
 begin
-  usuario:= UniEdit1.Text;
-  senha:= Criptografar(UniEdit2.Text);
+  //TESTA A CONEXÃO COM O BANCO
+  UniServerModule.Abre_Conexao;
 
-  UniServerModule.ADOQuery_login.Close;
-  UniServerModule.ADOQuery_login.SQL.Clear;
-  UniServerModule.ADOQuery_login.SQL.Add('SELECT CL_ID,CL_USUARIO FROM CAD_CL WHERE CL_NOME = '+chr(39)+usuario+chr(39)
-                                         +' and cl_senha = '+chr(39)+senha+chr(39)
-                                        );
 
+  //TESTA O LOGIN DE USUÁRIO
   try
-    UniServerModule.ADOConnection1.Connected:= True;
-    UniServerModule.ADOQuery_login.Open;
-    id_usuario:= UniServerModule.ADOQuery_login.FieldByName('cl_id').AsString;
-    UniServerModule.ADOConnection1.Connected:= False;
-    except on E: Exception do begin
-      ShowMessage('Erro ao conectar no banco de dados! - '+E.Message);
+    if UniServerModule.Login(UniEdit_user.Text, UniEdit_senha.Text, 2020) then begin
+      Button_login.ModalResult:= mrOK;
     end;
-
-  End;
-  if id_usuario.IsEmpty then begin
-    Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
-  end else begin
-    UniServerModule.id_usuario_conectado:=  id_usuario;
-    UniServerModule.usuario_conectado:= usuario;
-    ModalResult:= mrOK;
+    except on E: Exception do begin
+      Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
+      Abort;
+    end;
   end;
 
 end;
@@ -82,39 +69,6 @@ end;
 procedure TFrm_login.UniLoginFormShow(Sender: TObject);
 begin
   UniPanel8.Color:= clYellow;
-end;
-
-function TFrm_login.Criptografar(wStri: String): String;
-var Simbolos : array [0..4] of String;
-x : Integer;
-begin
-  Simbolos[1]:=
-  'ABCDEFGHIJLMNOPQRSTUVXZYWK ~!@#$%^&*()\';
-
-  Simbolos[2]:=
-  'ÂÀ©Øû×ƒçêùÿ5Üø£úñÑªº¿®¬¼ëèïÙýÄÅÉæÆôöò»Á';
-
-  Simbolos[3]:='abcdefghijlmnopqrstuvxzywk1234567890';
-
-  Simbolos[4]:='áâäàåíóÇüé¾¶§÷ÎÏ-+ÌÓß¸°¨·¹³²Õµþîì¡«½';
-
-  for x := 1 to Length(Trim(wStri)) do begin
-    if pos(copy(wStri,x,1),Simbolos[1])>0 then
-      Result := Result+copy(Simbolos[2],
-      pos(copy(wStri,x,1),Simbolos[1]),1)
-
-    else if pos(copy(wStri,x,1),Simbolos[2])>0 then
-      Result := Result+copy(Simbolos[1],
-      pos(copy(wStri,x,1),Simbolos[2]),1)
-
-    else if pos(copy(wStri,x,1),Simbolos[3])>0 then
-      Result := Result+copy(Simbolos[4],
-      pos(copy(wStri,x,1),Simbolos[3]),1)
-
-    else if pos(copy(wStri,x,1),Simbolos[4])>0 then
-      Result := Result+copy(Simbolos[3],
-      pos(copy(wStri,x,1),Simbolos[4]),1);
-  end;
 end;
 
 initialization

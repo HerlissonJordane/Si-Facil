@@ -10412,7 +10412,7 @@ object Frm_login: TFrm_login
         BorderStyle = ubsNone
         Caption = ''
         Color = 15784883
-        object UniEdit1: TUniEdit
+        object UniEdit_user: TUniEdit
           AlignWithMargins = True
           Left = 5
           Top = 40
@@ -10463,7 +10463,7 @@ object Frm_login: TFrm_login
         BorderStyle = ubsNone
         Caption = ''
         Color = 15784883
-        object UniEdit2: TUniEdit
+        object UniEdit_senha: TUniEdit
           AlignWithMargins = True
           Left = 5
           Top = 20
@@ -10530,7 +10530,7 @@ object Frm_login: TFrm_login
         BorderStyle = ubsNone
         Caption = ''
         Color = 15784883
-        object UniEdit4: TUniEdit
+        object UniEdit_loja: TUniEdit
           AlignWithMargins = True
           Left = 5
           Top = 10
@@ -10597,9 +10597,9 @@ object Frm_login: TFrm_login
         DesignSize = (
           403
           54)
-        object UniButton1: TUniButton
-          Left = 4
-          Top = 9
+        object Button_login: TUniButton
+          Left = 3
+          Top = 10
           Width = 111
           Height = 41
           Hint = ''
@@ -10617,7 +10617,7 @@ object Frm_login: TFrm_login
           ScreenMask.WaitData = True
           ScreenMask.Message = 'Fazendo Login...'
           ScreenMask.Target = Owner
-          OnClick = UniButton1Click
+          OnClick = Button_loginClick
         end
       end
     end

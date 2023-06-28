@@ -225,8 +225,8 @@ object MainForm: TMainForm
   BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
   AutoScroll = True
   MonitoredKeys.Keys = <>
+  PageMode = True
   Layout = 'form'
-  OnCreate = UniFormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Panel_central: TUniContainerPanel
@@ -358,7 +358,7 @@ object MainForm: TMainForm
         Margins.Right = 2
         Margins.Bottom = 8
         BodyRTL = False
-        DateTime = 44857.000000000000000000
+        DateTime = 44866.000000000000000000
         ShowBlankDate = False
         Align = alLeft
         TabOrder = 5
@@ -564,7 +564,7 @@ object MainForm: TMainForm
             95E7A7FFEB08F807F0AF21A0B67684ACD0F9B710F0C3E2BF7B2AE8AA896CDC46
             0000000049454E44AE426082}
         end
-        object UniLabel1: TUniLabel
+        object UniLabel_Clientes: TUniLabel
           AlignWithMargins = True
           Left = 4
           Top = 118
@@ -970,7 +970,7 @@ object MainForm: TMainForm
           Font.Style = [fsBold]
           TabOrder = 3
         end
-        object UniLabel12: TUniLabel
+        object Label_percentual: TUniLabel
           Left = 128
           Top = 53
           Width = 153
@@ -2108,14 +2108,19 @@ object MainForm: TMainForm
       Caption = ''
       Color = 4638752
       object UniLabel2: TUniLabel
+        AlignWithMargins = True
         Left = 1
         Top = 1
-        Width = 224
+        Width = 284
         Height = 13
         Cursor = crHandPoint
         Hint = 'Menu'
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
         TextConversion = txtHTML
-        Caption = '<i class="fa fa-bars fa-spin fa-3x fa-fw"></i>'
+        Caption = '<i class="fa fa-bars fa-3x fa-fw"  aria-hidden="true"></i>'
         Align = alLeft
         TabOrder = 1
         OnClick = UniLabel2Click
@@ -12683,6 +12688,10 @@ object MainForm: TMainForm
     object Produtos1: TUniMenuItem
       Caption = 'Produtos'
       ImageIndex = 2
+    end
+    object WEB1: TUniMenuItem
+      Caption = 'WEB'
+      OnClick = WEB1Click
     end
   end
 end

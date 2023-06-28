@@ -633,7 +633,7 @@ object MainmForm: TMainmForm
           95E7A7FFEB08F807F0AF21A0B67684ACD0F9B710F0C3E2BF7B2AE8AA896CDC46
           0000000049454E44AE426082}
       end
-      object UnimLabel1: TUnimLabel
+      object Label_cliente: TUnimLabel
         AlignWithMargins = True
         Left = 4
         Top = 81

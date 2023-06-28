@@ -41,9 +41,6 @@ object Frm_metas_loja: TFrm_metas_loja
       ParentColor = False
       Color = 13828083
       TabOrder = 1
-      ExplicitLeft = 0
-      ExplicitTop = 35
-      ExplicitWidth = 570
     end
     object Button_buscar: TUniButton
       Left = 401
@@ -140,8 +137,6 @@ object Frm_metas_loja: TFrm_metas_loja
     BorderStyle = ubsNone
     Caption = ''
     Color = 16777200
-    ExplicitLeft = -216
-    ExplicitTop = 138
     object ProgressBar_meta: TUniProgressBar
       AlignWithMargins = True
       Left = 3
@@ -158,7 +153,6 @@ object Frm_metas_loja: TFrm_metas_loja
         
           'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
           'er.addCls('#39'progressbar'#39');'#13#10'}')
-      ExplicitTop = 137
     end
     object UniLabel2: TUniLabel
       AlignWithMargins = True
@@ -205,7 +199,6 @@ object Frm_metas_loja: TFrm_metas_loja
           '.addCls('#39'edit'#39');'#13#10'}')
       InputMask.UnmaskText = True
       InputMask.RemoveWhiteSpace = True
-      ExplicitTop = 38
     end
     object Button_alterar: TUniButton
       Left = 26
@@ -234,6 +227,7 @@ object Frm_metas_loja: TFrm_metas_loja
         
           'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
           'der.addCls('#39'botoes'#39');'#13#10'}')
+      Images = MainForm.UniNativeImageList1
       OnClick = Button_gravarClick
     end
     object UniButton4: TUniButton
@@ -266,7 +260,6 @@ object Frm_metas_loja: TFrm_metas_loja
       Font.Height = -15
       Font.Style = [fsBold]
       TabOrder = 7
-      ExplicitTop = 111
     end
     object Label_total: TUniLabel
       Left = 4

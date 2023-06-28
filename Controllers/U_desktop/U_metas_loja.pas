@@ -67,35 +67,42 @@ begin
     Abort;
   end;
 
-  ADOQuery_meta.Close;
-  ADOQuery_meta.SQL.Clear;
-  ADOQuery_meta.SQL.Add('select top 1(CAST(mdt_metareal2 AS decimal(10,2)))as mdt_metareal2 from tab_mdt '+
-                        'where mdt_mes = '+chr(39)+IntToStr(ComboBox_mes.ItemIndex+1)+chr(39)+
-                        ' and mdt_ano = '+chr(39)+IntToStr(SpinEdit_ano.Value)+chr(39)+
-                        ' and lj_id = 2020');
-  ADOQuery_meta.Open;
-
-  UniLabel2.Caption:= 'Meta atual do mês de '+ ComboBox_mes.Text;
-
-
   data:= '01/'+IntToStr(ComboBox_mes.ItemIndex+1)+'/'+IntToStr(SpinEdit_ano.Value);
   total_vendas:= BuscaVendasMetas(StrToDate(data));
 
-  if ADOQuery_meta.FieldByName('mdt_metareal2').AsString = '' then begin
-    UniEdit_meta.Text:= 'Nenhuma meta registrada para esse mês';
-    ProgressBar_meta.Max:=0;
-    ProgressBar_meta.Position:= 0;
-    ProgressBar_meta.Text:= 'Sem meta cadastrada nesse mês';
-    Label_meta.Caption:= '';
-  end else begin
-    valor_meta:=  ADOQuery_meta.FieldByName('mdt_metareal2').AsCurrency;
-    UniEdit_meta.Text:= FormatCurr('R$ ###,##0.00',valor_meta);
-    ProgressBar_meta.Max:= Round(ADOQuery_meta.FieldByName('mdt_metareal2').AsInteger);
-    ProgressBar_meta.Position:=  Round(total_vendas);
-    Label_meta.Caption:= UniEdit_meta.Text;
-  end;
-  Label_total.Caption:= FormatCurr('R$ ###,##0.00',total_vendas);
 
+  //ABRE A CONEXÃO COM O BANCO
+  UniServerModule.Abre_Conexao;
+
+  if UniServerModule.ADOConnection1.Connected then begin
+
+    ADOQuery_meta.Close;
+    ADOQuery_meta.SQL.Clear;
+    ADOQuery_meta.SQL.Add('select top 1(CAST(mdt_metareal2 AS decimal(10,2)))as mdt_metareal2 from tab_mdt '+
+                          'where mdt_mes = '+chr(39)+IntToStr(ComboBox_mes.ItemIndex+1)+chr(39)+
+                          ' and mdt_ano = '+chr(39)+IntToStr(SpinEdit_ano.Value)+chr(39)+
+                          ' and lj_id = 2020');
+    ADOQuery_meta.Open;
+
+    UniLabel2.Caption:= 'Meta atual do mês de '+ ComboBox_mes.Text;
+
+    if ADOQuery_meta.FieldByName('mdt_metareal2').AsString = '' then begin
+      UniEdit_meta.Text:= 'Nenhuma meta registrada para esse mês';
+      ProgressBar_meta.Max:=0;
+      ProgressBar_meta.Position:= 0;
+      ProgressBar_meta.Text:= 'Sem meta cadastrada nesse mês';
+      Label_meta.Caption:= '';
+    end else begin
+      valor_meta:=  ADOQuery_meta.FieldByName('mdt_metareal2').AsCurrency;
+      UniEdit_meta.Text:= FormatCurr('R$ ###,##0.00',valor_meta);
+      ProgressBar_meta.Max:= Round(ADOQuery_meta.FieldByName('mdt_metareal2').AsInteger);
+      ProgressBar_meta.Position:=  Round(total_vendas);
+      Label_meta.Caption:= UniEdit_meta.Text;
+    end;
+    Label_total.Caption:= FormatCurr('R$ ###,##0.00',total_vendas);
+    //FECHA A CONEXÃO COM O BANCO
+    UniServerModule.Fecha_Conexao;
+  end;
 end;
 
 procedure TFrm_metas_loja.Button_gravarClick(Sender: TObject);
@@ -106,6 +113,8 @@ begin
     UniEdit_meta.ReadOnly:= True;
     Button_gravar.Enabled:= False;
 
+    //ABRE A CONEXÃO COM O BANCO
+    UniServerModule.Abre_Conexao;
 
     //CASO NÃO TENHA NENHUMA META CADASTRADA ESSE MÊS, FAZ O INSERT
     if Label_meta.Caption = '' then begin
@@ -123,6 +132,7 @@ begin
 
       ADOQuery_meta.ExecSQL;
       ShowMessageN('Nova meta cadastrada com sucesso!');
+
     end else begin //CASO SEJA UPDATE
 
       UniEdit_meta.Text:=  StringReplace(UniEdit_meta.Text,'R$','',[rfReplaceAll, rfIgnoreCase]);
@@ -141,8 +151,13 @@ begin
       ShowMessageN('Meta alterada com sucesso!');
     end;
 
+    //FECHA A CONEXÃO COM O BANCO
+    UniServerModule.Fecha_Conexao;
+
     except on E: Exception do begin
       ShowMessageN('Erro ao tentar atualizar informações.');
+      //FECHA A CONEXÃO COM O BANCO
+      UniServerModule.Fecha_Conexao;
       Abort;
     end;
   end;
@@ -178,13 +193,15 @@ begin
   try
     Button_buscar.Click;
   except on E: Exception do
-    ShowMessage('Erro ao carregar os dados');
+    ShowMessage('Erro ao carregar os dados - '+E.Message);
   end;
 end;
 
 function TFrm_metas_loja.BuscaVendasMetas(data: TDate): Double;
 var data_inicio, data_final: STring;
 begin
+  //ABRE A CONEXÃO COM O BANCO
+  UniServerModule.Abre_Conexao;
 
   //data_inicio:= IntToStr(ano)+'-'+mes+'-'+'01';
   data_inicio:=  DateToStr(StartofTheMonth(data));
@@ -196,6 +213,9 @@ begin
                           +chr(39)+ data_final+chr(39)+' and cl_canc is null');
   ADOQuery_vendas.Open;
   Result:= ADOQuery_vendas.FieldByName('total').AsFloat;
+
+  //FECHA A CONEXÃO COM O BANCO
+  UniServerModule.Fecha_Conexao;
 end;
 
 end.
