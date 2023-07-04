@@ -28,3 +28,7 @@ function beforeInit(sender, config)
  config.baseCls =  "progress-bar";
  config.Cls =  "bg-info";
 }
+
+O controle de layout no servidor, a configuração ja vem toda pre-definida do servidor. Se ficar definida como Cliente, será configurada baseada no navegador do cliente.
+
+Nas bolotas de ticekt médio, existem exemplos de importação de CSS nso campos de BodyCls e Cls de LayoutConfig

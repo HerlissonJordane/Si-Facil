@@ -1,0 +1,12 @@
+Ajustar o Ticket Médio para trabalhar igual ao sistema.
+**Inserir campo de busca de Vendedores
+**Inserir grid de listagem de informações
+**Em baixo, exibir as informações do Ticket Médio total da loja.
+
+Inserir algo a mais no campo de Clientes cadastrados, no lado direito. Pensei em colocar quantidades de clientes cadastrados no dia anterior, mostrar um percentual igual o Vendas do Dia, ou uma comparação em percentual com o mês anterior. Pode ser uma distinção de homem e mulher, pessoa física ou jurídica, idade média das pessaos cadastradas.
+
+Pesar se é possível colocar algo collapsado, tipo 3 títulos, onde, ao clicar em algum deles, os outros recuam.
+
+Fazer a tratativa de se, a conexão da aplicação cair, restaurar automaticamente, sem precisar clciar em Restar application e refazer login
+
+Na classe x-abs-layout-item tem um position Absolute !importante que parece estar impedindo o flex box de agir.

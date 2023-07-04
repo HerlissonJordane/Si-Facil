@@ -107,6 +107,7 @@ end;
 
 procedure TFrm_metas_loja.Button_gravarClick(Sender: TObject);
 var nova_meta: Double;
+    mes: String;
 begin
   try
     Button_alterar.Enabled:= True;
@@ -118,12 +119,20 @@ begin
 
     //CASO NÃO TENHA NENHUMA META CADASTRADA ESSE MÊS, FAZ O INSERT
     if Label_meta.Caption = '' then begin
+    
       nova_meta:= StrToFloat(UniEdit_meta.Text);
+      if Length((ComboBox_mes.ItemIndex+1).ToString) = 1 then begin
+        mes:= '0'+IntToStr(ComboBox_mes.ItemIndex+1);
+      end else begin
+        mes:= IntToStr(ComboBox_mes.ItemIndex+1);
+      end;
+      
+
 
       ADOQuery_meta.Close;
       ADOQuery_meta.SQL.Clear;
       ADOQuery_meta.SQL.Add('pr_conf_meta '
-                            +chr(39)+IntToStr(ComboBox_mes.ItemIndex+1)+chr(39)+', '
+                            +chr(39)+mes+chr(39)+', '
                             +chr(39)+IntToStr(SpinEdit_ano.Value)+chr(39)+', '
                             +chr(39)+'0'+chr(39)+', '
                             +chr(39)+FloatToStr(nova_meta)+chr(39)+', '

@@ -13,7 +13,7 @@ uses
   uniSpeedButton, uniDateTimePicker, uniDBDateTimePicker, uniBasicGrid,
   uniDBGrid, uniDBVerticalGrid, uniDBTreeGrid, uniDBVerticalTreeGrid, uniMemo,
   uniDBMemo, uniMultiItem, uniListBox, uniDBListBox, uniDBPivotGrid, DateUtils,
-  dxGDIPlusClasses;
+  dxGDIPlusClasses, Vcl.ExtCtrls, uniCanvas;
 
 type
   TMainForm = class(TUniForm)
@@ -30,16 +30,9 @@ type
     UniLabel2: TUniLabel;
     UniLabel3: TUniLabel;
     UniLabel4: TUniLabel;
-    Panel_resumo: TUniSimplePanel;
-    UniPanel3: TUniPanel;
-    UniImage1: TUniImage;
-    UniLabel_Clientes: TUniLabel;
-    UniLabel6: TUniLabel;
-    UniPanel2: TUniPanel;
     UniImage2: TUniImage;
     UniLabel7: TUniLabel;
     UniLabel8: TUniLabel;
-    UniPanel4: TUniPanel;
     UniImage3: TUniImage;
     UniLabel9: TUniLabel;
     UniLabel10: TUniLabel;
@@ -60,22 +53,43 @@ type
     vendas1: TUniLabel;
     vendedor1: TUniLabel;
     Progress1: TUniProgressBar;
-    UniLabel19: TUniLabel;
     UniImage8: TUniImage;
     UniPanel7: TUniPanel;
     vendas2: TUniLabel;
     vendedor2: TUniLabel;
     Progress2: TUniProgressBar;
-    UniLabel23: TUniLabel;
     UniImage9: TUniImage;
     UniPanel8: TUniPanel;
     vendas3: TUniLabel;
     vendedor3: TUniLabel;
     Progress3: TUniProgressBar;
-    UniLabel27: TUniLabel;
     UniImage10: TUniImage;
     UniLabel14: TUniLabel;
     WEB1: TUniMenuItem;
+    UniContainerPanel2: TUniContainerPanel;
+    UniLabel5: TUniLabel;
+    UniLabel12: TUniLabel;
+    UniLabel1: TUniLabel;
+    UniLabel15: TUniLabel;
+    UniLabel16: TUniLabel;
+    UniLabel17: TUniLabel;
+    UniImage13: TUniImage;
+    UniContainerPanel4: TUniContainerPanel;
+    Panel_resumo: TUniContainerPanel;
+    UniContainerPanel5: TUniContainerPanel;
+    UniContainerPanel6: TUniContainerPanel;
+    UniContainerPanel7: TUniContainerPanel;
+    UniImage1: TUniImage;
+    UniLabel_Clientes: TUniLabel;
+    UniLabel6: TUniLabel;
+    UniContainerPanel8: TUniContainerPanel;
+    UniContainerPanel9: TUniContainerPanel;
+    UniContainerPanel10: TUniContainerPanel;
+    UniContainerPanel11: TUniContainerPanel;
+    UniContainerPanel12: TUniContainerPanel;
+    UniImage11: TUniImage;
+    UniContainerPanel13: TUniContainerPanel;
+    UniImage6: TUniImage;
     procedure UniLabel2Click(Sender: TObject);
     procedure UniFormShow(Sender: TObject);
     procedure UniButton1Click(Sender: TObject);

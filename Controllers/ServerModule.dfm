@@ -82,7 +82,7 @@ object UniServerModule: TUniServerModule
     ''
     ''
     '.paineis{'
-    '   border-style: outset !important;'
+    '  /* border-style: outset !important;*/'
     '   box-shadow: 6px 6px 6px DarkSlateGray !important;'
     '}'
     ''
@@ -182,6 +182,23 @@ object UniServerModule: TUniServerModule
       '.fa-search,.fa-check-square-o,.fa-cogs,.fa-times-circle-o, .fa-r' +
       'efresh{'
     '   color: white !important;'
+    '}'
+    '.panel-circle{'
+    '  max-width: 300px;'
+    '  border-radius: 8px;'
+    '}'
+    ''
+    '.container_Panel{'
+    '  display: flex !important;'
+    '  justify-content: space-around !important;'
+    '  align-items:center !important;'
+    ''
+    '  background: black;'
+    '  flex-wrap: wrap;'
+    '}'
+    ''
+    '.testes{'
+    '   width: 100% !important;'
     '}')
   CustomMeta.Strings = (
     

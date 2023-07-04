@@ -212,6 +212,7 @@ object Frm_metas_loja: TFrm_metas_loja
         
           'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
           'der.addCls('#39'botoes'#39');'#13#10'}')
+      Images = MainForm.UniNativeImageList1
       OnClick = Button_alterarClick
     end
     object Button_gravar: TUniButton

@@ -59,8 +59,8 @@ begin
       Button_login.ModalResult:= mrOK;
     end;
     except on E: Exception do begin
-      Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
-      Abort;
+      //Application.MessageBox('Usuário ou senha estão incorretos!', 'Erro de Login', mb_oK+mb_IconInformation);
+      //Abort;
     end;
   end;
 
