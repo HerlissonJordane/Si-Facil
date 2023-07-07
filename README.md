@@ -10,7 +10,14 @@ Seu objetivo é ter de maneira acessível as principais ferramentas e relatório
 de qualquer local, de maneira remota e independente do sistema principal.
 
 ## Demonstrativo
-Em breve irei inserir layouts das telas do projeto, tanto mobile, quando web...
+### Mobile
+![Tela principal mobile](img/mobile_main.jpg)
+![Tela menu mobile](img/mobile_menu.jpg)
+![Tela menu mobile](img/mobile_ranking.jpg)
+
+### Web
+![Tela menu mobile](img/web_main.jpg)
+![Tela menu mobile](img/web_metas.jpg)
 
 ## TECNOLOGIAS PRESENTES
 - Framework Unigui 1.90
